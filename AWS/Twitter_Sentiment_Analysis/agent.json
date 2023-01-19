@@ -1,0 +1,23 @@
+{
+  "cloudwatch.emitMetrics": true,
+  "kinesis.endpoint": "",
+  "firehose.endpoint": "firehose.eu-west-2.amazonaws.com",
+  
+  "flows": [
+    {
+      "filePattern": "/tmp/tweets/*Data.csv*",
+      "deliveryStream": "tweets_incoming",
+     "dataProcessingOptions":[
+      {
+        "optionName":"SINGLELINE"
+
+      },
+      {
+	"optionName":"CSVTOJSON",
+        "customFieldNames":["timestamp","tweet_text","user_name","all_hashtags","location","followers_count","retweets","likes"],
+        "delimiter":","
+      }
+        ] 
+    }
+  ]
+}
