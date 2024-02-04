@@ -1,6 +1,6 @@
 ### Setting up airflow-redshift connection (WSL2)
 
-1.  Configure AWS CLI with Your Credentials:
+1.  Configure AWS CLI with Your Credentials:\
 Once AWS CLI is installed, configure it with your AWS credentials. These credentials should correspond to an IAM user with the necessary permissions for the Redshift Data API.
 Run the following command:
 
