@@ -7,15 +7,16 @@ Run the following command:
 ```cmd
 aws configure
 ```
-You'll be prompted to enter:
-• AWS Access Key ID
-• AWS Secret Access Key
-• Default region name
+You'll be prompted to enter:\
+• AWS Access Key ID\
+• AWS Secret Access Key\
+• Default region name\
 • Default output format (can be left blank)
 
-2. Set Up Airflow to Use AWS Credentials:
-Using Environment Variables:
-Airflow can use AWS credentials set as environment variables. Set these in your shell:
+2. Set Up Airflow to Use AWS Credentials:\
+Using Environment Variables:\
+Airflow can use AWS credentials set as environment variables.\
+Set these in your shell:
 
 ```bash
 export AWS_ACCESS_KEY_ID=your_access_key_id
