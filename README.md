@@ -1,6 +1,6 @@
 # Data_Engineering_Projects
 
-Here you'll find most of the Data Engineering projects that I've done
+Here you'll find some of the Data Engineering learning projects that I've done
 
 ## :man_technologist: Stack
 ![](https://img.shields.io/badge/Language-SQL-blue) 
