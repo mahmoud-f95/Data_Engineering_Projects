@@ -7,3 +7,4 @@ Here you'll find some of the Data Engineering learning projects that I've done
 ![](https://img.shields.io/badge/Language-python-blue)
 ![](https://img.shields.io/badge/Cloud-AWS-purple)
 ![](https://img.shields.io/badge/ETL-Airflow-orange)
+![](https://img.shields.io/badge/ETL-Glue-orange)
