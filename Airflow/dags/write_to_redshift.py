@@ -7,16 +7,16 @@ import redshift_connector
 import boto3
 import time
 
-client = boto3.client('redshift-data', region_name='us-east-1')
-workgroupName='default-workgroup'
-database='dev'
+client = boto3.client('redshift-data', region_name='region')
+workgroupName='your_redshift_workgroup'
+database='db_name'
 
 def create_table_in_redshift():
     
     response = client.execute_statement(
         WorkgroupName=workgroupName, ### Use ClusterIdentifier if not serverless
         Database=database,
-        #DbUser='admin', ''' Only with a cluster not serverless '''
+        #DbUser='db_user', ''' Only with a cluster not serverless '''
         Sql='CREATE TABLE IF NOT EXISTS employees (id VARCHAR (255) NOT NULL, name VARCHAR (255) NOT NULL);'
     )
 
