@@ -1,0 +1,25 @@
+[2024-01-15T18:44:53.774+0200] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: xcom_with_python_operator.substruct_9 manual__2024-01-15T16:44:47.279395+00:00 [queued]>
+[2024-01-15T18:44:53.779+0200] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: xcom_with_python_operator.substruct_9 manual__2024-01-15T16:44:47.279395+00:00 [queued]>
+[2024-01-15T18:44:53.779+0200] {taskinstance.py:2171} INFO - Starting attempt 1 of 1
+[2024-01-15T18:44:53.796+0200] {taskinstance.py:2192} INFO - Executing <Task(PythonOperator): substruct_9> on 2024-01-15 16:44:47.279395+00:00
+[2024-01-15T18:44:53.798+0200] {standard_task_runner.py:60} INFO - Started process 38832 to run task
+[2024-01-15T18:44:53.801+0200] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'xcom_with_python_operator', 'substruct_9', 'manual__2024-01-15T16:44:47.279395+00:00', '--job-id', '86', '--raw', '--subdir', 'DAGS_FOLDER/XCom.py', '--cfg-path', '/tmp/tmpddj_ccvt']
+[2024-01-15T18:44:53.802+0200] {standard_task_runner.py:88} INFO - Job 86: Subtask substruct_9
+[2024-01-15T18:44:53.835+0200] {task_command.py:423} INFO - Running <TaskInstance: xcom_with_python_operator.substruct_9 manual__2024-01-15T16:44:47.279395+00:00 [running]> on host DESKTOP-9NHC01K.
+[2024-01-15T18:44:53.893+0200] {taskinstance.py:2481} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='xcom_with_python_operator' AIRFLOW_CTX_TASK_ID='substruct_9' AIRFLOW_CTX_EXECUTION_DATE='2024-01-15T16:44:47.279395+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-01-15T16:44:47.279395+00:00'
+[2024-01-15T18:44:53.898+0200] {logging_mixin.py:188} INFO - value None
+[2024-01-15T18:44:53.898+0200] {taskinstance.py:2699} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/mahmoud/airflow_env/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/mahmoud/airflow_env/lib/python3.10/site-packages/airflow/operators/python.py", line 199, in execute
+    return_value = self.execute_callable()
+  File "/home/mahmoud/airflow_env/lib/python3.10/site-packages/airflow/operators/python.py", line 216, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/mahmoud/airflow/dags/XCom.py", line 20, in substruct_9
+    return value - 9
+TypeError: unsupported operand type(s) for -: 'NoneType' and 'int'
+[2024-01-15T18:44:53.901+0200] {taskinstance.py:1138} INFO - Marking task as FAILED. dag_id=xcom_with_python_operator, task_id=substruct_9, execution_date=20240115T164447, start_date=20240115T164453, end_date=20240115T164453
+[2024-01-15T18:44:53.918+0200] {standard_task_runner.py:107} ERROR - Failed to execute job 86 for task substruct_9 (unsupported operand type(s) for -: 'NoneType' and 'int'; 38832)
+[2024-01-15T18:44:53.934+0200] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2024-01-15T18:44:53.949+0200] {taskinstance.py:3281} INFO - 0 downstream tasks scheduled from follow-on schedule check

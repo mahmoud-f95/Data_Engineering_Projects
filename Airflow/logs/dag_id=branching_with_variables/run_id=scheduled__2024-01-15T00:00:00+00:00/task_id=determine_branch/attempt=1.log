@@ -1,0 +1,26 @@
+[2024-01-16T17:20:03.784+0200] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: branching_with_variables.determine_branch scheduled__2024-01-15T00:00:00+00:00 [queued]>
+[2024-01-16T17:20:03.789+0200] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: branching_with_variables.determine_branch scheduled__2024-01-15T00:00:00+00:00 [queued]>
+[2024-01-16T17:20:03.789+0200] {taskinstance.py:2171} INFO - Starting attempt 1 of 1
+[2024-01-16T17:20:03.808+0200] {taskinstance.py:2192} INFO - Executing <Task(BranchPythonOperator): determine_branch> on 2024-01-15 00:00:00+00:00
+[2024-01-16T17:20:03.811+0200] {standard_task_runner.py:60} INFO - Started process 55087 to run task
+[2024-01-16T17:20:03.814+0200] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'branching_with_variables', 'determine_branch', 'scheduled__2024-01-15T00:00:00+00:00', '--job-id', '135', '--raw', '--subdir', 'DAGS_FOLDER/branching_w_variables.py', '--cfg-path', '/tmp/tmpam2u3eax']
+[2024-01-16T17:20:03.815+0200] {standard_task_runner.py:88} INFO - Job 135: Subtask determine_branch
+[2024-01-16T17:20:03.881+0200] {task_command.py:423} INFO - Running <TaskInstance: branching_with_variables.determine_branch scheduled__2024-01-15T00:00:00+00:00 [running]> on host DESKTOP-9NHC01K.
+[2024-01-16T17:20:03.985+0200] {taskinstance.py:2481} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='branching_with_variables' AIRFLOW_CTX_TASK_ID='determine_branch' AIRFLOW_CTX_EXECUTION_DATE='2024-01-15T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-01-15T00:00:00+00:00'
+[2024-01-16T17:20:03.992+0200] {taskinstance.py:2699} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/mahmoud/airflow_env/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/mahmoud/airflow_env/lib/python3.10/site-packages/airflow/operators/python.py", line 233, in execute
+    return self.do_branch(context, super().execute(context))
+  File "/home/mahmoud/airflow_env/lib/python3.10/site-packages/airflow/operators/python.py", line 199, in execute
+    return_value = self.execute_callable()
+  File "/home/mahmoud/airflow_env/lib/python3.10/site-packages/airflow/operators/python.py", line 216, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/mahmoud/airflow/dags/branching_w_variables.py", line 62, in determining_branch
+    if transformation_action.startwith('filter'):
+AttributeError: 'str' object has no attribute 'startwith'
+[2024-01-16T17:20:03.996+0200] {taskinstance.py:1138} INFO - Marking task as FAILED. dag_id=branching_with_variables, task_id=determine_branch, execution_date=20240115T000000, start_date=20240116T152003, end_date=20240116T152003
+[2024-01-16T17:20:04.014+0200] {standard_task_runner.py:107} ERROR - Failed to execute job 135 for task determine_branch ('str' object has no attribute 'startwith'; 55087)
+[2024-01-16T17:20:04.028+0200] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2024-01-16T17:20:04.075+0200] {taskinstance.py:3281} INFO - 0 downstream tasks scheduled from follow-on schedule check

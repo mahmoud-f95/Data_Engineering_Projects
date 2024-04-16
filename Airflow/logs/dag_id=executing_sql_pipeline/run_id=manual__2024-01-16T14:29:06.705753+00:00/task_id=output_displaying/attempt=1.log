@@ -1,0 +1,20 @@
+[2024-01-16T16:29:16.533+0200] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: executing_sql_pipeline.output_displaying manual__2024-01-16T14:29:06.705753+00:00 [queued]>
+[2024-01-16T16:29:16.538+0200] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: executing_sql_pipeline.output_displaying manual__2024-01-16T14:29:06.705753+00:00 [queued]>
+[2024-01-16T16:29:16.539+0200] {taskinstance.py:2171} INFO - Starting attempt 1 of 1
+[2024-01-16T16:29:16.573+0200] {taskinstance.py:2192} INFO - Executing <Task(SqliteOperator): output_displaying> on 2024-01-16 14:29:06.705753+00:00
+[2024-01-16T16:29:16.577+0200] {standard_task_runner.py:60} INFO - Started process 49812 to run task
+[2024-01-16T16:29:16.583+0200] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'executing_sql_pipeline', 'output_displaying', 'manual__2024-01-16T14:29:06.705753+00:00', '--job-id', '131', '--raw', '--subdir', 'DAGS_FOLDER/sqlite_pipeline.py', '--cfg-path', '/tmp/tmp3016y8nd']
+[2024-01-16T16:29:16.586+0200] {standard_task_runner.py:88} INFO - Job 131: Subtask output_displaying
+[2024-01-16T16:29:16.635+0200] {task_command.py:423} INFO - Running <TaskInstance: executing_sql_pipeline.output_displaying manual__2024-01-16T14:29:06.705753+00:00 [running]> on host DESKTOP-9NHC01K.
+[2024-01-16T16:29:16.703+0200] {taskinstance.py:2481} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='executing_sql_pipeline' AIRFLOW_CTX_TASK_ID='output_displaying' AIRFLOW_CTX_EXECUTION_DATE='2024-01-16T14:29:06.705753+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-01-16T14:29:06.705753+00:00'
+[2024-01-16T16:29:16.704+0200] {sql.py:276} INFO - Executing: 
+        SELECT * FROM users
+        
+[2024-01-16T16:29:16.709+0200] {base.py:83} INFO - Using connection ID 'my_sqlite_cnn' for task execution.
+[2024-01-16T16:29:16.723+0200] {base.py:83} INFO - Using connection ID 'my_sqlite_cnn' for task execution.
+[2024-01-16T16:29:16.724+0200] {sql.py:450} INFO - Running statement: 
+        SELECT * FROM users
+        , parameters: None
+[2024-01-16T16:29:16.742+0200] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=executing_sql_pipeline, task_id=output_displaying, execution_date=20240116T142906, start_date=20240116T142916, end_date=20240116T142916
+[2024-01-16T16:29:16.795+0200] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-01-16T16:29:16.816+0200] {taskinstance.py:3281} INFO - 0 downstream tasks scheduled from follow-on schedule check

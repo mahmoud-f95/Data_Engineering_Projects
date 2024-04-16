@@ -1,0 +1,13 @@
+[2024-01-22T16:44:29.278+0200] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: write_to_redshift.create_redshift_table manual__2024-01-22T14:44:26.045168+00:00 [queued]>
+[2024-01-22T16:44:29.285+0200] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: write_to_redshift.create_redshift_table manual__2024-01-22T14:44:26.045168+00:00 [queued]>
+[2024-01-22T16:44:29.285+0200] {taskinstance.py:2171} INFO - Starting attempt 1 of 1
+[2024-01-22T16:44:29.317+0200] {taskinstance.py:2192} INFO - Executing <Task(PythonOperator): create_redshift_table> on 2024-01-22 14:44:26.045168+00:00
+[2024-01-22T16:44:29.321+0200] {standard_task_runner.py:60} INFO - Started process 69132 to run task
+[2024-01-22T16:44:29.325+0200] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'write_to_redshift', 'create_redshift_table', 'manual__2024-01-22T14:44:26.045168+00:00', '--job-id', '261', '--raw', '--subdir', 'DAGS_FOLDER/write_to_redshift.py', '--cfg-path', '/tmp/tmpfb5yhmtu']
+[2024-01-22T16:44:29.327+0200] {standard_task_runner.py:88} INFO - Job 261: Subtask create_redshift_table
+[2024-01-22T16:44:29.364+0200] {task_command.py:423} INFO - Running <TaskInstance: write_to_redshift.create_redshift_table manual__2024-01-22T14:44:26.045168+00:00 [running]> on host DESKTOP-9NHC01K.
+[2024-01-22T16:44:29.428+0200] {taskinstance.py:2481} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='write_to_redshift' AIRFLOW_CTX_TASK_ID='create_redshift_table' AIRFLOW_CTX_EXECUTION_DATE='2024-01-22T14:44:26.045168+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-01-22T14:44:26.045168+00:00'
+[2024-01-22T16:44:31.138+0200] {python.py:201} INFO - Done. Returned value was: None
+[2024-01-22T16:44:31.142+0200] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=write_to_redshift, task_id=create_redshift_table, execution_date=20240122T144426, start_date=20240122T144429, end_date=20240122T144431
+[2024-01-22T16:44:31.198+0200] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-01-22T16:44:31.215+0200] {taskinstance.py:3281} INFO - 1 downstream tasks scheduled from follow-on schedule check

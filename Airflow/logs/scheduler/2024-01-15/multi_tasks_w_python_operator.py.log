@@ -1,0 +1,991 @@
+[2024-01-15T17:42:01.698+0200] {processor.py:161} INFO - Started process (PID=31821) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T17:42:01.699+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T17:42:01.700+0200] {logging_mixin.py:188} INFO - [2024-01-15T17:42:01.699+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T17:42:01.716+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T17:42:01.903+0200] {logging_mixin.py:188} INFO - [2024-01-15T17:42:01.903+0200] {override.py:1769} INFO - Created Permission View: can delete on DAG:execute_multiple_python_tasks
+[2024-01-15T17:42:01.918+0200] {logging_mixin.py:188} INFO - [2024-01-15T17:42:01.918+0200] {override.py:1769} INFO - Created Permission View: can edit on DAG:execute_multiple_python_tasks
+[2024-01-15T17:42:01.931+0200] {logging_mixin.py:188} INFO - [2024-01-15T17:42:01.930+0200] {override.py:1769} INFO - Created Permission View: can read on DAG:execute_multiple_python_tasks
+[2024-01-15T17:42:01.931+0200] {logging_mixin.py:188} INFO - [2024-01-15T17:42:01.931+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T17:42:01.939+0200] {logging_mixin.py:188} INFO - [2024-01-15T17:42:01.939+0200] {dag.py:3055} INFO - Creating ORM DAG for execute_multiple_python_tasks
+[2024-01-15T17:42:01.946+0200] {logging_mixin.py:188} INFO - [2024-01-15T17:42:01.946+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to 2024-01-14T00:00:00+00:00, run_after=2024-01-14T00:00:00+00:00
+[2024-01-15T17:42:01.966+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.273 seconds
+[2024-01-15T17:42:35.790+0200] {processor.py:161} INFO - Started process (PID=32131) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T17:42:35.791+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T17:42:35.792+0200] {logging_mixin.py:188} INFO - [2024-01-15T17:42:35.792+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T17:42:35.803+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T17:42:35.824+0200] {logging_mixin.py:188} INFO - [2024-01-15T17:42:35.824+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T17:42:35.842+0200] {logging_mixin.py:188} INFO - [2024-01-15T17:42:35.841+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T17:42:35.879+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.092 seconds
+[2024-01-15T17:43:06.165+0200] {processor.py:161} INFO - Started process (PID=32332) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T17:43:06.166+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T17:43:06.167+0200] {logging_mixin.py:188} INFO - [2024-01-15T17:43:06.167+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T17:43:06.177+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T17:43:06.198+0200] {logging_mixin.py:188} INFO - [2024-01-15T17:43:06.198+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T17:43:06.218+0200] {logging_mixin.py:188} INFO - [2024-01-15T17:43:06.218+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T17:43:06.318+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.156 seconds
+[2024-01-15T17:43:36.971+0200] {processor.py:161} INFO - Started process (PID=32411) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T17:43:36.982+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T17:43:36.983+0200] {logging_mixin.py:188} INFO - [2024-01-15T17:43:36.983+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T17:43:36.995+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T17:43:37.014+0200] {logging_mixin.py:188} INFO - [2024-01-15T17:43:37.014+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T17:43:37.113+0200] {logging_mixin.py:188} INFO - [2024-01-15T17:43:37.112+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T17:43:37.151+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.185 seconds
+[2024-01-15T17:44:07.768+0200] {processor.py:161} INFO - Started process (PID=32427) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T17:44:07.771+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T17:44:07.773+0200] {logging_mixin.py:188} INFO - [2024-01-15T17:44:07.772+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T17:44:07.789+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T17:44:07.811+0200] {logging_mixin.py:188} INFO - [2024-01-15T17:44:07.811+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T17:44:07.911+0200] {logging_mixin.py:188} INFO - [2024-01-15T17:44:07.911+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T17:44:07.950+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.188 seconds
+[2024-01-15T17:44:38.302+0200] {processor.py:161} INFO - Started process (PID=32439) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T17:44:38.304+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T17:44:38.305+0200] {logging_mixin.py:188} INFO - [2024-01-15T17:44:38.305+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T17:44:38.316+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T17:44:38.336+0200] {logging_mixin.py:188} INFO - [2024-01-15T17:44:38.336+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T17:44:38.439+0200] {logging_mixin.py:188} INFO - [2024-01-15T17:44:38.439+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T17:44:38.473+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.176 seconds
+[2024-01-15T17:45:09.151+0200] {processor.py:161} INFO - Started process (PID=32455) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T17:45:09.163+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T17:45:09.164+0200] {logging_mixin.py:188} INFO - [2024-01-15T17:45:09.164+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T17:45:09.176+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T17:45:09.288+0200] {logging_mixin.py:188} INFO - [2024-01-15T17:45:09.288+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T17:45:09.307+0200] {logging_mixin.py:188} INFO - [2024-01-15T17:45:09.306+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T17:45:09.341+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.194 seconds
+[2024-01-15T17:45:39.630+0200] {processor.py:161} INFO - Started process (PID=32471) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T17:45:39.632+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T17:45:39.633+0200] {logging_mixin.py:188} INFO - [2024-01-15T17:45:39.633+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T17:45:39.743+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T17:45:39.762+0200] {logging_mixin.py:188} INFO - [2024-01-15T17:45:39.762+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T17:45:39.777+0200] {logging_mixin.py:188} INFO - [2024-01-15T17:45:39.777+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T17:45:39.811+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.185 seconds
+[2024-01-15T17:46:10.521+0200] {processor.py:161} INFO - Started process (PID=32487) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T17:46:10.536+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T17:46:10.537+0200] {logging_mixin.py:188} INFO - [2024-01-15T17:46:10.537+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T17:46:10.550+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T17:46:10.571+0200] {logging_mixin.py:188} INFO - [2024-01-15T17:46:10.571+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T17:46:10.590+0200] {logging_mixin.py:188} INFO - [2024-01-15T17:46:10.590+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T17:46:10.626+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.109 seconds
+[2024-01-15T17:46:40.999+0200] {processor.py:161} INFO - Started process (PID=32497) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T17:46:41.011+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T17:46:41.012+0200] {logging_mixin.py:188} INFO - [2024-01-15T17:46:41.011+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T17:46:41.024+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T17:46:41.045+0200] {logging_mixin.py:188} INFO - [2024-01-15T17:46:41.044+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T17:46:41.062+0200] {logging_mixin.py:188} INFO - [2024-01-15T17:46:41.062+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T17:46:41.096+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.100 seconds
+[2024-01-15T17:47:11.270+0200] {processor.py:161} INFO - Started process (PID=32540) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T17:47:11.271+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T17:47:11.272+0200] {logging_mixin.py:188} INFO - [2024-01-15T17:47:11.272+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T17:47:11.285+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T17:47:11.306+0200] {logging_mixin.py:188} INFO - [2024-01-15T17:47:11.306+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T17:47:11.325+0200] {logging_mixin.py:188} INFO - [2024-01-15T17:47:11.324+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T17:47:11.360+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.094 seconds
+[2024-01-15T17:47:41.601+0200] {processor.py:161} INFO - Started process (PID=32590) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T17:47:41.604+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T17:47:41.606+0200] {logging_mixin.py:188} INFO - [2024-01-15T17:47:41.605+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T17:47:41.618+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T17:47:41.640+0200] {logging_mixin.py:188} INFO - [2024-01-15T17:47:41.640+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T17:47:41.658+0200] {logging_mixin.py:188} INFO - [2024-01-15T17:47:41.658+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T17:47:41.691+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.095 seconds
+[2024-01-15T17:48:11.900+0200] {processor.py:161} INFO - Started process (PID=32662) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T17:48:11.903+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T17:48:11.904+0200] {logging_mixin.py:188} INFO - [2024-01-15T17:48:11.903+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T17:48:11.914+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T17:48:11.936+0200] {logging_mixin.py:188} INFO - [2024-01-15T17:48:11.936+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T17:48:11.957+0200] {logging_mixin.py:188} INFO - [2024-01-15T17:48:11.957+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T17:48:11.989+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.092 seconds
+[2024-01-15T17:48:42.262+0200] {processor.py:161} INFO - Started process (PID=32678) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T17:48:42.263+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T17:48:42.264+0200] {logging_mixin.py:188} INFO - [2024-01-15T17:48:42.264+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T17:48:42.277+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T17:48:42.299+0200] {logging_mixin.py:188} INFO - [2024-01-15T17:48:42.299+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T17:48:42.319+0200] {logging_mixin.py:188} INFO - [2024-01-15T17:48:42.319+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T17:48:42.369+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.112 seconds
+[2024-01-15T17:49:12.664+0200] {processor.py:161} INFO - Started process (PID=32694) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T17:49:12.676+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T17:49:12.677+0200] {logging_mixin.py:188} INFO - [2024-01-15T17:49:12.677+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T17:49:12.689+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T17:49:12.711+0200] {logging_mixin.py:188} INFO - [2024-01-15T17:49:12.710+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T17:49:12.730+0200] {logging_mixin.py:188} INFO - [2024-01-15T17:49:12.729+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T17:49:12.764+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.107 seconds
+[2024-01-15T17:49:42.996+0200] {processor.py:161} INFO - Started process (PID=32710) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T17:49:42.997+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T17:49:42.998+0200] {logging_mixin.py:188} INFO - [2024-01-15T17:49:42.997+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T17:49:43.007+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T17:49:43.039+0200] {logging_mixin.py:188} INFO - [2024-01-15T17:49:43.039+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T17:49:43.058+0200] {logging_mixin.py:188} INFO - [2024-01-15T17:49:43.057+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T17:49:43.094+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.101 seconds
+[2024-01-15T17:50:13.474+0200] {processor.py:161} INFO - Started process (PID=32720) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T17:50:13.487+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T17:50:13.489+0200] {logging_mixin.py:188} INFO - [2024-01-15T17:50:13.488+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T17:50:13.504+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T17:50:13.526+0200] {logging_mixin.py:188} INFO - [2024-01-15T17:50:13.526+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T17:50:13.545+0200] {logging_mixin.py:188} INFO - [2024-01-15T17:50:13.544+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T17:50:13.579+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.112 seconds
+[2024-01-15T17:50:44.054+0200] {processor.py:161} INFO - Started process (PID=32736) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T17:50:44.067+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T17:50:44.069+0200] {logging_mixin.py:188} INFO - [2024-01-15T17:50:44.068+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T17:50:44.088+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T17:50:44.113+0200] {logging_mixin.py:188} INFO - [2024-01-15T17:50:44.113+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T17:50:44.131+0200] {logging_mixin.py:188} INFO - [2024-01-15T17:50:44.131+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T17:50:44.162+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.115 seconds
+[2024-01-15T17:51:14.729+0200] {processor.py:161} INFO - Started process (PID=32752) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T17:51:14.730+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T17:51:14.732+0200] {logging_mixin.py:188} INFO - [2024-01-15T17:51:14.731+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T17:51:14.744+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T17:51:14.765+0200] {logging_mixin.py:188} INFO - [2024-01-15T17:51:14.765+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T17:51:14.784+0200] {logging_mixin.py:188} INFO - [2024-01-15T17:51:14.784+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T17:51:14.817+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.092 seconds
+[2024-01-15T17:51:45.143+0200] {processor.py:161} INFO - Started process (PID=32768) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T17:51:45.144+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T17:51:45.146+0200] {logging_mixin.py:188} INFO - [2024-01-15T17:51:45.145+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T17:51:45.159+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T17:51:45.181+0200] {logging_mixin.py:188} INFO - [2024-01-15T17:51:45.181+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T17:51:45.198+0200] {logging_mixin.py:188} INFO - [2024-01-15T17:51:45.198+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T17:51:45.218+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.081 seconds
+[2024-01-15T17:52:15.458+0200] {processor.py:161} INFO - Started process (PID=32805) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T17:52:15.460+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T17:52:15.461+0200] {logging_mixin.py:188} INFO - [2024-01-15T17:52:15.460+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T17:52:15.475+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T17:52:15.496+0200] {logging_mixin.py:188} INFO - [2024-01-15T17:52:15.496+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T17:52:15.515+0200] {logging_mixin.py:188} INFO - [2024-01-15T17:52:15.514+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T17:52:15.549+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.096 seconds
+[2024-01-15T17:52:45.885+0200] {processor.py:161} INFO - Started process (PID=32821) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T17:52:45.886+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T17:52:45.888+0200] {logging_mixin.py:188} INFO - [2024-01-15T17:52:45.887+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T17:52:45.901+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T17:52:45.922+0200] {logging_mixin.py:188} INFO - [2024-01-15T17:52:45.922+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T17:52:45.941+0200] {logging_mixin.py:188} INFO - [2024-01-15T17:52:45.941+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T17:52:45.974+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.096 seconds
+[2024-01-15T17:53:16.192+0200] {processor.py:161} INFO - Started process (PID=32837) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T17:53:16.195+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T17:53:16.196+0200] {logging_mixin.py:188} INFO - [2024-01-15T17:53:16.195+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T17:53:16.207+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T17:53:16.229+0200] {logging_mixin.py:188} INFO - [2024-01-15T17:53:16.228+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T17:53:16.246+0200] {logging_mixin.py:188} INFO - [2024-01-15T17:53:16.246+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T17:53:16.283+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.096 seconds
+[2024-01-15T17:53:46.586+0200] {processor.py:161} INFO - Started process (PID=32853) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T17:53:46.587+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T17:53:46.588+0200] {logging_mixin.py:188} INFO - [2024-01-15T17:53:46.588+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T17:53:46.605+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T17:53:46.630+0200] {logging_mixin.py:188} INFO - [2024-01-15T17:53:46.630+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T17:53:46.650+0200] {logging_mixin.py:188} INFO - [2024-01-15T17:53:46.650+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T17:53:46.682+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.101 seconds
+[2024-01-15T17:54:16.999+0200] {processor.py:161} INFO - Started process (PID=32863) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T17:54:17.003+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T17:54:17.005+0200] {logging_mixin.py:188} INFO - [2024-01-15T17:54:17.005+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T17:54:17.022+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T17:54:17.046+0200] {logging_mixin.py:188} INFO - [2024-01-15T17:54:17.046+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T17:54:17.064+0200] {logging_mixin.py:188} INFO - [2024-01-15T17:54:17.064+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T17:54:17.094+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.103 seconds
+[2024-01-15T17:54:45.207+0200] {processor.py:161} INFO - Started process (PID=32879) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T17:54:45.209+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T17:54:45.210+0200] {logging_mixin.py:188} INFO - [2024-01-15T17:54:45.210+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T17:54:45.226+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T17:54:45.303+0200] {logging_mixin.py:188} INFO - [2024-01-15T17:54:45.303+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T17:54:45.317+0200] {logging_mixin.py:188} INFO - [2024-01-15T17:54:45.317+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T17:54:45.351+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.150 seconds
+[2024-01-15T17:55:15.801+0200] {processor.py:161} INFO - Started process (PID=33146) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T17:55:15.804+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T17:55:15.805+0200] {logging_mixin.py:188} INFO - [2024-01-15T17:55:15.805+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T17:55:15.819+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T17:55:15.841+0200] {logging_mixin.py:188} INFO - [2024-01-15T17:55:15.841+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T17:55:15.859+0200] {logging_mixin.py:188} INFO - [2024-01-15T17:55:15.859+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T17:55:15.893+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.096 seconds
+[2024-01-15T17:55:46.440+0200] {processor.py:161} INFO - Started process (PID=33162) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T17:55:46.442+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T17:55:46.443+0200] {logging_mixin.py:188} INFO - [2024-01-15T17:55:46.443+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T17:55:46.452+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T17:55:46.473+0200] {logging_mixin.py:188} INFO - [2024-01-15T17:55:46.473+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T17:55:46.493+0200] {logging_mixin.py:188} INFO - [2024-01-15T17:55:46.492+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T17:55:46.525+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.088 seconds
+[2024-01-15T17:56:16.722+0200] {processor.py:161} INFO - Started process (PID=33172) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T17:56:16.725+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T17:56:16.726+0200] {logging_mixin.py:188} INFO - [2024-01-15T17:56:16.725+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T17:56:16.740+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T17:56:16.762+0200] {logging_mixin.py:188} INFO - [2024-01-15T17:56:16.762+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T17:56:16.781+0200] {logging_mixin.py:188} INFO - [2024-01-15T17:56:16.781+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T17:56:16.814+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.099 seconds
+[2024-01-15T17:56:47.071+0200] {processor.py:161} INFO - Started process (PID=33188) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T17:56:47.074+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T17:56:47.075+0200] {logging_mixin.py:188} INFO - [2024-01-15T17:56:47.074+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T17:56:47.089+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T17:56:47.111+0200] {logging_mixin.py:188} INFO - [2024-01-15T17:56:47.111+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T17:56:47.130+0200] {logging_mixin.py:188} INFO - [2024-01-15T17:56:47.130+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T17:56:47.162+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.095 seconds
+[2024-01-15T17:57:17.397+0200] {processor.py:161} INFO - Started process (PID=33294) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T17:57:17.398+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T17:57:17.398+0200] {logging_mixin.py:188} INFO - [2024-01-15T17:57:17.398+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T17:57:17.409+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T17:57:17.430+0200] {logging_mixin.py:188} INFO - [2024-01-15T17:57:17.429+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T17:57:17.447+0200] {logging_mixin.py:188} INFO - [2024-01-15T17:57:17.447+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T17:57:17.481+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.088 seconds
+[2024-01-15T17:57:47.814+0200] {processor.py:161} INFO - Started process (PID=33310) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T17:57:47.827+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T17:57:47.830+0200] {logging_mixin.py:188} INFO - [2024-01-15T17:57:47.829+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T17:57:47.852+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T17:57:47.880+0200] {logging_mixin.py:188} INFO - [2024-01-15T17:57:47.879+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T17:57:47.898+0200] {logging_mixin.py:188} INFO - [2024-01-15T17:57:47.898+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T17:57:47.932+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.124 seconds
+[2024-01-15T17:58:18.267+0200] {processor.py:161} INFO - Started process (PID=33382) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T17:58:18.270+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T17:58:18.271+0200] {logging_mixin.py:188} INFO - [2024-01-15T17:58:18.270+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T17:58:18.283+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T17:58:18.306+0200] {logging_mixin.py:188} INFO - [2024-01-15T17:58:18.306+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T17:58:18.326+0200] {logging_mixin.py:188} INFO - [2024-01-15T17:58:18.325+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T17:58:18.372+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.109 seconds
+[2024-01-15T17:58:48.643+0200] {processor.py:161} INFO - Started process (PID=33398) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T17:58:48.646+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T17:58:48.647+0200] {logging_mixin.py:188} INFO - [2024-01-15T17:58:48.646+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T17:58:48.659+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T17:58:48.682+0200] {logging_mixin.py:188} INFO - [2024-01-15T17:58:48.682+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T17:58:48.703+0200] {logging_mixin.py:188} INFO - [2024-01-15T17:58:48.703+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T17:58:48.737+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.099 seconds
+[2024-01-15T17:59:19.089+0200] {processor.py:161} INFO - Started process (PID=33414) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T17:59:19.102+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T17:59:19.103+0200] {logging_mixin.py:188} INFO - [2024-01-15T17:59:19.102+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T17:59:19.111+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T17:59:19.133+0200] {logging_mixin.py:188} INFO - [2024-01-15T17:59:19.132+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T17:59:19.152+0200] {logging_mixin.py:188} INFO - [2024-01-15T17:59:19.152+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T17:59:19.189+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.104 seconds
+[2024-01-15T17:59:49.632+0200] {processor.py:161} INFO - Started process (PID=33430) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T17:59:49.644+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T17:59:49.645+0200] {logging_mixin.py:188} INFO - [2024-01-15T17:59:49.645+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T17:59:49.656+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T17:59:49.676+0200] {logging_mixin.py:188} INFO - [2024-01-15T17:59:49.676+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T17:59:49.697+0200] {logging_mixin.py:188} INFO - [2024-01-15T17:59:49.697+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T17:59:49.749+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.121 seconds
+[2024-01-15T18:00:19.939+0200] {processor.py:161} INFO - Started process (PID=33503) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:00:19.941+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T18:00:19.943+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:00:19.942+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:00:19.960+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:00:19.985+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:00:19.985+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T18:00:20.005+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:00:20.005+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T18:00:20.041+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.106 seconds
+[2024-01-15T18:00:50.426+0200] {processor.py:161} INFO - Started process (PID=33513) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:00:50.427+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T18:00:50.429+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:00:50.428+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:00:50.440+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:00:50.459+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:00:50.458+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T18:00:50.491+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:00:50.491+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T18:00:50.512+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.089 seconds
+[2024-01-15T18:01:21.042+0200] {processor.py:161} INFO - Started process (PID=33531) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:01:21.044+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T18:01:21.045+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:01:21.045+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:01:21.055+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:01:21.076+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:01:21.076+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T18:01:21.094+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:01:21.093+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T18:01:21.132+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.093 seconds
+[2024-01-15T18:01:51.553+0200] {processor.py:161} INFO - Started process (PID=33547) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:01:51.555+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T18:01:51.555+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:01:51.555+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:01:51.565+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:01:51.587+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:01:51.587+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T18:01:51.604+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:01:51.604+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T18:01:51.654+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.105 seconds
+[2024-01-15T18:02:21.872+0200] {processor.py:161} INFO - Started process (PID=33590) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:02:21.883+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T18:02:21.884+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:02:21.883+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:02:21.895+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:02:21.916+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:02:21.915+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T18:02:21.935+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:02:21.934+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T18:02:21.972+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.103 seconds
+[2024-01-15T18:02:52.294+0200] {processor.py:161} INFO - Started process (PID=33600) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:02:52.296+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T18:02:52.297+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:02:52.297+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:02:52.310+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:02:52.328+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:02:52.328+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T18:02:52.363+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:02:52.363+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T18:02:52.388+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.097 seconds
+[2024-01-15T18:03:22.675+0200] {processor.py:161} INFO - Started process (PID=33616) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:03:22.676+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T18:03:22.677+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:03:22.677+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:03:22.689+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:03:22.712+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:03:22.712+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T18:03:22.730+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:03:22.730+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T18:03:22.766+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.096 seconds
+[2024-01-15T18:03:53.212+0200] {processor.py:161} INFO - Started process (PID=33632) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:03:53.225+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T18:03:53.226+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:03:53.225+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:03:53.238+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:03:53.265+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:03:53.265+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T18:03:53.286+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:03:53.286+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T18:03:53.321+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.112 seconds
+[2024-01-15T18:04:23.756+0200] {processor.py:161} INFO - Started process (PID=33648) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:04:23.767+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T18:04:23.768+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:04:23.768+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:04:23.779+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:04:23.799+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:04:23.799+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T18:04:23.818+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:04:23.818+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T18:04:23.850+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.099 seconds
+[2024-01-15T18:04:54.093+0200] {processor.py:161} INFO - Started process (PID=33658) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:04:54.094+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T18:04:54.095+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:04:54.095+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:04:54.107+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:04:54.129+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:04:54.128+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T18:04:54.147+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:04:54.147+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T18:04:54.200+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.111 seconds
+[2024-01-15T18:05:24.652+0200] {processor.py:161} INFO - Started process (PID=33674) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:05:24.663+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T18:05:24.664+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:05:24.664+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:05:24.676+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:05:24.699+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:05:24.699+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T18:05:24.719+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:05:24.719+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T18:05:24.753+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.104 seconds
+[2024-01-15T18:05:55.266+0200] {processor.py:161} INFO - Started process (PID=33690) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:05:55.267+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T18:05:55.268+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:05:55.267+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:05:55.280+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:05:55.301+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:05:55.301+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T18:05:55.321+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:05:55.321+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T18:05:55.357+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.095 seconds
+[2024-01-15T18:06:25.659+0200] {processor.py:161} INFO - Started process (PID=33706) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:06:25.661+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T18:06:25.662+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:06:25.661+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:06:25.673+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:06:25.695+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:06:25.695+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T18:06:25.713+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:06:25.713+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T18:06:25.749+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.093 seconds
+[2024-01-15T18:06:56.101+0200] {processor.py:161} INFO - Started process (PID=33716) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:06:56.114+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T18:06:56.115+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:06:56.115+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:06:56.126+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:06:56.147+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:06:56.147+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T18:06:56.166+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:06:56.165+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T18:06:56.200+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.103 seconds
+[2024-01-15T18:07:26.479+0200] {processor.py:161} INFO - Started process (PID=33759) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:07:26.481+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T18:07:26.482+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:07:26.482+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:07:26.494+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:07:26.516+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:07:26.516+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T18:07:26.533+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:07:26.533+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T18:07:26.568+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.093 seconds
+[2024-01-15T18:07:57.070+0200] {processor.py:161} INFO - Started process (PID=33775) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:07:57.071+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T18:07:57.072+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:07:57.072+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:07:57.083+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:07:57.104+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:07:57.104+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T18:07:57.122+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:07:57.121+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T18:07:57.155+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.089 seconds
+[2024-01-15T18:08:27.611+0200] {processor.py:161} INFO - Started process (PID=33791) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:08:27.614+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T18:08:27.616+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:08:27.615+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:08:27.629+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:08:27.652+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:08:27.652+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T18:08:27.670+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:08:27.670+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T18:08:27.703+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.100 seconds
+[2024-01-15T18:08:58.114+0200] {processor.py:161} INFO - Started process (PID=33804) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:08:58.115+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T18:08:58.116+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:08:58.116+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:08:58.127+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:08:58.148+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:08:58.148+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T18:08:58.167+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:08:58.166+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T18:08:58.190+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.080 seconds
+[2024-01-15T18:09:28.812+0200] {processor.py:161} INFO - Started process (PID=33820) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:09:28.823+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T18:09:28.824+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:09:28.824+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:09:28.836+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:09:28.859+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:09:28.858+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T18:09:28.877+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:09:28.876+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T18:09:28.911+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.102 seconds
+[2024-01-15T18:09:59.385+0200] {processor.py:161} INFO - Started process (PID=33836) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:09:59.389+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T18:09:59.391+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:09:59.390+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:09:59.409+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:09:59.434+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:09:59.434+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T18:09:59.452+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:09:59.452+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T18:09:59.484+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.106 seconds
+[2024-01-15T18:10:30.060+0200] {processor.py:161} INFO - Started process (PID=33853) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:10:30.072+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T18:10:30.073+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:10:30.072+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:10:30.085+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:10:30.106+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:10:30.106+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T18:10:30.125+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:10:30.125+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T18:10:30.156+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.103 seconds
+[2024-01-15T18:11:00.711+0200] {processor.py:161} INFO - Started process (PID=33869) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:11:00.712+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T18:11:00.713+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:11:00.713+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:11:00.725+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:11:00.745+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:11:00.745+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T18:11:00.761+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:11:00.761+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T18:11:00.782+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.075 seconds
+[2024-01-15T18:11:31.209+0200] {processor.py:161} INFO - Started process (PID=33879) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:11:31.212+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T18:11:31.214+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:11:31.213+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:11:31.228+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:11:31.249+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:11:31.249+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T18:11:31.267+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:11:31.267+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T18:11:31.290+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.086 seconds
+[2024-01-15T18:12:01.668+0200] {processor.py:161} INFO - Started process (PID=33895) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:12:01.669+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T18:12:01.671+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:12:01.670+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:12:01.687+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:12:01.710+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:12:01.710+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T18:12:01.727+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:12:01.727+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T18:12:01.757+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.096 seconds
+[2024-01-15T18:12:32.068+0200] {processor.py:161} INFO - Started process (PID=33938) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:12:32.080+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T18:12:32.081+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:12:32.081+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:12:32.093+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:12:32.114+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:12:32.114+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T18:12:32.133+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:12:32.133+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T18:12:32.166+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.102 seconds
+[2024-01-15T18:13:02.513+0200] {processor.py:161} INFO - Started process (PID=33954) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:13:02.517+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T18:13:02.518+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:13:02.518+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:13:02.535+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:13:02.560+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:13:02.559+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T18:13:02.577+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:13:02.577+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T18:13:02.609+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.104 seconds
+[2024-01-15T18:13:32.863+0200] {processor.py:161} INFO - Started process (PID=33964) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:13:32.865+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T18:13:32.867+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:13:32.866+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:13:32.885+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:13:32.915+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:13:32.915+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T18:13:32.935+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:13:32.935+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T18:13:32.966+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.108 seconds
+[2024-01-15T18:14:03.199+0200] {processor.py:161} INFO - Started process (PID=33980) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:14:03.201+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T18:14:03.202+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:14:03.202+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:14:03.218+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:14:03.241+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:14:03.241+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T18:14:03.258+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:14:03.258+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T18:14:03.290+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.098 seconds
+[2024-01-15T18:14:33.525+0200] {processor.py:161} INFO - Started process (PID=33996) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:14:33.527+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T18:14:33.528+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:14:33.528+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:14:33.539+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:14:33.561+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:14:33.561+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T18:14:33.579+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:14:33.579+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T18:14:33.614+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.093 seconds
+[2024-01-15T18:15:03.693+0200] {processor.py:161} INFO - Started process (PID=34012) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:15:03.694+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T18:15:03.695+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:15:03.694+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:15:03.704+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:15:03.722+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:15:03.722+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T18:15:03.739+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:15:03.739+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T18:15:03.780+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.090 seconds
+[2024-01-15T18:15:33.869+0200] {processor.py:161} INFO - Started process (PID=34025) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:15:33.871+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T18:15:33.872+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:15:33.872+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:15:33.883+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:15:33.902+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:15:33.902+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T18:15:33.918+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:15:33.917+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T18:15:33.959+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.096 seconds
+[2024-01-15T18:16:04.070+0200] {processor.py:161} INFO - Started process (PID=34038) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:16:04.071+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T18:16:04.072+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:16:04.072+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:16:04.083+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:16:04.103+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:16:04.102+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T18:16:04.121+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:16:04.120+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T18:16:04.155+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.089 seconds
+[2024-01-15T18:16:34.227+0200] {processor.py:161} INFO - Started process (PID=34054) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:16:34.229+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T18:16:34.230+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:16:34.229+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:16:34.241+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:16:34.260+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:16:34.260+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T18:16:34.277+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:16:34.276+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T18:16:34.299+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.076 seconds
+[2024-01-15T18:17:04.416+0200] {processor.py:161} INFO - Started process (PID=34100) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:17:04.418+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T18:17:04.419+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:17:04.419+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:17:04.436+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:17:04.460+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:17:04.460+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T18:17:04.477+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:17:04.476+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T18:17:04.509+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.101 seconds
+[2024-01-15T18:17:34.722+0200] {processor.py:161} INFO - Started process (PID=34116) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:17:34.733+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T18:17:34.734+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:17:34.734+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:17:34.748+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:17:34.770+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:17:34.770+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T18:17:34.787+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:17:34.787+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T18:17:34.820+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.103 seconds
+[2024-01-15T18:18:05.069+0200] {processor.py:161} INFO - Started process (PID=34126) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:18:05.070+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T18:18:05.071+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:18:05.071+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:18:05.084+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:18:05.105+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:18:05.105+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T18:18:05.125+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:18:05.124+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T18:18:05.161+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.098 seconds
+[2024-01-15T18:18:35.358+0200] {processor.py:161} INFO - Started process (PID=34142) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:18:35.370+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T18:18:35.372+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:18:35.371+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:18:35.386+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:18:35.408+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:18:35.408+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T18:18:35.424+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:18:35.424+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T18:18:35.456+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.104 seconds
+[2024-01-15T18:19:05.676+0200] {processor.py:161} INFO - Started process (PID=34158) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:19:05.677+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T18:19:05.679+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:19:05.678+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:19:05.693+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:19:05.715+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:19:05.715+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T18:19:05.733+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:19:05.733+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T18:19:05.764+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.097 seconds
+[2024-01-15T18:19:35.915+0200] {processor.py:161} INFO - Started process (PID=34174) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:19:35.917+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T18:19:35.918+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:19:35.918+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:19:35.927+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:19:35.945+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:19:35.945+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T18:19:35.961+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:19:35.961+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T18:19:35.983+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.071 seconds
+[2024-01-15T18:20:06.127+0200] {processor.py:161} INFO - Started process (PID=34184) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:20:06.128+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T18:20:06.129+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:20:06.128+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:20:06.140+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:20:06.160+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:20:06.160+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T18:20:06.177+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:20:06.177+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T18:20:06.210+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.088 seconds
+[2024-01-15T18:20:36.287+0200] {processor.py:161} INFO - Started process (PID=34200) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:20:36.288+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T18:20:36.289+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:20:36.289+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:20:36.301+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:20:36.320+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:20:36.320+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T18:20:36.337+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:20:36.337+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T18:20:36.376+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.092 seconds
+[2024-01-15T18:21:06.481+0200] {processor.py:161} INFO - Started process (PID=34299) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:21:06.482+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T18:21:06.483+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:21:06.483+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:21:06.498+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:21:06.519+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:21:06.519+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T18:21:06.537+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:21:06.537+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T18:21:06.574+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.098 seconds
+[2024-01-15T18:21:22.328+0200] {processor.py:161} INFO - Started process (PID=34376) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:21:22.330+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T18:21:22.331+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:21:22.331+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:21:22.344+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:21:22.351+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:21:22.351+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T18:21:22.370+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:21:22.370+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T18:21:22.394+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.070 seconds
+[2024-01-15T18:21:52.683+0200] {processor.py:161} INFO - Started process (PID=34549) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:21:52.684+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T18:21:52.685+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:21:52.684+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:21:52.695+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:21:52.884+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:21:52.884+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T18:21:52.908+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:21:52.908+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T18:21:52.930+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.250 seconds
+[2024-01-15T18:22:05.246+0200] {processor.py:161} INFO - Started process (PID=34668) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:22:05.247+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T18:22:05.248+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:22:05.248+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:22:05.259+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:22:05.266+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:22:05.266+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T18:22:05.287+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:22:05.287+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T18:22:05.312+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.070 seconds
+[2024-01-15T18:22:35.874+0200] {processor.py:161} INFO - Started process (PID=34899) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:22:35.877+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T18:22:35.878+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:22:35.877+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:22:35.889+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:22:35.896+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:22:35.896+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T18:22:35.915+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:22:35.915+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T18:22:35.937+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.066 seconds
+[2024-01-15T18:23:03.162+0200] {processor.py:161} INFO - Started process (PID=35061) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:23:03.165+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T18:23:03.166+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:23:03.166+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:23:03.179+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:23:03.188+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:23:03.187+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T18:23:03.211+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:23:03.211+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T18:23:03.254+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.097 seconds
+[2024-01-15T18:23:33.517+0200] {processor.py:161} INFO - Started process (PID=35197) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:23:33.519+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T18:23:33.520+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:23:33.520+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:23:33.531+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:23:33.736+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:23:33.735+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T18:23:33.751+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:23:33.751+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T18:23:33.775+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.262 seconds
+[2024-01-15T18:24:11.615+0200] {processor.py:161} INFO - Started process (PID=35383) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:24:11.618+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T18:24:11.619+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:24:11.618+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:24:11.632+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:24:11.640+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:24:11.640+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T18:24:11.659+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:24:11.659+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T18:24:11.685+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.075 seconds
+[2024-01-15T18:24:41.929+0200] {processor.py:161} INFO - Started process (PID=35549) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:24:41.932+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T18:24:41.933+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:24:41.933+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:24:41.944+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:24:42.108+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:24:42.108+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T18:24:42.122+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:24:42.121+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T18:24:42.154+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.229 seconds
+[2024-01-15T18:25:19.927+0200] {processor.py:161} INFO - Started process (PID=35739) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:25:19.930+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T18:25:19.932+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:25:19.931+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:25:19.947+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:25:19.957+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:25:19.957+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T18:25:19.979+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:25:19.978+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T18:25:20.018+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.095 seconds
+[2024-01-15T18:25:50.315+0200] {processor.py:161} INFO - Started process (PID=35849) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:25:50.319+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T18:25:50.320+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:25:50.320+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:25:50.335+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:25:50.493+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:25:50.493+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T18:25:50.507+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:25:50.507+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T18:25:50.530+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.223 seconds
+[2024-01-15T18:26:20.672+0200] {processor.py:161} INFO - Started process (PID=35924) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:26:20.685+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T18:26:20.687+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:26:20.687+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:26:20.708+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:26:20.732+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:26:20.732+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T18:26:20.749+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:26:20.749+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T18:26:20.863+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.198 seconds
+[2024-01-15T18:26:51.255+0200] {processor.py:161} INFO - Started process (PID=35976) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:26:51.258+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T18:26:51.260+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:26:51.259+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:26:51.272+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:26:51.280+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:26:51.280+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T18:26:51.299+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:26:51.299+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T18:26:51.410+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.160 seconds
+[2024-01-15T18:27:12.968+0200] {processor.py:161} INFO - Started process (PID=36073) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:27:12.971+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T18:27:12.972+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:27:12.971+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:27:12.982+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:27:13.148+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:27:13.147+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T18:27:13.161+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:27:13.161+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T18:27:13.195+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.231 seconds
+[2024-01-15T18:27:43.534+0200] {processor.py:161} INFO - Started process (PID=36196) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:27:43.553+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T18:27:43.555+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:27:43.554+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:27:43.568+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:27:43.590+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:27:43.589+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T18:27:43.610+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:27:43.610+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T18:27:43.725+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.195 seconds
+[2024-01-15T18:28:14.237+0200] {processor.py:161} INFO - Started process (PID=36289) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:28:14.240+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T18:28:14.241+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:28:14.240+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:28:14.253+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:28:14.261+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:28:14.261+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T18:28:14.280+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:28:14.280+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T18:28:14.304+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.070 seconds
+[2024-01-15T18:28:44.876+0200] {processor.py:161} INFO - Started process (PID=36306) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:28:44.879+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T18:28:44.880+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:28:44.880+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:28:44.894+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:28:45.064+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:28:45.063+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T18:28:45.079+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:28:45.078+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T18:28:45.110+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.242 seconds
+[2024-01-15T18:29:15.421+0200] {processor.py:161} INFO - Started process (PID=36474) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:29:15.423+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T18:29:15.424+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:29:15.424+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:29:15.435+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:29:15.455+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:29:15.455+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T18:29:15.555+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:29:15.555+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T18:29:15.595+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.177 seconds
+[2024-01-15T18:29:46.276+0200] {processor.py:161} INFO - Started process (PID=36548) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:29:46.278+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T18:29:46.280+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:29:46.279+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:29:46.291+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:29:46.298+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:29:46.298+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T18:29:46.403+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:29:46.402+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T18:29:46.436+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.165 seconds
+[2024-01-15T18:30:16.684+0200] {processor.py:161} INFO - Started process (PID=36652) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:30:16.696+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T18:30:16.698+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:30:16.697+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:30:16.710+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:30:16.890+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:30:16.890+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T18:30:16.906+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:30:16.905+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T18:30:16.947+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.267 seconds
+[2024-01-15T18:30:47.492+0200] {processor.py:161} INFO - Started process (PID=36702) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:30:47.504+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T18:30:47.506+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:30:47.505+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:30:47.605+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:30:47.622+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:30:47.622+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T18:30:47.637+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:30:47.637+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T18:30:47.671+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.182 seconds
+[2024-01-15T18:31:18.044+0200] {processor.py:161} INFO - Started process (PID=36719) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:31:18.053+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T18:31:18.054+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:31:18.054+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:31:18.066+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:31:18.074+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:31:18.073+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T18:31:18.093+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:31:18.093+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T18:31:18.117+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.081 seconds
+[2024-01-15T18:31:48.769+0200] {processor.py:161} INFO - Started process (PID=36863) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:31:48.780+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T18:31:48.782+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:31:48.781+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:31:48.794+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:31:48.873+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:31:48.873+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T18:31:48.886+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:31:48.886+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T18:31:48.918+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.153 seconds
+[2024-01-15T18:32:31.629+0200] {processor.py:161} INFO - Started process (PID=37017) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:32:31.631+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T18:32:31.632+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:32:31.632+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:32:31.644+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:32:31.652+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:32:31.651+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T18:32:31.671+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:32:31.670+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T18:32:31.696+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.071 seconds
+[2024-01-15T18:33:01.846+0200] {processor.py:161} INFO - Started process (PID=37174) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:33:01.848+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T18:33:01.849+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:33:01.849+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:33:01.861+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:33:02.023+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:33:02.023+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T18:33:02.036+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:33:02.036+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T18:33:02.067+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.225 seconds
+[2024-01-15T18:33:32.532+0200] {processor.py:161} INFO - Started process (PID=37266) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:33:32.534+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T18:33:32.534+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:33:32.534+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:33:32.544+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:33:32.567+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:33:32.566+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T18:33:32.585+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:33:32.585+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T18:33:32.719+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.192 seconds
+[2024-01-15T18:34:02.952+0200] {processor.py:161} INFO - Started process (PID=37347) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:34:02.964+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T18:34:02.965+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:34:02.964+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:34:02.977+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:34:02.986+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:34:02.986+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T18:34:03.007+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:34:03.007+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T18:34:03.133+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.184 seconds
+[2024-01-15T18:34:33.505+0200] {processor.py:161} INFO - Started process (PID=37389) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:34:33.507+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T18:34:33.508+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:34:33.507+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:34:33.520+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:34:33.696+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:34:33.695+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T18:34:33.708+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:34:33.708+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T18:34:33.728+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.226 seconds
+[2024-01-15T18:35:04.104+0200] {processor.py:161} INFO - Started process (PID=37409) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:35:04.107+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T18:35:04.109+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:35:04.108+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:35:04.122+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:35:04.142+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:35:04.142+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T18:35:04.247+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:35:04.247+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T18:35:04.282+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.183 seconds
+[2024-01-15T18:35:34.731+0200] {processor.py:161} INFO - Started process (PID=37426) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:35:34.734+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T18:35:34.736+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:35:34.735+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:35:34.750+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:35:34.759+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:35:34.759+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T18:35:34.860+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:35:34.860+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T18:35:34.893+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.167 seconds
+[2024-01-15T18:36:05.292+0200] {processor.py:161} INFO - Started process (PID=37491) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:36:05.293+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T18:36:05.295+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:36:05.294+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:36:05.394+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:36:05.471+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:36:05.471+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T18:36:05.482+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:36:05.482+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T18:36:05.512+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.224 seconds
+[2024-01-15T18:36:35.778+0200] {processor.py:161} INFO - Started process (PID=37614) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:36:35.781+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T18:36:35.782+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:36:35.782+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:36:35.797+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:36:35.821+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:36:35.821+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T18:36:35.839+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:36:35.839+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T18:36:35.872+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.102 seconds
+[2024-01-15T18:37:06.220+0200] {processor.py:161} INFO - Started process (PID=37625) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:37:06.223+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T18:37:06.225+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:37:06.224+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:37:06.240+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:37:06.249+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:37:06.248+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T18:37:06.267+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:37:06.267+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T18:37:06.296+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.082 seconds
+[2024-01-15T18:37:21.463+0200] {processor.py:161} INFO - Started process (PID=37702) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:37:21.474+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T18:37:21.475+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:37:21.475+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:37:21.490+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:37:21.498+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:37:21.497+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T18:37:21.525+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:37:21.524+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T18:37:21.569+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.110 seconds
+[2024-01-15T18:37:51.878+0200] {processor.py:161} INFO - Started process (PID=37840) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:37:51.879+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T18:37:51.880+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:37:51.880+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:37:51.891+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:37:52.050+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:37:52.050+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T18:37:52.064+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:37:52.064+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T18:37:52.096+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.222 seconds
+[2024-01-15T18:38:22.446+0200] {processor.py:161} INFO - Started process (PID=37857) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:38:22.448+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T18:38:22.449+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:38:22.449+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:38:22.460+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:38:22.481+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:38:22.480+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T18:38:22.498+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:38:22.498+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T18:38:22.614+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.172 seconds
+[2024-01-15T18:38:52.977+0200] {processor.py:161} INFO - Started process (PID=37874) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:38:52.980+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T18:38:52.981+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:38:52.980+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:38:52.992+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:38:53.000+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:38:53.000+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T18:38:53.018+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:38:53.018+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T18:38:53.130+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.157 seconds
+[2024-01-15T18:39:23.528+0200] {processor.py:161} INFO - Started process (PID=37891) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:39:23.530+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T18:39:23.531+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:39:23.531+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:39:23.542+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:39:23.703+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:39:23.703+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T18:39:23.713+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:39:23.713+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T18:39:23.745+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.221 seconds
+[2024-01-15T18:39:54.188+0200] {processor.py:161} INFO - Started process (PID=37950) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:39:54.200+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T18:39:54.202+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:39:54.201+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:39:54.214+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:39:54.322+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:39:54.322+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T18:39:54.341+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:39:54.341+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T18:39:54.375+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.191 seconds
+[2024-01-15T18:40:24.847+0200] {processor.py:161} INFO - Started process (PID=37982) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:40:24.848+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T18:40:24.849+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:40:24.848+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:40:24.860+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:40:24.866+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:40:24.866+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T18:40:24.966+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:40:24.966+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T18:40:25.002+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.161 seconds
+[2024-01-15T18:40:55.378+0200] {processor.py:161} INFO - Started process (PID=38000) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:40:55.381+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T18:40:55.382+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:40:55.382+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:40:55.482+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:40:55.552+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:40:55.552+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T18:40:55.562+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:40:55.562+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T18:40:55.607+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.234 seconds
+[2024-01-15T18:41:26.030+0200] {processor.py:161} INFO - Started process (PID=38173) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:41:26.042+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T18:41:26.044+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:41:26.043+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:41:26.057+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:41:26.077+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:41:26.077+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T18:41:26.095+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:41:26.095+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T18:41:26.131+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.106 seconds
+[2024-01-15T18:41:56.395+0200] {processor.py:161} INFO - Started process (PID=38190) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:41:56.396+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T18:41:56.397+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:41:56.396+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:41:56.406+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:41:56.425+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:41:56.424+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T18:41:56.441+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:41:56.441+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T18:41:56.462+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.070 seconds
+[2024-01-15T18:42:26.868+0200] {processor.py:161} INFO - Started process (PID=38299) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:42:26.880+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T18:42:26.881+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:42:26.881+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:42:26.894+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:42:26.915+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:42:26.915+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T18:42:26.935+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:42:26.934+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T18:42:26.967+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.103 seconds
+[2024-01-15T18:42:57.240+0200] {processor.py:161} INFO - Started process (PID=38375) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:42:57.241+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T18:42:57.242+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:42:57.242+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:42:57.253+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:42:57.277+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:42:57.277+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T18:42:57.297+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:42:57.297+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T18:42:57.332+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.097 seconds
+[2024-01-15T18:43:28.241+0200] {processor.py:161} INFO - Started process (PID=38557) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:43:28.253+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T18:43:28.255+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:43:28.254+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:43:28.272+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:43:28.296+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:43:28.296+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T18:43:28.315+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:43:28.315+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T18:43:28.351+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.115 seconds
+[2024-01-15T18:43:58.798+0200] {processor.py:161} INFO - Started process (PID=38722) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:43:58.801+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T18:43:58.803+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:43:58.803+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:43:58.823+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:43:58.849+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:43:58.849+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T18:43:58.869+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:43:58.868+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T18:43:58.903+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.112 seconds
+[2024-01-15T18:44:29.405+0200] {processor.py:161} INFO - Started process (PID=38739) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:44:29.407+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T18:44:29.408+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:44:29.408+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:44:29.422+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:44:29.444+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:44:29.444+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T18:44:29.462+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:44:29.462+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T18:44:29.496+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.094 seconds
+[2024-01-15T18:44:59.689+0200] {processor.py:161} INFO - Started process (PID=38913) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:44:59.702+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T18:44:59.703+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:44:59.703+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:44:59.720+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:44:59.741+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:44:59.741+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T18:44:59.759+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:44:59.759+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T18:44:59.797+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.112 seconds
+[2024-01-15T18:45:30.338+0200] {processor.py:161} INFO - Started process (PID=38983) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:45:30.351+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T18:45:30.355+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:45:30.353+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:45:30.376+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:45:30.398+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:45:30.398+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T18:45:30.414+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:45:30.414+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T18:45:30.443+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.113 seconds
+[2024-01-15T18:46:00.831+0200] {processor.py:161} INFO - Started process (PID=39001) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:46:00.840+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T18:46:00.842+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:46:00.841+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:46:00.855+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:46:00.876+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:46:00.876+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T18:46:00.895+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:46:00.895+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T18:46:00.930+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.102 seconds
+[2024-01-15T18:46:31.447+0200] {processor.py:161} INFO - Started process (PID=39018) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:46:31.450+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T18:46:31.451+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:46:31.450+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:46:31.464+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:46:31.485+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:46:31.485+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T18:46:31.505+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:46:31.505+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T18:46:31.539+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.095 seconds
+[2024-01-15T18:47:01.996+0200] {processor.py:161} INFO - Started process (PID=39053) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:47:01.998+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T18:47:02.000+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:47:01.999+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:47:02.015+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:47:02.043+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:47:02.042+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T18:47:02.067+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:47:02.067+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T18:47:02.103+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.116 seconds
+[2024-01-15T18:47:32.703+0200] {processor.py:161} INFO - Started process (PID=39174) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:47:32.706+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T18:47:32.707+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:47:32.706+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:47:32.718+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:47:32.739+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:47:32.739+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T18:47:32.757+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:47:32.757+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T18:47:32.793+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.093 seconds
+[2024-01-15T18:48:03.602+0200] {processor.py:161} INFO - Started process (PID=39191) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:48:03.615+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T18:48:03.617+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:48:03.616+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:48:03.634+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:48:03.658+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:48:03.657+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T18:48:03.675+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:48:03.675+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T18:48:03.708+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.115 seconds
+[2024-01-15T18:48:34.381+0200] {processor.py:161} INFO - Started process (PID=39202) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:48:34.384+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T18:48:34.385+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:48:34.385+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:48:34.400+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:48:34.419+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:48:34.419+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T18:48:34.435+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:48:34.435+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T18:48:34.457+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.083 seconds
+[2024-01-15T18:49:04.794+0200] {processor.py:161} INFO - Started process (PID=39219) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:49:04.797+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T18:49:04.798+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:49:04.797+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:49:04.809+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:49:04.830+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:49:04.830+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T18:49:04.848+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:49:04.848+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T18:49:04.872+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.081 seconds
+[2024-01-15T18:49:35.355+0200] {processor.py:161} INFO - Started process (PID=39299) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:49:35.356+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T18:49:35.357+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:49:35.357+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:49:35.368+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:49:35.389+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:49:35.388+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T18:49:35.407+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:49:35.406+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T18:49:35.442+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.091 seconds
+[2024-01-15T18:50:05.747+0200] {processor.py:161} INFO - Started process (PID=39316) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:50:05.759+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T18:50:05.760+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:50:05.760+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:50:05.779+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:50:05.798+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:50:05.798+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T18:50:05.818+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:50:05.817+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T18:50:05.850+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.106 seconds
+[2024-01-15T18:50:36.211+0200] {processor.py:161} INFO - Started process (PID=39333) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:50:36.213+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T18:50:36.214+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:50:36.214+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:50:36.224+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:50:36.245+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:50:36.244+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T18:50:36.264+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:50:36.264+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T18:50:36.315+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.113 seconds
+[2024-01-15T18:51:06.877+0200] {processor.py:161} INFO - Started process (PID=39351) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:51:06.880+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T18:51:06.881+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:51:06.881+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:51:06.894+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:51:06.915+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:51:06.915+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T18:51:06.934+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:51:06.934+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T18:51:06.953+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.081 seconds
+[2024-01-15T18:51:37.465+0200] {processor.py:161} INFO - Started process (PID=39550) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:51:37.467+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T18:51:37.468+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:51:37.468+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:51:37.479+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:51:37.500+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:51:37.499+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T18:51:37.516+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:51:37.516+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T18:51:37.539+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.078 seconds
+[2024-01-15T18:52:07.590+0200] {processor.py:161} INFO - Started process (PID=39570) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:52:07.591+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T18:52:07.592+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:52:07.592+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:52:07.602+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:52:07.622+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:52:07.622+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T18:52:07.640+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:52:07.640+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T18:52:07.676+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.090 seconds
+[2024-01-15T18:52:37.959+0200] {processor.py:161} INFO - Started process (PID=39892) to work on /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:52:37.962+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py for tasks to queue
+[2024-01-15T18:52:37.963+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:52:37.963+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:52:37.976+0200] {processor.py:840} INFO - DAG(s) 'execute_multiple_python_tasks' retrieved from /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py
+[2024-01-15T18:52:37.998+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:52:37.998+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-15T18:52:38.016+0200] {logging_mixin.py:188} INFO - [2024-01-15T18:52:38.016+0200] {dag.py:3820} INFO - Setting next_dagrun for execute_multiple_python_tasks to None, run_after=None
+[2024-01-15T18:52:38.049+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/multi_tasks_w_python_operator.py took 0.096 seconds

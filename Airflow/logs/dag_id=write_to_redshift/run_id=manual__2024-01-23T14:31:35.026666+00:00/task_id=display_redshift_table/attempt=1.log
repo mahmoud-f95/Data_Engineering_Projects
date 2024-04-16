@@ -1,0 +1,13 @@
+[2024-01-23T16:31:52.007+0200] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: write_to_redshift.display_redshift_table manual__2024-01-23T14:31:35.026666+00:00 [queued]>
+[2024-01-23T16:31:52.014+0200] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: write_to_redshift.display_redshift_table manual__2024-01-23T14:31:35.026666+00:00 [queued]>
+[2024-01-23T16:31:52.014+0200] {taskinstance.py:2171} INFO - Starting attempt 1 of 1
+[2024-01-23T16:31:52.031+0200] {taskinstance.py:2192} INFO - Executing <Task(PythonOperator): display_redshift_table> on 2024-01-23 14:31:35.026666+00:00
+[2024-01-23T16:31:52.033+0200] {standard_task_runner.py:60} INFO - Started process 29533 to run task
+[2024-01-23T16:31:52.036+0200] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'write_to_redshift', 'display_redshift_table', 'manual__2024-01-23T14:31:35.026666+00:00', '--job-id', '270', '--raw', '--subdir', 'DAGS_FOLDER/write_to_redshift.py', '--cfg-path', '/tmp/tmp22_0bqxk']
+[2024-01-23T16:31:52.037+0200] {standard_task_runner.py:88} INFO - Job 270: Subtask display_redshift_table
+[2024-01-23T16:31:52.067+0200] {task_command.py:423} INFO - Running <TaskInstance: write_to_redshift.display_redshift_table manual__2024-01-23T14:31:35.026666+00:00 [running]> on host DESKTOP-9NHC01K.
+[2024-01-23T16:31:52.131+0200] {taskinstance.py:2481} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='write_to_redshift' AIRFLOW_CTX_TASK_ID='display_redshift_table' AIRFLOW_CTX_EXECUTION_DATE='2024-01-23T14:31:35.026666+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-01-23T14:31:35.026666+00:00'
+[2024-01-23T16:31:58.785+0200] {python.py:201} INFO - Done. Returned value was: [[{'stringValue': '1'}, {'stringValue': 'Ahmed'}], [{'stringValue': '2'}, {'stringValue': 'Ali'}], [{'stringValue': '3'}, {'stringValue': 'Rami'}], [{'stringValue': '4'}, {'stringValue': 'Adel'}], [{'stringValue': '1'}, {'stringValue': 'Ahmed'}], [{'stringValue': '2'}, {'stringValue': 'Ali'}], [{'stringValue': '3'}, {'stringValue': 'Rami'}], [{'stringValue': '4'}, {'stringValue': 'Adel'}]]
+[2024-01-23T16:31:58.803+0200] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=write_to_redshift, task_id=display_redshift_table, execution_date=20240123T143135, start_date=20240123T143152, end_date=20240123T143158
+[2024-01-23T16:31:58.863+0200] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-01-23T16:31:58.872+0200] {taskinstance.py:3281} INFO - 0 downstream tasks scheduled from follow-on schedule check

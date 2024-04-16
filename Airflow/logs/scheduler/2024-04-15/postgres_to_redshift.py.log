@@ -1,0 +1,552 @@
+[2024-04-15T12:30:24.072+0200] {processor.py:161} INFO - Started process (PID=2167) to work on /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:30:24.073+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/postgres_to_redshift.py for tasks to queue
+[2024-04-15T12:30:24.073+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:30:24.073+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:30:24.117+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:30:24.117+0200] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2024-04-15T12:30:24.173+0200] {processor.py:840} INFO - DAG(s) 'postgres_to_redshift' retrieved from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:30:24.292+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:30:24.292+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:30:24.309+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:30:24.309+0200] {dag.py:3820} INFO - Setting next_dagrun for postgres_to_redshift to None, run_after=None
+[2024-04-15T12:30:24.335+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/postgres_to_redshift.py took 0.266 seconds
+[2024-04-15T12:30:55.042+0200] {processor.py:161} INFO - Started process (PID=2551) to work on /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:30:55.042+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/postgres_to_redshift.py for tasks to queue
+[2024-04-15T12:30:55.043+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:30:55.043+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:30:55.080+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:30:55.080+0200] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2024-04-15T12:30:55.127+0200] {processor.py:840} INFO - DAG(s) 'postgres_to_redshift' retrieved from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:30:55.141+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:30:55.141+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:30:55.158+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:30:55.158+0200] {dag.py:3820} INFO - Setting next_dagrun for postgres_to_redshift to None, run_after=None
+[2024-04-15T12:30:55.193+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/postgres_to_redshift.py took 0.156 seconds
+[2024-04-15T12:31:25.263+0200] {processor.py:161} INFO - Started process (PID=2906) to work on /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:31:25.265+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/postgres_to_redshift.py for tasks to queue
+[2024-04-15T12:31:25.266+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:31:25.266+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:31:25.299+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:31:25.299+0200] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2024-04-15T12:31:25.355+0200] {processor.py:840} INFO - DAG(s) 'postgres_to_redshift' retrieved from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:31:25.376+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:31:25.376+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:31:25.396+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:31:25.396+0200] {dag.py:3820} INFO - Setting next_dagrun for postgres_to_redshift to None, run_after=None
+[2024-04-15T12:31:25.422+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/postgres_to_redshift.py took 0.164 seconds
+[2024-04-15T12:31:56.509+0200] {processor.py:161} INFO - Started process (PID=3160) to work on /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:31:56.513+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/postgres_to_redshift.py for tasks to queue
+[2024-04-15T12:31:56.514+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:31:56.514+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:31:56.553+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:31:56.553+0200] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2024-04-15T12:31:56.594+0200] {processor.py:840} INFO - DAG(s) 'postgres_to_redshift' retrieved from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:31:56.607+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:31:56.607+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:31:56.624+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:31:56.624+0200] {dag.py:3820} INFO - Setting next_dagrun for postgres_to_redshift to None, run_after=None
+[2024-04-15T12:31:56.653+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/postgres_to_redshift.py took 0.150 seconds
+[2024-04-15T12:32:27.085+0200] {processor.py:161} INFO - Started process (PID=3397) to work on /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:32:27.086+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/postgres_to_redshift.py for tasks to queue
+[2024-04-15T12:32:27.087+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:32:27.087+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:32:27.120+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:32:27.119+0200] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2024-04-15T12:32:27.170+0200] {processor.py:840} INFO - DAG(s) 'postgres_to_redshift' retrieved from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:32:27.184+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:32:27.184+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:32:27.206+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:32:27.206+0200] {dag.py:3820} INFO - Setting next_dagrun for postgres_to_redshift to None, run_after=None
+[2024-04-15T12:32:27.237+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/postgres_to_redshift.py took 0.155 seconds
+[2024-04-15T12:32:57.913+0200] {processor.py:161} INFO - Started process (PID=3704) to work on /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:32:57.916+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/postgres_to_redshift.py for tasks to queue
+[2024-04-15T12:32:57.917+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:32:57.916+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:32:57.950+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:32:57.950+0200] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2024-04-15T12:32:58.001+0200] {processor.py:840} INFO - DAG(s) 'postgres_to_redshift' retrieved from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:32:58.016+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:32:58.015+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:32:58.033+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:32:58.033+0200] {dag.py:3820} INFO - Setting next_dagrun for postgres_to_redshift to None, run_after=None
+[2024-04-15T12:32:58.074+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/postgres_to_redshift.py took 0.164 seconds
+[2024-04-15T12:33:28.491+0200] {processor.py:161} INFO - Started process (PID=3945) to work on /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:33:28.492+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/postgres_to_redshift.py for tasks to queue
+[2024-04-15T12:33:28.493+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:33:28.493+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:33:28.522+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:33:28.522+0200] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2024-04-15T12:33:28.576+0200] {processor.py:840} INFO - DAG(s) 'postgres_to_redshift' retrieved from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:33:28.612+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:33:28.612+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:33:28.630+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:33:28.630+0200] {dag.py:3820} INFO - Setting next_dagrun for postgres_to_redshift to None, run_after=None
+[2024-04-15T12:33:28.651+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/postgres_to_redshift.py took 0.163 seconds
+[2024-04-15T12:33:59.175+0200] {processor.py:161} INFO - Started process (PID=4306) to work on /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:33:59.177+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/postgres_to_redshift.py for tasks to queue
+[2024-04-15T12:33:59.178+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:33:59.178+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:33:59.219+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:33:59.219+0200] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2024-04-15T12:33:59.268+0200] {processor.py:840} INFO - DAG(s) 'postgres_to_redshift' retrieved from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:33:59.282+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:33:59.281+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:33:59.298+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:33:59.298+0200] {dag.py:3820} INFO - Setting next_dagrun for postgres_to_redshift to None, run_after=None
+[2024-04-15T12:33:59.328+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/postgres_to_redshift.py took 0.158 seconds
+[2024-04-15T12:34:30.310+0200] {processor.py:161} INFO - Started process (PID=4606) to work on /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:34:30.314+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/postgres_to_redshift.py for tasks to queue
+[2024-04-15T12:34:30.316+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:34:30.315+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:34:30.360+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:34:30.360+0200] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2024-04-15T12:34:30.471+0200] {processor.py:840} INFO - DAG(s) 'postgres_to_redshift' retrieved from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:34:30.492+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:34:30.491+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:34:30.518+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:34:30.518+0200] {dag.py:3820} INFO - Setting next_dagrun for postgres_to_redshift to None, run_after=None
+[2024-04-15T12:34:30.545+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/postgres_to_redshift.py took 0.240 seconds
+[2024-04-15T12:35:01.610+0200] {processor.py:161} INFO - Started process (PID=4980) to work on /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:35:01.612+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/postgres_to_redshift.py for tasks to queue
+[2024-04-15T12:35:01.613+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:35:01.613+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:35:01.647+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:35:01.647+0200] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2024-04-15T12:35:01.696+0200] {processor.py:840} INFO - DAG(s) 'postgres_to_redshift' retrieved from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:35:01.716+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:35:01.715+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:35:01.733+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:35:01.733+0200] {dag.py:3820} INFO - Setting next_dagrun for postgres_to_redshift to None, run_after=None
+[2024-04-15T12:35:01.753+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/postgres_to_redshift.py took 0.146 seconds
+[2024-04-15T12:35:32.144+0200] {processor.py:161} INFO - Started process (PID=5306) to work on /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:35:32.147+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/postgres_to_redshift.py for tasks to queue
+[2024-04-15T12:35:32.148+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:35:32.147+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:35:32.183+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:35:32.183+0200] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2024-04-15T12:35:32.230+0200] {processor.py:840} INFO - DAG(s) 'postgres_to_redshift' retrieved from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:35:32.243+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:35:32.243+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:35:32.260+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:35:32.260+0200] {dag.py:3820} INFO - Setting next_dagrun for postgres_to_redshift to None, run_after=None
+[2024-04-15T12:35:32.294+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/postgres_to_redshift.py took 0.155 seconds
+[2024-04-15T12:36:02.705+0200] {processor.py:161} INFO - Started process (PID=5543) to work on /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:36:02.717+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/postgres_to_redshift.py for tasks to queue
+[2024-04-15T12:36:02.718+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:36:02.718+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:36:02.753+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:36:02.753+0200] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2024-04-15T12:36:02.804+0200] {processor.py:840} INFO - DAG(s) 'postgres_to_redshift' retrieved from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:36:02.819+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:36:02.818+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:36:02.835+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:36:02.835+0200] {dag.py:3820} INFO - Setting next_dagrun for postgres_to_redshift to None, run_after=None
+[2024-04-15T12:36:02.879+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/postgres_to_redshift.py took 0.178 seconds
+[2024-04-15T12:36:33.282+0200] {processor.py:161} INFO - Started process (PID=5810) to work on /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:36:33.283+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/postgres_to_redshift.py for tasks to queue
+[2024-04-15T12:36:33.284+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:36:33.284+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:36:33.315+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:36:33.315+0200] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2024-04-15T12:36:33.369+0200] {processor.py:840} INFO - DAG(s) 'postgres_to_redshift' retrieved from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:36:33.383+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:36:33.383+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:36:33.399+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:36:33.399+0200] {dag.py:3820} INFO - Setting next_dagrun for postgres_to_redshift to None, run_after=None
+[2024-04-15T12:36:33.434+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/postgres_to_redshift.py took 0.154 seconds
+[2024-04-15T12:37:03.902+0200] {processor.py:161} INFO - Started process (PID=6080) to work on /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:37:03.915+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/postgres_to_redshift.py for tasks to queue
+[2024-04-15T12:37:03.916+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:37:03.916+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:37:03.956+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:37:03.955+0200] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2024-04-15T12:37:04.000+0200] {processor.py:840} INFO - DAG(s) 'postgres_to_redshift' retrieved from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:37:04.013+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:37:04.013+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:37:04.028+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:37:04.028+0200] {dag.py:3820} INFO - Setting next_dagrun for postgres_to_redshift to None, run_after=None
+[2024-04-15T12:37:04.060+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/postgres_to_redshift.py took 0.163 seconds
+[2024-04-15T12:37:34.490+0200] {processor.py:161} INFO - Started process (PID=6390) to work on /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:37:34.502+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/postgres_to_redshift.py for tasks to queue
+[2024-04-15T12:37:34.503+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:37:34.503+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:37:34.542+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:37:34.542+0200] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2024-04-15T12:37:34.591+0200] {processor.py:840} INFO - DAG(s) 'postgres_to_redshift' retrieved from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:37:34.605+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:37:34.605+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:37:34.622+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:37:34.622+0200] {dag.py:3820} INFO - Setting next_dagrun for postgres_to_redshift to None, run_after=None
+[2024-04-15T12:37:34.652+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/postgres_to_redshift.py took 0.167 seconds
+[2024-04-15T12:38:05.150+0200] {processor.py:161} INFO - Started process (PID=6704) to work on /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:38:05.151+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/postgres_to_redshift.py for tasks to queue
+[2024-04-15T12:38:05.152+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:38:05.152+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:38:05.186+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:38:05.186+0200] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2024-04-15T12:38:05.228+0200] {processor.py:840} INFO - DAG(s) 'postgres_to_redshift' retrieved from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:38:05.241+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:38:05.240+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:38:05.255+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:38:05.255+0200] {dag.py:3820} INFO - Setting next_dagrun for postgres_to_redshift to None, run_after=None
+[2024-04-15T12:38:05.289+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/postgres_to_redshift.py took 0.144 seconds
+[2024-04-15T12:38:35.743+0200] {processor.py:161} INFO - Started process (PID=6940) to work on /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:38:35.754+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/postgres_to_redshift.py for tasks to queue
+[2024-04-15T12:38:35.755+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:38:35.755+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:38:35.788+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:38:35.788+0200] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2024-04-15T12:38:35.841+0200] {processor.py:840} INFO - DAG(s) 'postgres_to_redshift' retrieved from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:38:35.890+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:38:35.889+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:38:35.913+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:38:35.913+0200] {dag.py:3820} INFO - Setting next_dagrun for postgres_to_redshift to None, run_after=None
+[2024-04-15T12:38:35.942+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/postgres_to_redshift.py took 0.202 seconds
+[2024-04-15T12:39:06.489+0200] {processor.py:161} INFO - Started process (PID=7293) to work on /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:39:06.492+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/postgres_to_redshift.py for tasks to queue
+[2024-04-15T12:39:06.493+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:39:06.492+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:39:06.531+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:39:06.530+0200] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2024-04-15T12:39:06.575+0200] {processor.py:840} INFO - DAG(s) 'postgres_to_redshift' retrieved from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:39:06.589+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:39:06.589+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:39:06.605+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:39:06.605+0200] {dag.py:3820} INFO - Setting next_dagrun for postgres_to_redshift to None, run_after=None
+[2024-04-15T12:39:06.637+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/postgres_to_redshift.py took 0.155 seconds
+[2024-04-15T12:39:37.111+0200] {processor.py:161} INFO - Started process (PID=7615) to work on /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:39:37.113+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/postgres_to_redshift.py for tasks to queue
+[2024-04-15T12:39:37.114+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:39:37.114+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:39:37.155+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:39:37.154+0200] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2024-04-15T12:39:37.196+0200] {processor.py:840} INFO - DAG(s) 'postgres_to_redshift' retrieved from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:39:37.210+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:39:37.210+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:39:37.226+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:39:37.226+0200] {dag.py:3820} INFO - Setting next_dagrun for postgres_to_redshift to None, run_after=None
+[2024-04-15T12:39:37.256+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/postgres_to_redshift.py took 0.153 seconds
+[2024-04-15T12:40:07.568+0200] {processor.py:161} INFO - Started process (PID=7957) to work on /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:40:07.571+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/postgres_to_redshift.py for tasks to queue
+[2024-04-15T12:40:07.573+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:40:07.572+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:40:07.612+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:40:07.612+0200] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2024-04-15T12:40:07.662+0200] {processor.py:840} INFO - DAG(s) 'postgres_to_redshift' retrieved from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:40:07.676+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:40:07.676+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:40:07.691+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:40:07.691+0200] {dag.py:3820} INFO - Setting next_dagrun for postgres_to_redshift to None, run_after=None
+[2024-04-15T12:40:07.723+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/postgres_to_redshift.py took 0.163 seconds
+[2024-04-15T12:40:38.265+0200] {processor.py:161} INFO - Started process (PID=8360) to work on /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:40:38.266+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/postgres_to_redshift.py for tasks to queue
+[2024-04-15T12:40:38.267+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:40:38.266+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:40:38.301+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:40:38.301+0200] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2024-04-15T12:40:38.345+0200] {processor.py:840} INFO - DAG(s) 'postgres_to_redshift' retrieved from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:40:38.361+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:40:38.360+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:40:38.380+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:40:38.380+0200] {dag.py:3820} INFO - Setting next_dagrun for postgres_to_redshift to None, run_after=None
+[2024-04-15T12:40:38.430+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/postgres_to_redshift.py took 0.169 seconds
+[2024-04-15T12:41:08.836+0200] {processor.py:161} INFO - Started process (PID=8692) to work on /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:41:08.847+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/postgres_to_redshift.py for tasks to queue
+[2024-04-15T12:41:08.848+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:41:08.848+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:41:08.880+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:41:08.879+0200] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2024-04-15T12:41:08.931+0200] {processor.py:840} INFO - DAG(s) 'postgres_to_redshift' retrieved from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:41:08.944+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:41:08.944+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:41:08.963+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:41:08.963+0200] {dag.py:3820} INFO - Setting next_dagrun for postgres_to_redshift to None, run_after=None
+[2024-04-15T12:41:09.000+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/postgres_to_redshift.py took 0.170 seconds
+[2024-04-15T12:41:39.487+0200] {processor.py:161} INFO - Started process (PID=8927) to work on /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:41:39.489+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/postgres_to_redshift.py for tasks to queue
+[2024-04-15T12:41:39.490+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:41:39.489+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:41:39.516+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:41:39.516+0200] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2024-04-15T12:41:39.563+0200] {processor.py:840} INFO - DAG(s) 'postgres_to_redshift' retrieved from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:41:39.582+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:41:39.582+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:41:39.598+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:41:39.598+0200] {dag.py:3820} INFO - Setting next_dagrun for postgres_to_redshift to None, run_after=None
+[2024-04-15T12:41:39.629+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/postgres_to_redshift.py took 0.145 seconds
+[2024-04-15T12:42:10.162+0200] {processor.py:161} INFO - Started process (PID=9161) to work on /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:42:10.165+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/postgres_to_redshift.py for tasks to queue
+[2024-04-15T12:42:10.166+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:42:10.166+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:42:10.195+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:42:10.195+0200] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2024-04-15T12:42:10.246+0200] {processor.py:840} INFO - DAG(s) 'postgres_to_redshift' retrieved from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:42:10.262+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:42:10.262+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:42:10.280+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:42:10.279+0200] {dag.py:3820} INFO - Setting next_dagrun for postgres_to_redshift to None, run_after=None
+[2024-04-15T12:42:10.312+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/postgres_to_redshift.py took 0.156 seconds
+[2024-04-15T12:42:40.804+0200] {processor.py:161} INFO - Started process (PID=9393) to work on /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:42:40.807+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/postgres_to_redshift.py for tasks to queue
+[2024-04-15T12:42:40.808+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:42:40.808+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:42:40.840+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:42:40.840+0200] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2024-04-15T12:42:40.893+0200] {processor.py:840} INFO - DAG(s) 'postgres_to_redshift' retrieved from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:42:40.909+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:42:40.908+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:42:40.926+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:42:40.925+0200] {dag.py:3820} INFO - Setting next_dagrun for postgres_to_redshift to None, run_after=None
+[2024-04-15T12:42:40.952+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/postgres_to_redshift.py took 0.151 seconds
+[2024-04-15T12:43:11.299+0200] {processor.py:161} INFO - Started process (PID=9694) to work on /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:43:11.301+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/postgres_to_redshift.py for tasks to queue
+[2024-04-15T12:43:11.303+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:43:11.302+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:43:11.341+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:43:11.341+0200] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2024-04-15T12:43:11.389+0200] {processor.py:840} INFO - DAG(s) 'postgres_to_redshift' retrieved from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:43:11.403+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:43:11.403+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:43:11.420+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:43:11.420+0200] {dag.py:3820} INFO - Setting next_dagrun for postgres_to_redshift to None, run_after=None
+[2024-04-15T12:43:11.451+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/postgres_to_redshift.py took 0.156 seconds
+[2024-04-15T12:43:42.052+0200] {processor.py:161} INFO - Started process (PID=9929) to work on /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:43:42.055+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/postgres_to_redshift.py for tasks to queue
+[2024-04-15T12:43:42.057+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:43:42.056+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:43:42.099+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:43:42.099+0200] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2024-04-15T12:43:42.148+0200] {processor.py:840} INFO - DAG(s) 'postgres_to_redshift' retrieved from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:43:42.161+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:43:42.161+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:43:42.179+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:43:42.178+0200] {dag.py:3820} INFO - Setting next_dagrun for postgres_to_redshift to None, run_after=None
+[2024-04-15T12:43:42.211+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/postgres_to_redshift.py took 0.165 seconds
+[2024-04-15T12:44:12.684+0200] {processor.py:161} INFO - Started process (PID=10165) to work on /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:44:12.697+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/postgres_to_redshift.py for tasks to queue
+[2024-04-15T12:44:12.699+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:44:12.698+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:44:12.741+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:44:12.741+0200] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2024-04-15T12:44:12.791+0200] {processor.py:840} INFO - DAG(s) 'postgres_to_redshift' retrieved from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:44:12.807+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:44:12.807+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:44:12.826+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:44:12.826+0200] {dag.py:3820} INFO - Setting next_dagrun for postgres_to_redshift to None, run_after=None
+[2024-04-15T12:44:12.859+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/postgres_to_redshift.py took 0.183 seconds
+[2024-04-15T12:44:43.387+0200] {processor.py:161} INFO - Started process (PID=10395) to work on /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:44:43.389+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/postgres_to_redshift.py for tasks to queue
+[2024-04-15T12:44:43.390+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:44:43.389+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:44:43.428+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:44:43.428+0200] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2024-04-15T12:44:43.483+0200] {processor.py:840} INFO - DAG(s) 'postgres_to_redshift' retrieved from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:44:43.501+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:44:43.501+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:44:43.516+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:44:43.516+0200] {dag.py:3820} INFO - Setting next_dagrun for postgres_to_redshift to None, run_after=None
+[2024-04-15T12:44:43.535+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/postgres_to_redshift.py took 0.152 seconds
+[2024-04-15T12:45:14.304+0200] {processor.py:161} INFO - Started process (PID=10637) to work on /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:45:14.312+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/postgres_to_redshift.py for tasks to queue
+[2024-04-15T12:45:14.313+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:45:14.313+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:45:14.344+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:45:14.344+0200] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2024-04-15T12:45:14.394+0200] {processor.py:840} INFO - DAG(s) 'postgres_to_redshift' retrieved from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:45:14.407+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:45:14.407+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:45:14.423+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:45:14.422+0200] {dag.py:3820} INFO - Setting next_dagrun for postgres_to_redshift to None, run_after=None
+[2024-04-15T12:45:14.455+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/postgres_to_redshift.py took 0.154 seconds
+[2024-04-15T12:45:44.986+0200] {processor.py:161} INFO - Started process (PID=10899) to work on /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:45:44.987+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/postgres_to_redshift.py for tasks to queue
+[2024-04-15T12:45:44.988+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:45:44.987+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:45:45.018+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:45:45.018+0200] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2024-04-15T12:45:45.068+0200] {processor.py:840} INFO - DAG(s) 'postgres_to_redshift' retrieved from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:45:45.081+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:45:45.081+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:45:45.098+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:45:45.098+0200] {dag.py:3820} INFO - Setting next_dagrun for postgres_to_redshift to None, run_after=None
+[2024-04-15T12:45:45.130+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/postgres_to_redshift.py took 0.147 seconds
+[2024-04-15T12:46:15.756+0200] {processor.py:161} INFO - Started process (PID=11136) to work on /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:46:15.759+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/postgres_to_redshift.py for tasks to queue
+[2024-04-15T12:46:15.761+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:46:15.760+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:46:15.800+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:46:15.800+0200] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2024-04-15T12:46:15.849+0200] {processor.py:840} INFO - DAG(s) 'postgres_to_redshift' retrieved from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:46:15.862+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:46:15.862+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:46:15.881+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:46:15.881+0200] {dag.py:3820} INFO - Setting next_dagrun for postgres_to_redshift to None, run_after=None
+[2024-04-15T12:46:15.915+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/postgres_to_redshift.py took 0.167 seconds
+[2024-04-15T12:46:46.392+0200] {processor.py:161} INFO - Started process (PID=11371) to work on /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:46:46.394+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/postgres_to_redshift.py for tasks to queue
+[2024-04-15T12:46:46.395+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:46:46.395+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:46:46.436+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:46:46.436+0200] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2024-04-15T12:46:46.483+0200] {processor.py:840} INFO - DAG(s) 'postgres_to_redshift' retrieved from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:46:46.497+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:46:46.497+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:46:46.514+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:46:46.514+0200] {dag.py:3820} INFO - Setting next_dagrun for postgres_to_redshift to None, run_after=None
+[2024-04-15T12:46:46.548+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/postgres_to_redshift.py took 0.163 seconds
+[2024-04-15T12:47:17.293+0200] {processor.py:161} INFO - Started process (PID=11609) to work on /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:47:17.304+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/postgres_to_redshift.py for tasks to queue
+[2024-04-15T12:47:17.306+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:47:17.305+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:47:17.343+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:47:17.343+0200] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2024-04-15T12:47:17.392+0200] {processor.py:840} INFO - DAG(s) 'postgres_to_redshift' retrieved from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:47:17.405+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:47:17.405+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:47:17.418+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:47:17.418+0200] {dag.py:3820} INFO - Setting next_dagrun for postgres_to_redshift to None, run_after=None
+[2024-04-15T12:47:17.458+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/postgres_to_redshift.py took 0.172 seconds
+[2024-04-15T12:47:47.908+0200] {processor.py:161} INFO - Started process (PID=11844) to work on /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:47:47.909+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/postgres_to_redshift.py for tasks to queue
+[2024-04-15T12:47:47.910+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:47:47.910+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:47:47.939+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:47:47.939+0200] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2024-04-15T12:47:47.985+0200] {processor.py:840} INFO - DAG(s) 'postgres_to_redshift' retrieved from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:47:47.998+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:47:47.997+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:47:48.012+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:47:48.012+0200] {dag.py:3820} INFO - Setting next_dagrun for postgres_to_redshift to None, run_after=None
+[2024-04-15T12:47:48.035+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/postgres_to_redshift.py took 0.130 seconds
+[2024-04-15T12:48:18.594+0200] {processor.py:161} INFO - Started process (PID=12074) to work on /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:48:18.607+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/postgres_to_redshift.py for tasks to queue
+[2024-04-15T12:48:18.609+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:48:18.608+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:48:18.657+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:48:18.656+0200] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2024-04-15T12:48:18.704+0200] {processor.py:840} INFO - DAG(s) 'postgres_to_redshift' retrieved from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:48:18.719+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:48:18.718+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:48:18.735+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:48:18.735+0200] {dag.py:3820} INFO - Setting next_dagrun for postgres_to_redshift to None, run_after=None
+[2024-04-15T12:48:18.764+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/postgres_to_redshift.py took 0.177 seconds
+[2024-04-15T12:48:49.110+0200] {processor.py:161} INFO - Started process (PID=12308) to work on /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:48:49.113+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/postgres_to_redshift.py for tasks to queue
+[2024-04-15T12:48:49.115+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:48:49.114+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:48:49.158+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:48:49.157+0200] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2024-04-15T12:48:49.205+0200] {processor.py:840} INFO - DAG(s) 'postgres_to_redshift' retrieved from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:48:49.217+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:48:49.217+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:48:49.233+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:48:49.233+0200] {dag.py:3820} INFO - Setting next_dagrun for postgres_to_redshift to None, run_after=None
+[2024-04-15T12:48:49.269+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/postgres_to_redshift.py took 0.164 seconds
+[2024-04-15T12:49:19.725+0200] {processor.py:161} INFO - Started process (PID=12544) to work on /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:49:19.726+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/postgres_to_redshift.py for tasks to queue
+[2024-04-15T12:49:19.728+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:49:19.727+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:49:19.766+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:49:19.766+0200] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2024-04-15T12:49:19.817+0200] {processor.py:840} INFO - DAG(s) 'postgres_to_redshift' retrieved from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:49:19.831+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:49:19.831+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:49:19.849+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:49:19.849+0200] {dag.py:3820} INFO - Setting next_dagrun for postgres_to_redshift to None, run_after=None
+[2024-04-15T12:49:19.883+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/postgres_to_redshift.py took 0.164 seconds
+[2024-04-15T12:49:50.394+0200] {processor.py:161} INFO - Started process (PID=12781) to work on /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:49:50.396+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/postgres_to_redshift.py for tasks to queue
+[2024-04-15T12:49:50.397+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:49:50.396+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:49:50.423+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:49:50.422+0200] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2024-04-15T12:49:50.468+0200] {processor.py:840} INFO - DAG(s) 'postgres_to_redshift' retrieved from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:49:50.482+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:49:50.482+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:49:50.500+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:49:50.500+0200] {dag.py:3820} INFO - Setting next_dagrun for postgres_to_redshift to None, run_after=None
+[2024-04-15T12:49:50.522+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/postgres_to_redshift.py took 0.132 seconds
+[2024-04-15T12:50:21.346+0200] {processor.py:161} INFO - Started process (PID=13019) to work on /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:50:21.347+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/postgres_to_redshift.py for tasks to queue
+[2024-04-15T12:50:21.348+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:50:21.348+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:50:21.383+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:50:21.383+0200] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2024-04-15T12:50:21.433+0200] {processor.py:840} INFO - DAG(s) 'postgres_to_redshift' retrieved from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:50:21.448+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:50:21.447+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:50:21.463+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:50:21.463+0200] {dag.py:3820} INFO - Setting next_dagrun for postgres_to_redshift to None, run_after=None
+[2024-04-15T12:50:21.494+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/postgres_to_redshift.py took 0.153 seconds
+[2024-04-15T12:50:52.241+0200] {processor.py:161} INFO - Started process (PID=13284) to work on /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:50:52.253+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/postgres_to_redshift.py for tasks to queue
+[2024-04-15T12:50:52.255+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:50:52.254+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:50:52.296+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:50:52.296+0200] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2024-04-15T12:50:52.345+0200] {processor.py:840} INFO - DAG(s) 'postgres_to_redshift' retrieved from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:50:52.358+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:50:52.358+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:50:52.373+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:50:52.373+0200] {dag.py:3820} INFO - Setting next_dagrun for postgres_to_redshift to None, run_after=None
+[2024-04-15T12:50:52.405+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/postgres_to_redshift.py took 0.169 seconds
+[2024-04-15T12:51:23.103+0200] {processor.py:161} INFO - Started process (PID=13514) to work on /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:51:23.114+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/postgres_to_redshift.py for tasks to queue
+[2024-04-15T12:51:23.115+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:51:23.115+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:51:23.145+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:51:23.145+0200] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2024-04-15T12:51:23.193+0200] {processor.py:840} INFO - DAG(s) 'postgres_to_redshift' retrieved from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:51:23.209+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:51:23.209+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:51:23.225+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:51:23.225+0200] {dag.py:3820} INFO - Setting next_dagrun for postgres_to_redshift to None, run_after=None
+[2024-04-15T12:51:23.257+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/postgres_to_redshift.py took 0.157 seconds
+[2024-04-15T12:51:54.029+0200] {processor.py:161} INFO - Started process (PID=13750) to work on /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:51:54.032+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/postgres_to_redshift.py for tasks to queue
+[2024-04-15T12:51:54.034+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:51:54.033+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:51:54.073+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:51:54.073+0200] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2024-04-15T12:51:54.124+0200] {processor.py:840} INFO - DAG(s) 'postgres_to_redshift' retrieved from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:51:54.137+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:51:54.137+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:51:54.153+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:51:54.153+0200] {dag.py:3820} INFO - Setting next_dagrun for postgres_to_redshift to None, run_after=None
+[2024-04-15T12:51:54.187+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/postgres_to_redshift.py took 0.167 seconds
+[2024-04-15T12:52:24.717+0200] {processor.py:161} INFO - Started process (PID=13986) to work on /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:52:24.718+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/postgres_to_redshift.py for tasks to queue
+[2024-04-15T12:52:24.719+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:52:24.719+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:52:24.754+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:52:24.754+0200] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2024-04-15T12:52:24.804+0200] {processor.py:840} INFO - DAG(s) 'postgres_to_redshift' retrieved from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:52:24.822+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:52:24.822+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:52:24.838+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:52:24.838+0200] {dag.py:3820} INFO - Setting next_dagrun for postgres_to_redshift to None, run_after=None
+[2024-04-15T12:52:24.869+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/postgres_to_redshift.py took 0.157 seconds
+[2024-04-15T12:52:55.720+0200] {processor.py:161} INFO - Started process (PID=14223) to work on /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:52:55.721+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/postgres_to_redshift.py for tasks to queue
+[2024-04-15T12:52:55.722+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:52:55.722+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:52:55.758+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:52:55.757+0200] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2024-04-15T12:52:55.807+0200] {processor.py:840} INFO - DAG(s) 'postgres_to_redshift' retrieved from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:52:55.818+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:52:55.818+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:52:55.834+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:52:55.834+0200] {dag.py:3820} INFO - Setting next_dagrun for postgres_to_redshift to None, run_after=None
+[2024-04-15T12:52:55.864+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/postgres_to_redshift.py took 0.147 seconds
+[2024-04-15T12:53:26.411+0200] {processor.py:161} INFO - Started process (PID=14460) to work on /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:53:26.424+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/postgres_to_redshift.py for tasks to queue
+[2024-04-15T12:53:26.426+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:53:26.425+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:53:26.477+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:53:26.477+0200] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2024-04-15T12:53:26.526+0200] {processor.py:840} INFO - DAG(s) 'postgres_to_redshift' retrieved from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:53:26.543+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:53:26.542+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:53:26.559+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:53:26.559+0200] {dag.py:3820} INFO - Setting next_dagrun for postgres_to_redshift to None, run_after=None
+[2024-04-15T12:53:26.593+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/postgres_to_redshift.py took 0.189 seconds
+[2024-04-15T12:53:57.497+0200] {processor.py:161} INFO - Started process (PID=14698) to work on /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:53:57.508+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/postgres_to_redshift.py for tasks to queue
+[2024-04-15T12:53:57.509+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:53:57.509+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:53:57.547+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:53:57.547+0200] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2024-04-15T12:53:57.605+0200] {processor.py:840} INFO - DAG(s) 'postgres_to_redshift' retrieved from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:53:57.623+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:53:57.623+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:53:57.649+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:53:57.649+0200] {dag.py:3820} INFO - Setting next_dagrun for postgres_to_redshift to None, run_after=None
+[2024-04-15T12:53:57.683+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/postgres_to_redshift.py took 0.190 seconds
+[2024-04-15T12:54:27.843+0200] {processor.py:161} INFO - Started process (PID=14915) to work on /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:54:27.853+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/postgres_to_redshift.py for tasks to queue
+[2024-04-15T12:54:27.861+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:54:27.857+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:54:28.195+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:54:28.193+0200] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2024-04-15T12:54:28.634+0200] {processor.py:840} INFO - DAG(s) 'postgres_to_redshift' retrieved from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:54:28.759+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:54:28.758+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:54:28.916+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:54:28.914+0200] {dag.py:3820} INFO - Setting next_dagrun for postgres_to_redshift to None, run_after=None
+[2024-04-15T12:54:29.067+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/postgres_to_redshift.py took 1.252 seconds
+[2024-04-15T12:55:00.120+0200] {processor.py:161} INFO - Started process (PID=15114) to work on /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:55:00.152+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/postgres_to_redshift.py for tasks to queue
+[2024-04-15T12:55:00.197+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:55:00.182+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:55:01.082+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:55:01.079+0200] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2024-04-15T12:55:02.384+0200] {processor.py:840} INFO - DAG(s) 'postgres_to_redshift' retrieved from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:55:02.731+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:55:02.724+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:55:03.074+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:55:03.073+0200] {dag.py:3820} INFO - Setting next_dagrun for postgres_to_redshift to None, run_after=None
+[2024-04-15T12:55:03.330+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/postgres_to_redshift.py took 3.299 seconds
+[2024-04-15T12:55:36.460+0200] {processor.py:161} INFO - Started process (PID=15372) to work on /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:55:36.526+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/postgres_to_redshift.py for tasks to queue
+[2024-04-15T12:55:36.537+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:55:36.533+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:55:37.082+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:55:37.080+0200] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2024-04-15T12:55:37.860+0200] {processor.py:840} INFO - DAG(s) 'postgres_to_redshift' retrieved from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:55:38.091+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:55:38.090+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:55:38.406+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:55:38.404+0200] {dag.py:3820} INFO - Setting next_dagrun for postgres_to_redshift to None, run_after=None
+[2024-04-15T12:55:38.576+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/postgres_to_redshift.py took 2.168 seconds
+[2024-04-15T12:56:09.398+0200] {processor.py:161} INFO - Started process (PID=15585) to work on /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:56:09.407+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/postgres_to_redshift.py for tasks to queue
+[2024-04-15T12:56:09.414+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:56:09.412+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:56:09.879+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:56:09.877+0200] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2024-04-15T12:56:10.563+0200] {processor.py:840} INFO - DAG(s) 'postgres_to_redshift' retrieved from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:56:10.756+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:56:10.755+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:56:11.072+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:56:11.070+0200] {dag.py:3820} INFO - Setting next_dagrun for postgres_to_redshift to None, run_after=None
+[2024-04-15T12:56:11.416+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/postgres_to_redshift.py took 2.043 seconds
+[2024-04-15T12:56:44.155+0200] {processor.py:161} INFO - Started process (PID=15807) to work on /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:56:44.183+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/postgres_to_redshift.py for tasks to queue
+[2024-04-15T12:56:44.203+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:56:44.199+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:56:44.617+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:56:44.615+0200] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2024-04-15T12:56:45.167+0200] {processor.py:840} INFO - DAG(s) 'postgres_to_redshift' retrieved from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:56:45.299+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:56:45.297+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:56:45.467+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:56:45.466+0200] {dag.py:3820} INFO - Setting next_dagrun for postgres_to_redshift to None, run_after=None
+[2024-04-15T12:56:45.636+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/postgres_to_redshift.py took 1.516 seconds
+[2024-04-15T12:57:19.330+0200] {processor.py:161} INFO - Started process (PID=16024) to work on /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:57:19.350+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/postgres_to_redshift.py for tasks to queue
+[2024-04-15T12:57:19.357+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:57:19.355+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:57:19.666+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:57:19.665+0200] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2024-04-15T12:57:20.162+0200] {processor.py:840} INFO - DAG(s) 'postgres_to_redshift' retrieved from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:57:20.369+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:57:20.368+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:57:20.571+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:57:20.570+0200] {dag.py:3820} INFO - Setting next_dagrun for postgres_to_redshift to None, run_after=None
+[2024-04-15T12:57:20.793+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/postgres_to_redshift.py took 1.493 seconds
+[2024-04-15T12:57:55.320+0200] {processor.py:161} INFO - Started process (PID=16245) to work on /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:57:55.333+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/postgres_to_redshift.py for tasks to queue
+[2024-04-15T12:57:55.343+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:57:55.339+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:57:55.722+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:57:55.720+0200] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2024-04-15T12:57:56.236+0200] {processor.py:840} INFO - DAG(s) 'postgres_to_redshift' retrieved from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:57:56.455+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:57:56.454+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:57:56.688+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:57:56.686+0200] {dag.py:3820} INFO - Setting next_dagrun for postgres_to_redshift to None, run_after=None
+[2024-04-15T12:57:56.872+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/postgres_to_redshift.py took 1.594 seconds
+[2024-04-15T12:58:31.016+0200] {processor.py:161} INFO - Started process (PID=16456) to work on /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:58:31.026+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/postgres_to_redshift.py for tasks to queue
+[2024-04-15T12:58:31.033+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:58:31.030+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:58:31.333+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:58:31.331+0200] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2024-04-15T12:58:31.907+0200] {processor.py:840} INFO - DAG(s) 'postgres_to_redshift' retrieved from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:58:32.076+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:58:32.075+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:58:32.275+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:58:32.273+0200] {dag.py:3820} INFO - Setting next_dagrun for postgres_to_redshift to None, run_after=None
+[2024-04-15T12:58:32.532+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/postgres_to_redshift.py took 1.546 seconds
+[2024-04-15T12:59:06.008+0200] {processor.py:161} INFO - Started process (PID=16667) to work on /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:59:06.017+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/postgres_to_redshift.py for tasks to queue
+[2024-04-15T12:59:06.024+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:59:06.022+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:59:06.307+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:59:06.305+0200] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2024-04-15T12:59:06.761+0200] {processor.py:840} INFO - DAG(s) 'postgres_to_redshift' retrieved from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:59:06.896+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:59:06.894+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:59:07.055+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:59:07.054+0200] {dag.py:3820} INFO - Setting next_dagrun for postgres_to_redshift to None, run_after=None
+[2024-04-15T12:59:07.205+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/postgres_to_redshift.py took 1.221 seconds
+[2024-04-15T12:59:38.963+0200] {processor.py:161} INFO - Started process (PID=16874) to work on /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:59:38.969+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/postgres_to_redshift.py for tasks to queue
+[2024-04-15T12:59:38.973+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:59:38.972+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:59:39.155+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:59:39.154+0200] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2024-04-15T12:59:39.457+0200] {processor.py:840} INFO - DAG(s) 'postgres_to_redshift' retrieved from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T12:59:39.544+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:59:39.543+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:59:39.677+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:59:39.676+0200] {dag.py:3820} INFO - Setting next_dagrun for postgres_to_redshift to None, run_after=None
+[2024-04-15T12:59:39.790+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/postgres_to_redshift.py took 0.842 seconds
+[2024-04-15T13:00:14.416+0200] {processor.py:161} INFO - Started process (PID=17084) to work on /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T13:00:14.437+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/postgres_to_redshift.py for tasks to queue
+[2024-04-15T13:00:14.469+0200] {logging_mixin.py:188} INFO - [2024-04-15T13:00:14.454+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T13:00:15.132+0200] {logging_mixin.py:188} INFO - [2024-04-15T13:00:15.129+0200] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2024-04-15T13:00:15.998+0200] {processor.py:840} INFO - DAG(s) 'postgres_to_redshift' retrieved from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T13:00:16.255+0200] {logging_mixin.py:188} INFO - [2024-04-15T13:00:16.252+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T13:00:16.578+0200] {logging_mixin.py:188} INFO - [2024-04-15T13:00:16.577+0200] {dag.py:3820} INFO - Setting next_dagrun for postgres_to_redshift to None, run_after=None
+[2024-04-15T13:00:16.761+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/postgres_to_redshift.py took 2.400 seconds
+[2024-04-15T13:00:49.591+0200] {processor.py:161} INFO - Started process (PID=17317) to work on /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T13:00:49.610+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/postgres_to_redshift.py for tasks to queue
+[2024-04-15T13:00:49.618+0200] {logging_mixin.py:188} INFO - [2024-04-15T13:00:49.614+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T13:00:50.005+0200] {logging_mixin.py:188} INFO - [2024-04-15T13:00:50.004+0200] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2024-04-15T13:00:50.508+0200] {processor.py:840} INFO - DAG(s) 'postgres_to_redshift' retrieved from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T13:00:50.673+0200] {logging_mixin.py:188} INFO - [2024-04-15T13:00:50.671+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T13:00:50.873+0200] {logging_mixin.py:188} INFO - [2024-04-15T13:00:50.872+0200] {dag.py:3820} INFO - Setting next_dagrun for postgres_to_redshift to None, run_after=None
+[2024-04-15T13:00:51.067+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/postgres_to_redshift.py took 1.502 seconds
+[2024-04-15T13:01:25.696+0200] {processor.py:161} INFO - Started process (PID=17525) to work on /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T13:01:25.715+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/postgres_to_redshift.py for tasks to queue
+[2024-04-15T13:01:25.723+0200] {logging_mixin.py:188} INFO - [2024-04-15T13:01:25.720+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T13:01:26.082+0200] {logging_mixin.py:188} INFO - [2024-04-15T13:01:26.078+0200] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2024-04-15T13:01:26.827+0200] {processor.py:840} INFO - DAG(s) 'postgres_to_redshift' retrieved from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T13:01:27.008+0200] {logging_mixin.py:188} INFO - [2024-04-15T13:01:27.006+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T13:01:27.201+0200] {logging_mixin.py:188} INFO - [2024-04-15T13:01:27.200+0200] {dag.py:3820} INFO - Setting next_dagrun for postgres_to_redshift to None, run_after=None
+[2024-04-15T13:01:27.367+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/postgres_to_redshift.py took 1.697 seconds
+[2024-04-15T13:02:01.346+0200] {processor.py:161} INFO - Started process (PID=17731) to work on /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T13:02:01.355+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/postgres_to_redshift.py for tasks to queue
+[2024-04-15T13:02:01.363+0200] {logging_mixin.py:188} INFO - [2024-04-15T13:02:01.360+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T13:02:01.679+0200] {logging_mixin.py:188} INFO - [2024-04-15T13:02:01.678+0200] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2024-04-15T13:02:02.226+0200] {processor.py:840} INFO - DAG(s) 'postgres_to_redshift' retrieved from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T13:02:02.400+0200] {logging_mixin.py:188} INFO - [2024-04-15T13:02:02.399+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T13:02:02.672+0200] {logging_mixin.py:188} INFO - [2024-04-15T13:02:02.670+0200] {dag.py:3820} INFO - Setting next_dagrun for postgres_to_redshift to None, run_after=None
+[2024-04-15T13:02:02.963+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/postgres_to_redshift.py took 1.641 seconds
+[2024-04-15T13:02:36.480+0200] {processor.py:161} INFO - Started process (PID=17934) to work on /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T13:02:36.491+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/postgres_to_redshift.py for tasks to queue
+[2024-04-15T13:02:36.499+0200] {logging_mixin.py:188} INFO - [2024-04-15T13:02:36.497+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T13:02:36.855+0200] {logging_mixin.py:188} INFO - [2024-04-15T13:02:36.854+0200] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2024-04-15T13:02:37.449+0200] {processor.py:840} INFO - DAG(s) 'postgres_to_redshift' retrieved from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T13:02:37.606+0200] {logging_mixin.py:188} INFO - [2024-04-15T13:02:37.604+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T13:02:37.834+0200] {logging_mixin.py:188} INFO - [2024-04-15T13:02:37.833+0200] {dag.py:3820} INFO - Setting next_dagrun for postgres_to_redshift to None, run_after=None
+[2024-04-15T13:02:38.011+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/postgres_to_redshift.py took 1.566 seconds
+[2024-04-15T13:22:20.400+0200] {processor.py:161} INFO - Started process (PID=18084) to work on /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T13:22:20.416+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/postgres_to_redshift.py for tasks to queue
+[2024-04-15T13:22:20.421+0200] {logging_mixin.py:188} INFO - [2024-04-15T13:22:20.419+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T13:22:21.629+0200] {logging_mixin.py:188} INFO - [2024-04-15T13:22:21.626+0200] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2024-04-15T13:22:23.188+0200] {processor.py:840} INFO - DAG(s) 'postgres_to_redshift' retrieved from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T13:22:23.327+0200] {logging_mixin.py:188} INFO - [2024-04-15T13:22:23.327+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T13:22:23.470+0200] {logging_mixin.py:188} INFO - [2024-04-15T13:22:23.470+0200] {dag.py:3820} INFO - Setting next_dagrun for postgres_to_redshift to None, run_after=None
+[2024-04-15T13:22:23.635+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/postgres_to_redshift.py took 3.253 seconds
+[2024-04-15T13:22:54.126+0200] {processor.py:161} INFO - Started process (PID=18332) to work on /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T13:22:54.128+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/postgres_to_redshift.py for tasks to queue
+[2024-04-15T13:22:54.129+0200] {logging_mixin.py:188} INFO - [2024-04-15T13:22:54.129+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T13:22:54.162+0200] {logging_mixin.py:188} INFO - [2024-04-15T13:22:54.161+0200] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2024-04-15T13:22:54.211+0200] {processor.py:840} INFO - DAG(s) 'postgres_to_redshift' retrieved from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T13:22:54.227+0200] {logging_mixin.py:188} INFO - [2024-04-15T13:22:54.227+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T13:22:54.244+0200] {logging_mixin.py:188} INFO - [2024-04-15T13:22:54.243+0200] {dag.py:3820} INFO - Setting next_dagrun for postgres_to_redshift to None, run_after=None
+[2024-04-15T13:22:54.274+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/postgres_to_redshift.py took 0.152 seconds
+[2024-04-15T13:23:25.039+0200] {processor.py:161} INFO - Started process (PID=18487) to work on /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T13:23:25.041+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/postgres_to_redshift.py for tasks to queue
+[2024-04-15T13:23:25.042+0200] {logging_mixin.py:188} INFO - [2024-04-15T13:23:25.042+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T13:23:25.070+0200] {logging_mixin.py:188} INFO - [2024-04-15T13:23:25.070+0200] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2024-04-15T13:23:25.112+0200] {processor.py:840} INFO - DAG(s) 'postgres_to_redshift' retrieved from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T13:23:25.126+0200] {logging_mixin.py:188} INFO - [2024-04-15T13:23:25.126+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T13:23:25.144+0200] {logging_mixin.py:188} INFO - [2024-04-15T13:23:25.144+0200] {dag.py:3820} INFO - Setting next_dagrun for postgres_to_redshift to None, run_after=None
+[2024-04-15T13:23:25.177+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/postgres_to_redshift.py took 0.140 seconds
+[2024-04-15T13:23:55.889+0200] {processor.py:161} INFO - Started process (PID=18639) to work on /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T13:23:55.890+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/postgres_to_redshift.py for tasks to queue
+[2024-04-15T13:23:55.891+0200] {logging_mixin.py:188} INFO - [2024-04-15T13:23:55.891+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T13:23:55.926+0200] {logging_mixin.py:188} INFO - [2024-04-15T13:23:55.926+0200] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2024-04-15T13:23:55.968+0200] {processor.py:840} INFO - DAG(s) 'postgres_to_redshift' retrieved from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T13:23:55.981+0200] {logging_mixin.py:188} INFO - [2024-04-15T13:23:55.981+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T13:23:55.998+0200] {logging_mixin.py:188} INFO - [2024-04-15T13:23:55.998+0200] {dag.py:3820} INFO - Setting next_dagrun for postgres_to_redshift to None, run_after=None
+[2024-04-15T13:23:56.030+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/postgres_to_redshift.py took 0.145 seconds
+[2024-04-15T13:24:26.759+0200] {processor.py:161} INFO - Started process (PID=18793) to work on /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T13:24:26.763+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/postgres_to_redshift.py for tasks to queue
+[2024-04-15T13:24:26.765+0200] {logging_mixin.py:188} INFO - [2024-04-15T13:24:26.764+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T13:24:26.805+0200] {logging_mixin.py:188} INFO - [2024-04-15T13:24:26.805+0200] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2024-04-15T13:24:26.856+0200] {processor.py:840} INFO - DAG(s) 'postgres_to_redshift' retrieved from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T13:24:26.870+0200] {logging_mixin.py:188} INFO - [2024-04-15T13:24:26.870+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T13:24:26.886+0200] {logging_mixin.py:188} INFO - [2024-04-15T13:24:26.886+0200] {dag.py:3820} INFO - Setting next_dagrun for postgres_to_redshift to None, run_after=None
+[2024-04-15T13:24:26.921+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/postgres_to_redshift.py took 0.168 seconds
+[2024-04-15T13:24:57.645+0200] {processor.py:161} INFO - Started process (PID=18946) to work on /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T13:24:57.657+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/postgres_to_redshift.py for tasks to queue
+[2024-04-15T13:24:57.659+0200] {logging_mixin.py:188} INFO - [2024-04-15T13:24:57.658+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T13:24:57.697+0200] {logging_mixin.py:188} INFO - [2024-04-15T13:24:57.697+0200] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2024-04-15T13:24:57.750+0200] {processor.py:840} INFO - DAG(s) 'postgres_to_redshift' retrieved from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T13:24:57.766+0200] {logging_mixin.py:188} INFO - [2024-04-15T13:24:57.765+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T13:24:57.784+0200] {logging_mixin.py:188} INFO - [2024-04-15T13:24:57.784+0200] {dag.py:3820} INFO - Setting next_dagrun for postgres_to_redshift to None, run_after=None
+[2024-04-15T13:24:57.817+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/postgres_to_redshift.py took 0.177 seconds
+[2024-04-15T13:25:27.856+0200] {processor.py:161} INFO - Started process (PID=19101) to work on /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T13:25:27.857+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/postgres_to_redshift.py for tasks to queue
+[2024-04-15T13:25:27.858+0200] {logging_mixin.py:188} INFO - [2024-04-15T13:25:27.858+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T13:25:27.889+0200] {logging_mixin.py:188} INFO - [2024-04-15T13:25:27.889+0200] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2024-04-15T13:25:27.934+0200] {processor.py:840} INFO - DAG(s) 'postgres_to_redshift' retrieved from /home/mahmoud/airflow/dags/postgres_to_redshift.py
+[2024-04-15T13:25:27.948+0200] {logging_mixin.py:188} INFO - [2024-04-15T13:25:27.948+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T13:25:27.965+0200] {logging_mixin.py:188} INFO - [2024-04-15T13:25:27.965+0200] {dag.py:3820} INFO - Setting next_dagrun for postgres_to_redshift to None, run_after=None
+[2024-04-15T13:25:27.984+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/postgres_to_redshift.py took 0.131 seconds

@@ -1,0 +1,27 @@
+[2024-01-16T17:56:11.389+0200] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: branching_with_variables.Reading_and_Preprocessing.read_csv manual__2024-01-16T15:56:08.904653+00:00 [queued]>
+[2024-01-16T17:56:11.399+0200] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: branching_with_variables.Reading_and_Preprocessing.read_csv manual__2024-01-16T15:56:08.904653+00:00 [queued]>
+[2024-01-16T17:56:11.399+0200] {taskinstance.py:2171} INFO - Starting attempt 1 of 1
+[2024-01-16T17:56:11.420+0200] {taskinstance.py:2192} INFO - Executing <Task(PythonOperator): Reading_and_Preprocessing.read_csv> on 2024-01-16 15:56:08.904653+00:00
+[2024-01-16T17:56:11.424+0200] {standard_task_runner.py:60} INFO - Started process 60502 to run task
+[2024-01-16T17:56:11.428+0200] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'branching_with_variables', 'Reading_and_Preprocessing.read_csv', 'manual__2024-01-16T15:56:08.904653+00:00', '--job-id', '150', '--raw', '--subdir', 'DAGS_FOLDER/branching_w_variables.py', '--cfg-path', '/tmp/tmpgwqaunsb']
+[2024-01-16T17:56:11.430+0200] {standard_task_runner.py:88} INFO - Job 150: Subtask Reading_and_Preprocessing.read_csv
+[2024-01-16T17:56:11.486+0200] {task_command.py:423} INFO - Running <TaskInstance: branching_with_variables.Reading_and_Preprocessing.read_csv manual__2024-01-16T15:56:08.904653+00:00 [running]> on host DESKTOP-9NHC01K.
+[2024-01-16T17:56:11.558+0200] {taskinstance.py:2481} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='branching_with_variables' AIRFLOW_CTX_TASK_ID='Reading_and_Preprocessing.read_csv' AIRFLOW_CTX_EXECUTION_DATE='2024-01-16T15:56:08.904653+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-01-16T15:56:08.904653+00:00'
+[2024-01-16T17:56:11.583+0200] {logging_mixin.py:188} INFO -        age     sex    bmi  children smoker     region     charges
+0     19.0  female  27.90       0.0    yes  southwest  16884.9240
+1     18.0    male  33.77       1.0     no  southeast   1725.5523
+2     28.0    male  33.00       3.0     no  southeast   4449.4620
+3      NaN     NaN    NaN       NaN    NaN        NaN         NaN
+4     25.0    male  28.60       1.0     no  southeast   3366.6697
+...    ...     ...    ...       ...    ...        ...         ...
+1344  18.0  female  31.92       0.0     no  northeast   2205.9808
+1345  18.0  female  36.85       0.0     no  southeast   1629.8335
+1346  21.0  female  25.80       0.0     no  southwest   2007.9450
+1347   NaN     NaN    NaN       NaN    NaN        NaN         NaN
+1348  42.0    male  35.12       0.0     no  southwest   5976.8311
+
+[1349 rows x 7 columns]
+[2024-01-16T17:56:11.605+0200] {python.py:201} INFO - Done. Returned value was: None
+[2024-01-16T17:56:11.612+0200] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=branching_with_variables, task_id=Reading_and_Preprocessing.read_csv, execution_date=20240116T155608, start_date=20240116T155611, end_date=20240116T155611
+[2024-01-16T17:56:11.641+0200] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-01-16T17:56:11.686+0200] {taskinstance.py:3281} INFO - 0 downstream tasks scheduled from follow-on schedule check

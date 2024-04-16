@@ -1,0 +1,18 @@
+[2024-01-16T18:28:19.065+0200] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: execute_multiple_bash_scripts_tasks_.task_B manual__2024-01-16T16:28:13.152014+00:00 [queued]>
+[2024-01-16T18:28:19.070+0200] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: execute_multiple_bash_scripts_tasks_.task_B manual__2024-01-16T16:28:13.152014+00:00 [queued]>
+[2024-01-16T18:28:19.070+0200] {taskinstance.py:2171} INFO - Starting attempt 1 of 1
+[2024-01-16T18:28:19.088+0200] {taskinstance.py:2192} INFO - Executing <Task(BashOperator): task_B> on 2024-01-16 16:28:13.152014+00:00
+[2024-01-16T18:28:19.090+0200] {standard_task_runner.py:60} INFO - Started process 66405 to run task
+[2024-01-16T18:28:19.093+0200] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'execute_multiple_bash_scripts_tasks_', 'task_B', 'manual__2024-01-16T16:28:13.152014+00:00', '--job-id', '167', '--raw', '--subdir', 'DAGS_FOLDER/exec_multi_tasks_w_sep_bash_scripts.py', '--cfg-path', '/tmp/tmpwrn7we_y']
+[2024-01-16T18:28:19.094+0200] {standard_task_runner.py:88} INFO - Job 167: Subtask task_B
+[2024-01-16T18:28:19.132+0200] {task_command.py:423} INFO - Running <TaskInstance: execute_multiple_bash_scripts_tasks_.task_B manual__2024-01-16T16:28:13.152014+00:00 [running]> on host DESKTOP-9NHC01K.
+[2024-01-16T18:28:19.191+0200] {taskinstance.py:2481} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='execute_multiple_bash_scripts_tasks_' AIRFLOW_CTX_TASK_ID='task_B' AIRFLOW_CTX_EXECUTION_DATE='2024-01-16T16:28:13.152014+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-01-16T16:28:13.152014+00:00'
+[2024-01-16T18:28:19.192+0200] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2024-01-16T18:28:19.194+0200] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'echo task B has started\nsleep 4\nexit 99\necho task B has ended']
+[2024-01-16T18:28:19.198+0200] {subprocess.py:86} INFO - Output:
+[2024-01-16T18:28:19.199+0200] {subprocess.py:93} INFO - task B has started
+[2024-01-16T18:28:23.202+0200] {subprocess.py:97} INFO - Command exited with return code 99
+[2024-01-16T18:28:23.204+0200] {taskinstance.py:2361} INFO - Bash command returned exit code [99]. Skipping.
+[2024-01-16T18:28:23.225+0200] {taskinstance.py:1138} INFO - Marking task as SKIPPED. dag_id=execute_multiple_bash_scripts_tasks_, task_id=task_B, execution_date=20240116T162813, start_date=20240116T162819, end_date=20240116T162823
+[2024-01-16T18:28:23.267+0200] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-01-16T18:28:23.291+0200] {taskinstance.py:3281} INFO - 0 downstream tasks scheduled from follow-on schedule check

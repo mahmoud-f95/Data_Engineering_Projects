@@ -1,0 +1,47 @@
+[2024-01-14T15:44:05.420+0200] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: example_branch_operator.branching_venv scheduled__2024-01-13T00:00:00+00:00 [queued]>
+[2024-01-14T15:44:05.426+0200] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: example_branch_operator.branching_venv scheduled__2024-01-13T00:00:00+00:00 [queued]>
+[2024-01-14T15:44:05.426+0200] {taskinstance.py:2171} INFO - Starting attempt 2 of 2
+[2024-01-14T15:44:05.443+0200] {taskinstance.py:2192} INFO - Executing <Task(BranchPythonVirtualenvOperator): branching_venv> on 2024-01-13 00:00:00+00:00
+[2024-01-14T15:44:05.445+0200] {standard_task_runner.py:60} INFO - Started process 26979 to run task
+[2024-01-14T15:44:05.447+0200] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'example_branch_operator', 'branching_venv', 'scheduled__2024-01-13T00:00:00+00:00', '--job-id', '16', '--raw', '--subdir', '/home/mahmoud/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py', '--cfg-path', '/tmp/tmpm_f0papi']
+[2024-01-14T15:44:05.448+0200] {standard_task_runner.py:88} INFO - Job 16: Subtask branching_venv
+[2024-01-14T15:44:05.484+0200] {task_command.py:423} INFO - Running <TaskInstance: example_branch_operator.branching_venv scheduled__2024-01-13T00:00:00+00:00 [running]> on host DESKTOP-9NHC01K.
+[2024-01-14T15:44:05.528+0200] {taskinstance.py:2481} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='example_branch_operator' AIRFLOW_CTX_TASK_ID='branching_venv' AIRFLOW_CTX_EXECUTION_DATE='2024-01-13T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-01-13T00:00:00+00:00'
+[2024-01-14T15:44:05.531+0200] {python.py:662} INFO - Python virtual environment will be cached in /tmp/venv-ebe3c33d
+[2024-01-14T15:44:05.532+0200] {process_utils.py:182} INFO - Executing cmd: /home/mahmoud/airflow_env/bin/python -m virtualenv /tmp/venv-ebe3c33d --system-site-packages --python=python
+[2024-01-14T15:44:05.533+0200] {process_utils.py:186} INFO - Output:
+[2024-01-14T15:44:05.546+0200] {process_utils.py:190} INFO - /home/mahmoud/airflow_env/bin/python: No module named virtualenv
+[2024-01-14T15:44:05.551+0200] {taskinstance.py:2699} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/mahmoud/airflow_env/lib/python3.10/site-packages/airflow/operators/python.py", line 695, in _ensure_venv_cache_exists
+    self._prepare_venv(venv_path)
+  File "/home/mahmoud/airflow_env/lib/python3.10/site-packages/airflow/operators/python.py", line 623, in _prepare_venv
+    prepare_virtualenv(
+  File "/home/mahmoud/airflow_env/lib/python3.10/site-packages/airflow/utils/python_virtualenv.py", line 104, in prepare_virtualenv
+    execute_in_subprocess(virtualenv_cmd)
+  File "/home/mahmoud/airflow_env/lib/python3.10/site-packages/airflow/utils/process_utils.py", line 171, in execute_in_subprocess
+    execute_in_subprocess_with_kwargs(cmd, cwd=cwd)
+  File "/home/mahmoud/airflow_env/lib/python3.10/site-packages/airflow/utils/process_utils.py", line 194, in execute_in_subprocess_with_kwargs
+    raise subprocess.CalledProcessError(exit_code, cmd)
+subprocess.CalledProcessError: Command '['/home/mahmoud/airflow_env/bin/python', '-m', 'virtualenv', '/tmp/venv-ebe3c33d', '--system-site-packages', '--python=python']' returned non-zero exit status 1.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/mahmoud/airflow_env/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/mahmoud/airflow_env/lib/python3.10/site-packages/airflow/operators/python.py", line 743, in execute
+    return self.do_branch(context, super().execute(context))
+  File "/home/mahmoud/airflow_env/lib/python3.10/site-packages/airflow/operators/python.py", line 400, in execute
+    return super().execute(context=serializable_context)
+  File "/home/mahmoud/airflow_env/lib/python3.10/site-packages/airflow/operators/python.py", line 199, in execute
+    return_value = self.execute_callable()
+  File "/home/mahmoud/airflow_env/lib/python3.10/site-packages/airflow/operators/python.py", line 705, in execute_callable
+    venv_path = self._ensure_venv_cache_exists(Path(self.venv_cache_path))
+  File "/home/mahmoud/airflow_env/lib/python3.10/site-packages/airflow/operators/python.py", line 699, in _ensure_venv_cache_exists
+    raise AirflowException(f"Unable to create new virtual environment in {venv_path}") from e
+airflow.exceptions.AirflowException: Unable to create new virtual environment in /tmp/venv-ebe3c33d
+[2024-01-14T15:44:05.554+0200] {taskinstance.py:1138} INFO - Marking task as FAILED. dag_id=example_branch_operator, task_id=branching_venv, execution_date=20240113T000000, start_date=20240114T134405, end_date=20240114T134405
+[2024-01-14T15:44:05.566+0200] {standard_task_runner.py:107} ERROR - Failed to execute job 16 for task branching_venv (Unable to create new virtual environment in /tmp/venv-ebe3c33d; 26979)
+[2024-01-14T15:44:05.580+0200] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2024-01-14T15:44:05.601+0200] {taskinstance.py:3281} INFO - 0 downstream tasks scheduled from follow-on schedule check

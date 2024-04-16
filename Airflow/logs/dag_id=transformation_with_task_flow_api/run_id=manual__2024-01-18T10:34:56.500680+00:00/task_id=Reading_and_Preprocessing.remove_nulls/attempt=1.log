@@ -1,0 +1,71 @@
+[2024-01-18T12:35:06.051+0200] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: transformation_with_task_flow_api.Reading_and_Preprocessing.remove_nulls manual__2024-01-18T10:34:56.500680+00:00 [queued]>
+[2024-01-18T12:35:06.056+0200] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: transformation_with_task_flow_api.Reading_and_Preprocessing.remove_nulls manual__2024-01-18T10:34:56.500680+00:00 [queued]>
+[2024-01-18T12:35:06.057+0200] {taskinstance.py:2171} INFO - Starting attempt 1 of 1
+[2024-01-18T12:35:06.075+0200] {taskinstance.py:2192} INFO - Executing <Task(_PythonDecoratedOperator): Reading_and_Preprocessing.remove_nulls> on 2024-01-18 10:34:56.500680+00:00
+[2024-01-18T12:35:06.077+0200] {standard_task_runner.py:60} INFO - Started process 12509 to run task
+[2024-01-18T12:35:06.080+0200] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'transformation_with_task_flow_api', 'Reading_and_Preprocessing.remove_nulls', 'manual__2024-01-18T10:34:56.500680+00:00', '--job-id', '175', '--raw', '--subdir', 'DAGS_FOLDER/applying_task_flow_api.py', '--cfg-path', '/tmp/tmpde3u7dun']
+[2024-01-18T12:35:06.082+0200] {standard_task_runner.py:88} INFO - Job 175: Subtask Reading_and_Preprocessing.remove_nulls
+[2024-01-18T12:35:06.116+0200] {task_command.py:423} INFO - Running <TaskInstance: transformation_with_task_flow_api.Reading_and_Preprocessing.remove_nulls manual__2024-01-18T10:34:56.500680+00:00 [running]> on host DESKTOP-9NHC01K.
+[2024-01-18T12:35:06.184+0200] {taskinstance.py:2481} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='transformation_with_task_flow_api' AIRFLOW_CTX_TASK_ID='Reading_and_Preprocessing.remove_nulls' AIRFLOW_CTX_EXECUTION_DATE='2024-01-18T10:34:56.500680+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-01-18T10:34:56.500680+00:00'
+[2024-01-18T12:35:06.189+0200] {logging_mixin.py:188} WARNING - /home/mahmoud/airflow/dags/applying_task_flow_api.py:23 FutureWarning: Passing literal json to 'read_json' is deprecated and will be removed in a future version. To read from a literal string, wrap it in a 'StringIO' object.
+[2024-01-18T12:35:06.212+0200] {logging_mixin.py:188} INFO -        age     sex     bmi  children smoker     region      charges
+0     19.0  female  27.900       0.0    yes  southwest  16884.92400
+1     18.0    male  33.770       1.0     no  southeast   1725.55230
+2     28.0    male  33.000       3.0     no  southeast   4449.46200
+4     25.0    male  28.600       1.0     no  southeast   3366.66970
+5     33.0    male  22.705       0.0     no  northwest  21984.47061
+...    ...     ...     ...       ...    ...        ...          ...
+1343  61.0  female  29.070       0.0    yes  northwest  29141.36030
+1344  18.0  female  31.920       0.0     no  northeast   2205.98080
+1345  18.0  female  36.850       0.0     no  southeast   1629.83350
+1346  21.0  female  25.800       0.0     no  southwest   2007.94500
+1348  42.0    male  35.120       0.0     no  southwest   5976.83110
+
+[1345 rows x 7 columns]
+[2024-01-18T12:35:06.212+0200] {python.py:201} INFO - Done. Returned value was:        age     sex     bmi  children smoker     region      charges
+0     19.0  female  27.900       0.0    yes  southwest  16884.92400
+1     18.0    male  33.770       1.0     no  southeast   1725.55230
+2     28.0    male  33.000       3.0     no  southeast   4449.46200
+4     25.0    male  28.600       1.0     no  southeast   3366.66970
+5     33.0    male  22.705       0.0     no  northwest  21984.47061
+...    ...     ...     ...       ...    ...        ...          ...
+1343  61.0  female  29.070       0.0    yes  northwest  29141.36030
+1344  18.0  female  31.920       0.0     no  northeast   2205.98080
+1345  18.0  female  36.850       0.0     no  southeast   1629.83350
+1346  21.0  female  25.800       0.0     no  southwest   2007.94500
+1348  42.0    male  35.120       0.0     no  southwest   5976.83110
+
+[1345 rows x 7 columns]
+[2024-01-18T12:35:06.222+0200] {taskinstance.py:2699} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/mahmoud/airflow_env/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 440, in _execute_task
+    task_instance.xcom_push(key=XCOM_RETURN_KEY, value=xcom_value, session=session)
+  File "/home/mahmoud/airflow_env/lib/python3.10/site-packages/airflow/utils/session.py", line 76, in wrapper
+    return func(*args, **kwargs)
+  File "/home/mahmoud/airflow_env/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 2981, in xcom_push
+    XCom.set(
+  File "/home/mahmoud/airflow_env/lib/python3.10/site-packages/airflow/utils/session.py", line 76, in wrapper
+    return func(*args, **kwargs)
+  File "/home/mahmoud/airflow_env/lib/python3.10/site-packages/airflow/models/xcom.py", line 247, in set
+    value = cls.serialize_value(
+  File "/home/mahmoud/airflow_env/lib/python3.10/site-packages/airflow/models/xcom.py", line 662, in serialize_value
+    return json.dumps(value, cls=XComEncoder).encode("UTF-8")
+  File "/usr/lib/python3.10/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/home/mahmoud/airflow_env/lib/python3.10/site-packages/airflow/utils/json.py", line 104, in encode
+    return super().encode(o)
+  File "/usr/lib/python3.10/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.10/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/mahmoud/airflow_env/lib/python3.10/site-packages/airflow/utils/json.py", line 91, in default
+    return serialize(o)
+  File "/home/mahmoud/airflow_env/lib/python3.10/site-packages/airflow/serialization/serde.py", line 145, in serialize
+    data, classname, version, is_serialized = _serializers[qn].serialize(o)
+  File "/home/mahmoud/airflow_env/lib/python3.10/site-packages/airflow/serialization/serializers/pandas.py", line 40, in serialize
+    import pyarrow as pa
+ModuleNotFoundError: No module named 'pyarrow'
+[2024-01-18T12:35:06.225+0200] {taskinstance.py:1138} INFO - Marking task as FAILED. dag_id=transformation_with_task_flow_api, task_id=Reading_and_Preprocessing.remove_nulls, execution_date=20240118T103456, start_date=20240118T103506, end_date=20240118T103506
+[2024-01-18T12:35:06.249+0200] {standard_task_runner.py:107} ERROR - Failed to execute job 175 for task Reading_and_Preprocessing.remove_nulls (No module named 'pyarrow'; 12509)
+[2024-01-18T12:35:06.253+0200] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2024-01-18T12:35:06.269+0200] {taskinstance.py:3281} INFO - 0 downstream tasks scheduled from follow-on schedule check

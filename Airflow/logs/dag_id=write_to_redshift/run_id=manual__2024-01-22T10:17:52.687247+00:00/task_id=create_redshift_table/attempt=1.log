@@ -1,0 +1,45 @@
+[2024-01-22T12:17:55.377+0200] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: write_to_redshift.create_redshift_table manual__2024-01-22T10:17:52.687247+00:00 [queued]>
+[2024-01-22T12:17:55.382+0200] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: write_to_redshift.create_redshift_table manual__2024-01-22T10:17:52.687247+00:00 [queued]>
+[2024-01-22T12:17:55.383+0200] {taskinstance.py:2171} INFO - Starting attempt 1 of 1
+[2024-01-22T12:17:55.403+0200] {taskinstance.py:2192} INFO - Executing <Task(PythonOperator): create_redshift_table> on 2024-01-22 10:17:52.687247+00:00
+[2024-01-22T12:17:55.405+0200] {standard_task_runner.py:60} INFO - Started process 6856 to run task
+[2024-01-22T12:17:55.407+0200] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'write_to_redshift', 'create_redshift_table', 'manual__2024-01-22T10:17:52.687247+00:00', '--job-id', '219', '--raw', '--subdir', 'DAGS_FOLDER/write_to_redshift.py', '--cfg-path', '/tmp/tmptddjox1f']
+[2024-01-22T12:17:55.408+0200] {standard_task_runner.py:88} INFO - Job 219: Subtask create_redshift_table
+[2024-01-22T12:17:55.446+0200] {task_command.py:423} INFO - Running <TaskInstance: write_to_redshift.create_redshift_table manual__2024-01-22T10:17:52.687247+00:00 [running]> on host DESKTOP-9NHC01K.
+[2024-01-22T12:17:55.504+0200] {taskinstance.py:2481} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='write_to_redshift' AIRFLOW_CTX_TASK_ID='create_redshift_table' AIRFLOW_CTX_EXECUTION_DATE='2024-01-22T10:17:52.687247+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-01-22T10:17:52.687247+00:00'
+[2024-01-22T12:17:55.509+0200] {base.py:83} INFO - Using connection ID 'redshift_default' for task execution.
+[2024-01-22T12:17:55.511+0200] {base.py:83} INFO - Using connection ID 'my_aws_cnn' for task execution.
+[2024-01-22T12:17:55.511+0200] {connection_wrapper.py:378} INFO - AWS Connection (conn_id='my_aws_cnn', conn_type='aws') credentials retrieved from login and password.
+[2024-01-22T12:17:55.787+0200] {taskinstance.py:2699} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/mahmoud/airflow_env/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/mahmoud/airflow_env/lib/python3.10/site-packages/airflow/operators/python.py", line 199, in execute
+    return_value = self.execute_callable()
+  File "/home/mahmoud/airflow_env/lib/python3.10/site-packages/airflow/operators/python.py", line 216, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/mahmoud/airflow/dags/write_to_redshift.py", line 11, in create_table_in_redshift
+    redshift_conn = redshift_hook.get_conn()
+  File "/home/mahmoud/airflow_env/lib/python3.10/site-packages/airflow/providers/amazon/aws/hooks/redshift_sql.py", line 197, in get_conn
+    conn_params = self._get_conn_params()
+  File "/home/mahmoud/airflow_env/lib/python3.10/site-packages/airflow/providers/amazon/aws/hooks/redshift_sql.py", line 85, in _get_conn_params
+    conn.login, conn.password, conn.port = self.get_iam_token(conn)
+  File "/home/mahmoud/airflow_env/lib/python3.10/site-packages/airflow/providers/amazon/aws/hooks/redshift_sql.py", line 139, in get_iam_token
+    cluster_creds = redshift_client.get_cluster_credentials(
+  File "/home/mahmoud/airflow_env/lib/python3.10/site-packages/botocore/client.py", line 553, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+  File "/home/mahmoud/airflow_env/lib/python3.10/site-packages/botocore/client.py", line 962, in _make_api_call
+    request_dict = self._convert_to_request_dict(
+  File "/home/mahmoud/airflow_env/lib/python3.10/site-packages/botocore/client.py", line 1036, in _convert_to_request_dict
+    request_dict = self._serializer.serialize_to_request(
+  File "/home/mahmoud/airflow_env/lib/python3.10/site-packages/botocore/validate.py", line 381, in serialize_to_request
+    raise ParamValidationError(report=report.generate_report())
+botocore.exceptions.ParamValidationError: Parameter validation failed:
+Invalid type for parameter DbUser, value: None, type: <class 'NoneType'>, valid types: <class 'str'>
+Invalid type for parameter DbName, value: None, type: <class 'NoneType'>, valid types: <class 'str'>
+[2024-01-22T12:17:55.792+0200] {taskinstance.py:1138} INFO - Marking task as FAILED. dag_id=write_to_redshift, task_id=create_redshift_table, execution_date=20240122T101752, start_date=20240122T101755, end_date=20240122T101755
+[2024-01-22T12:17:55.804+0200] {standard_task_runner.py:107} ERROR - Failed to execute job 219 for task create_redshift_table (Parameter validation failed:
+Invalid type for parameter DbUser, value: None, type: <class 'NoneType'>, valid types: <class 'str'>
+Invalid type for parameter DbName, value: None, type: <class 'NoneType'>, valid types: <class 'str'>; 6856)
+[2024-01-22T12:17:55.820+0200] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2024-01-22T12:17:55.829+0200] {taskinstance.py:3281} INFO - 0 downstream tasks scheduled from follow-on schedule check

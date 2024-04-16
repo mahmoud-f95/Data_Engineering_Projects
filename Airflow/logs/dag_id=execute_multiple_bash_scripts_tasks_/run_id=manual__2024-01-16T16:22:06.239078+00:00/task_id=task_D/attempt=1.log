@@ -1,0 +1,17 @@
+[2024-01-16T18:22:27.866+0200] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: execute_multiple_bash_scripts_tasks_.task_D manual__2024-01-16T16:22:06.239078+00:00 [queued]>
+[2024-01-16T18:22:27.873+0200] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: execute_multiple_bash_scripts_tasks_.task_D manual__2024-01-16T16:22:06.239078+00:00 [queued]>
+[2024-01-16T18:22:27.873+0200] {taskinstance.py:2171} INFO - Starting attempt 1 of 1
+[2024-01-16T18:22:27.894+0200] {taskinstance.py:2192} INFO - Executing <Task(BashOperator): task_D> on 2024-01-16 16:22:06.239078+00:00
+[2024-01-16T18:22:27.898+0200] {standard_task_runner.py:60} INFO - Started process 64643 to run task
+[2024-01-16T18:22:27.902+0200] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'execute_multiple_bash_scripts_tasks_', 'task_D', 'manual__2024-01-16T16:22:06.239078+00:00', '--job-id', '162', '--raw', '--subdir', 'DAGS_FOLDER/exec_multi_tasks_w_sep_bash_scripts.py', '--cfg-path', '/tmp/tmp9w_imxoe']
+[2024-01-16T18:22:27.905+0200] {standard_task_runner.py:88} INFO - Job 162: Subtask task_D
+[2024-01-16T18:22:27.959+0200] {task_command.py:423} INFO - Running <TaskInstance: execute_multiple_bash_scripts_tasks_.task_D manual__2024-01-16T16:22:06.239078+00:00 [running]> on host DESKTOP-9NHC01K.
+[2024-01-16T18:22:28.021+0200] {taskinstance.py:2481} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='execute_multiple_bash_scripts_tasks_' AIRFLOW_CTX_TASK_ID='task_D' AIRFLOW_CTX_EXECUTION_DATE='2024-01-16T16:22:06.239078+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-01-16T16:22:06.239078+00:00'
+[2024-01-16T18:22:28.023+0200] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2024-01-16T18:22:28.023+0200] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'echo task D has ended']
+[2024-01-16T18:22:28.028+0200] {subprocess.py:86} INFO - Output:
+[2024-01-16T18:22:28.028+0200] {subprocess.py:93} INFO - task D has ended
+[2024-01-16T18:22:28.029+0200] {subprocess.py:97} INFO - Command exited with return code 0
+[2024-01-16T18:22:28.049+0200] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=execute_multiple_bash_scripts_tasks_, task_id=task_D, execution_date=20240116T162206, start_date=20240116T162227, end_date=20240116T162228
+[2024-01-16T18:22:28.074+0200] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-01-16T18:22:28.102+0200] {taskinstance.py:3281} INFO - 1 downstream tasks scheduled from follow-on schedule check

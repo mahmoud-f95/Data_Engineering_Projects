@@ -1,0 +1,25 @@
+[2024-01-16T18:28:25.070+0200] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: execute_multiple_bash_scripts_tasks_.task_C manual__2024-01-16T16:28:13.152014+00:00 [queued]>
+[2024-01-16T18:28:25.075+0200] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: execute_multiple_bash_scripts_tasks_.task_C manual__2024-01-16T16:28:13.152014+00:00 [queued]>
+[2024-01-16T18:28:25.075+0200] {taskinstance.py:2171} INFO - Starting attempt 1 of 1
+[2024-01-16T18:28:25.093+0200] {taskinstance.py:2192} INFO - Executing <Task(BashOperator): task_C> on 2024-01-16 16:28:13.152014+00:00
+[2024-01-16T18:28:25.095+0200] {standard_task_runner.py:60} INFO - Started process 66495 to run task
+[2024-01-16T18:28:25.098+0200] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'execute_multiple_bash_scripts_tasks_', 'task_C', 'manual__2024-01-16T16:28:13.152014+00:00', '--job-id', '168', '--raw', '--subdir', 'DAGS_FOLDER/exec_multi_tasks_w_sep_bash_scripts.py', '--cfg-path', '/tmp/tmp37nzm5x7']
+[2024-01-16T18:28:25.100+0200] {standard_task_runner.py:88} INFO - Job 168: Subtask task_C
+[2024-01-16T18:28:25.139+0200] {task_command.py:423} INFO - Running <TaskInstance: execute_multiple_bash_scripts_tasks_.task_C manual__2024-01-16T16:28:13.152014+00:00 [running]> on host DESKTOP-9NHC01K.
+[2024-01-16T18:28:25.197+0200] {taskinstance.py:2481} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='execute_multiple_bash_scripts_tasks_' AIRFLOW_CTX_TASK_ID='task_C' AIRFLOW_CTX_EXECUTION_DATE='2024-01-16T16:28:13.152014+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-01-16T16:28:13.152014+00:00'
+[2024-01-16T18:28:25.198+0200] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2024-01-16T18:28:25.199+0200] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'echo task C has started\nsleep 8\nexit 130\necho task C has ended']
+[2024-01-16T18:28:25.204+0200] {subprocess.py:86} INFO - Output:
+[2024-01-16T18:28:25.205+0200] {subprocess.py:93} INFO - task C has started
+[2024-01-16T18:28:33.208+0200] {subprocess.py:97} INFO - Command exited with return code 130
+[2024-01-16T18:28:33.234+0200] {taskinstance.py:2699} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/mahmoud/airflow_env/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/mahmoud/airflow_env/lib/python3.10/site-packages/airflow/operators/bash.py", line 212, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 130.
+[2024-01-16T18:28:33.248+0200] {taskinstance.py:1138} INFO - Marking task as FAILED. dag_id=execute_multiple_bash_scripts_tasks_, task_id=task_C, execution_date=20240116T162813, start_date=20240116T162825, end_date=20240116T162833
+[2024-01-16T18:28:33.330+0200] {standard_task_runner.py:107} ERROR - Failed to execute job 168 for task task_C (Bash command failed. The command returned a non-zero exit code 130.; 66495)
+[2024-01-16T18:28:33.344+0200] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2024-01-16T18:28:33.403+0200] {taskinstance.py:3281} INFO - 0 downstream tasks scheduled from follow-on schedule check

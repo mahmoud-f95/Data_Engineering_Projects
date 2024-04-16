@@ -1,0 +1,476 @@
+[2024-04-15T12:30:28.757+0200] {processor.py:161} INFO - Started process (PID=2229) to work on /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:30:28.757+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/branching_w_variables.py for tasks to queue
+[2024-04-15T12:30:28.758+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:30:28.758+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:30:29.523+0200] {processor.py:840} INFO - DAG(s) 'branching_with_variables' retrieved from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:30:29.618+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:30:29.618+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:30:29.635+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:30:29.635+0200] {dag.py:3820} INFO - Setting next_dagrun for branching_with_variables to None, run_after=None
+[2024-04-15T12:30:29.661+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/branching_w_variables.py took 0.907 seconds
+[2024-04-15T12:31:00.124+0200] {processor.py:161} INFO - Started process (PID=2619) to work on /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:31:00.124+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/branching_w_variables.py for tasks to queue
+[2024-04-15T12:31:00.125+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:31:00.125+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:31:00.537+0200] {processor.py:840} INFO - DAG(s) 'branching_with_variables' retrieved from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:31:00.549+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:31:00.549+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:31:00.562+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:31:00.562+0200] {dag.py:3820} INFO - Setting next_dagrun for branching_with_variables to None, run_after=None
+[2024-04-15T12:31:00.593+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/branching_w_variables.py took 0.472 seconds
+[2024-04-15T12:31:30.991+0200] {processor.py:161} INFO - Started process (PID=2965) to work on /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:31:31.003+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/branching_w_variables.py for tasks to queue
+[2024-04-15T12:31:31.004+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:31:31.004+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:31:31.411+0200] {processor.py:840} INFO - DAG(s) 'branching_with_variables' retrieved from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:31:31.424+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:31:31.424+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:31:31.438+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:31:31.438+0200] {dag.py:3820} INFO - Setting next_dagrun for branching_with_variables to None, run_after=None
+[2024-04-15T12:31:31.467+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/branching_w_variables.py took 0.480 seconds
+[2024-04-15T12:32:01.761+0200] {processor.py:161} INFO - Started process (PID=3202) to work on /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:32:01.762+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/branching_w_variables.py for tasks to queue
+[2024-04-15T12:32:01.764+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:32:01.763+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:32:02.211+0200] {processor.py:840} INFO - DAG(s) 'branching_with_variables' retrieved from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:32:02.224+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:32:02.223+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:32:02.237+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:32:02.237+0200] {dag.py:3820} INFO - Setting next_dagrun for branching_with_variables to None, run_after=None
+[2024-04-15T12:32:02.258+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/branching_w_variables.py took 0.499 seconds
+[2024-04-15T12:32:32.645+0200] {processor.py:161} INFO - Started process (PID=3441) to work on /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:32:32.658+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/branching_w_variables.py for tasks to queue
+[2024-04-15T12:32:32.661+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:32:32.660+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:32:33.088+0200] {processor.py:840} INFO - DAG(s) 'branching_with_variables' retrieved from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:32:33.108+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:32:33.108+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:32:33.134+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:32:33.133+0200] {dag.py:3820} INFO - Setting next_dagrun for branching_with_variables to None, run_after=None
+[2024-04-15T12:32:33.156+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/branching_w_variables.py took 0.515 seconds
+[2024-04-15T12:33:03.540+0200] {processor.py:161} INFO - Started process (PID=3748) to work on /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:33:03.541+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/branching_w_variables.py for tasks to queue
+[2024-04-15T12:33:03.542+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:33:03.542+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:33:03.991+0200] {processor.py:840} INFO - DAG(s) 'branching_with_variables' retrieved from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:33:04.011+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:33:04.010+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:33:04.030+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:33:04.030+0200] {dag.py:3820} INFO - Setting next_dagrun for branching_with_variables to None, run_after=None
+[2024-04-15T12:33:04.052+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/branching_w_variables.py took 0.517 seconds
+[2024-04-15T12:33:34.466+0200] {processor.py:161} INFO - Started process (PID=4036) to work on /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:33:34.468+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/branching_w_variables.py for tasks to queue
+[2024-04-15T12:33:34.469+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:33:34.469+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:33:34.878+0200] {processor.py:840} INFO - DAG(s) 'branching_with_variables' retrieved from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:33:34.893+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:33:34.893+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:33:34.908+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:33:34.908+0200] {dag.py:3820} INFO - Setting next_dagrun for branching_with_variables to None, run_after=None
+[2024-04-15T12:33:34.940+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/branching_w_variables.py took 0.478 seconds
+[2024-04-15T12:34:05.335+0200] {processor.py:161} INFO - Started process (PID=4352) to work on /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:34:05.336+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/branching_w_variables.py for tasks to queue
+[2024-04-15T12:34:05.337+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:34:05.337+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:34:05.812+0200] {processor.py:840} INFO - DAG(s) 'branching_with_variables' retrieved from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:34:05.825+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:34:05.825+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:34:05.839+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:34:05.839+0200] {dag.py:3820} INFO - Setting next_dagrun for branching_with_variables to None, run_after=None
+[2024-04-15T12:34:05.862+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/branching_w_variables.py took 0.532 seconds
+[2024-04-15T12:34:36.062+0200] {processor.py:161} INFO - Started process (PID=4735) to work on /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:34:36.074+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/branching_w_variables.py for tasks to queue
+[2024-04-15T12:34:36.075+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:34:36.075+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:34:36.613+0200] {processor.py:840} INFO - DAG(s) 'branching_with_variables' retrieved from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:34:36.635+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:34:36.635+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:34:36.684+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:34:36.683+0200] {dag.py:3820} INFO - Setting next_dagrun for branching_with_variables to None, run_after=None
+[2024-04-15T12:34:36.730+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/branching_w_variables.py took 0.676 seconds
+[2024-04-15T12:35:06.964+0200] {processor.py:161} INFO - Started process (PID=5057) to work on /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:35:06.966+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/branching_w_variables.py for tasks to queue
+[2024-04-15T12:35:06.967+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:35:06.967+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:35:07.407+0200] {processor.py:840} INFO - DAG(s) 'branching_with_variables' retrieved from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:35:07.422+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:35:07.422+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:35:07.439+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:35:07.439+0200] {dag.py:3820} INFO - Setting next_dagrun for branching_with_variables to None, run_after=None
+[2024-04-15T12:35:07.471+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/branching_w_variables.py took 0.512 seconds
+[2024-04-15T12:35:37.671+0200] {processor.py:161} INFO - Started process (PID=5349) to work on /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:35:37.682+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/branching_w_variables.py for tasks to queue
+[2024-04-15T12:35:37.683+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:35:37.683+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:35:38.087+0200] {processor.py:840} INFO - DAG(s) 'branching_with_variables' retrieved from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:35:38.101+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:35:38.101+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:35:38.115+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:35:38.115+0200] {dag.py:3820} INFO - Setting next_dagrun for branching_with_variables to None, run_after=None
+[2024-04-15T12:35:38.146+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/branching_w_variables.py took 0.479 seconds
+[2024-04-15T12:36:08.284+0200] {processor.py:161} INFO - Started process (PID=5580) to work on /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:36:08.286+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/branching_w_variables.py for tasks to queue
+[2024-04-15T12:36:08.287+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:36:08.287+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:36:08.692+0200] {processor.py:840} INFO - DAG(s) 'branching_with_variables' retrieved from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:36:08.709+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:36:08.708+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:36:08.723+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:36:08.723+0200] {dag.py:3820} INFO - Setting next_dagrun for branching_with_variables to None, run_after=None
+[2024-04-15T12:36:08.747+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/branching_w_variables.py took 0.468 seconds
+[2024-04-15T12:36:38.898+0200] {processor.py:161} INFO - Started process (PID=5863) to work on /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:36:38.910+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/branching_w_variables.py for tasks to queue
+[2024-04-15T12:36:38.912+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:36:38.911+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:36:39.330+0200] {processor.py:840} INFO - DAG(s) 'branching_with_variables' retrieved from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:36:39.342+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:36:39.342+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:36:39.356+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:36:39.356+0200] {dag.py:3820} INFO - Setting next_dagrun for branching_with_variables to None, run_after=None
+[2024-04-15T12:36:39.377+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/branching_w_variables.py took 0.485 seconds
+[2024-04-15T12:37:09.461+0200] {processor.py:161} INFO - Started process (PID=6147) to work on /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:37:09.473+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/branching_w_variables.py for tasks to queue
+[2024-04-15T12:37:09.474+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:37:09.474+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:37:09.864+0200] {processor.py:840} INFO - DAG(s) 'branching_with_variables' retrieved from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:37:09.877+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:37:09.876+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:37:09.892+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:37:09.892+0200] {dag.py:3820} INFO - Setting next_dagrun for branching_with_variables to None, run_after=None
+[2024-04-15T12:37:09.916+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/branching_w_variables.py took 0.460 seconds
+[2024-04-15T12:37:40.106+0200] {processor.py:161} INFO - Started process (PID=6434) to work on /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:37:40.107+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/branching_w_variables.py for tasks to queue
+[2024-04-15T12:37:40.107+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:37:40.107+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:37:40.538+0200] {processor.py:840} INFO - DAG(s) 'branching_with_variables' retrieved from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:37:40.550+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:37:40.550+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:37:40.563+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:37:40.563+0200] {dag.py:3820} INFO - Setting next_dagrun for branching_with_variables to None, run_after=None
+[2024-04-15T12:37:40.583+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/branching_w_variables.py took 0.481 seconds
+[2024-04-15T12:38:10.744+0200] {processor.py:161} INFO - Started process (PID=6747) to work on /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:38:10.745+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/branching_w_variables.py for tasks to queue
+[2024-04-15T12:38:10.747+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:38:10.746+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:38:11.175+0200] {processor.py:840} INFO - DAG(s) 'branching_with_variables' retrieved from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:38:11.189+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:38:11.189+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:38:11.205+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:38:11.204+0200] {dag.py:3820} INFO - Setting next_dagrun for branching_with_variables to None, run_after=None
+[2024-04-15T12:38:11.228+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/branching_w_variables.py took 0.489 seconds
+[2024-04-15T12:38:41.374+0200] {processor.py:161} INFO - Started process (PID=6989) to work on /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:38:41.386+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/branching_w_variables.py for tasks to queue
+[2024-04-15T12:38:41.388+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:38:41.387+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:38:41.797+0200] {processor.py:840} INFO - DAG(s) 'branching_with_variables' retrieved from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:38:41.811+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:38:41.810+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:38:41.822+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:38:41.822+0200] {dag.py:3820} INFO - Setting next_dagrun for branching_with_variables to None, run_after=None
+[2024-04-15T12:38:41.845+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/branching_w_variables.py took 0.480 seconds
+[2024-04-15T12:39:11.970+0200] {processor.py:161} INFO - Started process (PID=7342) to work on /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:39:11.971+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/branching_w_variables.py for tasks to queue
+[2024-04-15T12:39:11.972+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:39:11.971+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:39:12.381+0200] {processor.py:840} INFO - DAG(s) 'branching_with_variables' retrieved from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:39:12.394+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:39:12.394+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:39:12.408+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:39:12.408+0200] {dag.py:3820} INFO - Setting next_dagrun for branching_with_variables to None, run_after=None
+[2024-04-15T12:39:12.426+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/branching_w_variables.py took 0.460 seconds
+[2024-04-15T12:39:42.608+0200] {processor.py:161} INFO - Started process (PID=7673) to work on /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:39:42.609+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/branching_w_variables.py for tasks to queue
+[2024-04-15T12:39:42.610+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:39:42.610+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:39:43.015+0200] {processor.py:840} INFO - DAG(s) 'branching_with_variables' retrieved from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:39:43.027+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:39:43.026+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:39:43.038+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:39:43.038+0200] {dag.py:3820} INFO - Setting next_dagrun for branching_with_variables to None, run_after=None
+[2024-04-15T12:39:43.082+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/branching_w_variables.py took 0.478 seconds
+[2024-04-15T12:40:13.225+0200] {processor.py:161} INFO - Started process (PID=8013) to work on /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:40:13.226+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/branching_w_variables.py for tasks to queue
+[2024-04-15T12:40:13.227+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:40:13.226+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:40:13.640+0200] {processor.py:840} INFO - DAG(s) 'branching_with_variables' retrieved from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:40:13.651+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:40:13.651+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:40:13.663+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:40:13.663+0200] {dag.py:3820} INFO - Setting next_dagrun for branching_with_variables to None, run_after=None
+[2024-04-15T12:40:13.686+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/branching_w_variables.py took 0.463 seconds
+[2024-04-15T12:40:43.829+0200] {processor.py:161} INFO - Started process (PID=8434) to work on /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:40:43.832+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/branching_w_variables.py for tasks to queue
+[2024-04-15T12:40:43.833+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:40:43.832+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:40:44.253+0200] {processor.py:840} INFO - DAG(s) 'branching_with_variables' retrieved from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:40:44.266+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:40:44.265+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:40:44.278+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:40:44.278+0200] {dag.py:3820} INFO - Setting next_dagrun for branching_with_variables to None, run_after=None
+[2024-04-15T12:40:44.312+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/branching_w_variables.py took 0.488 seconds
+[2024-04-15T12:41:14.458+0200] {processor.py:161} INFO - Started process (PID=8736) to work on /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:41:14.461+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/branching_w_variables.py for tasks to queue
+[2024-04-15T12:41:14.463+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:41:14.463+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:41:14.882+0200] {processor.py:840} INFO - DAG(s) 'branching_with_variables' retrieved from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:41:14.896+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:41:14.896+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:41:14.913+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:41:14.913+0200] {dag.py:3820} INFO - Setting next_dagrun for branching_with_variables to None, run_after=None
+[2024-04-15T12:41:14.934+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/branching_w_variables.py took 0.484 seconds
+[2024-04-15T12:41:45.086+0200] {processor.py:161} INFO - Started process (PID=8965) to work on /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:41:45.089+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/branching_w_variables.py for tasks to queue
+[2024-04-15T12:41:45.091+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:41:45.090+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:41:45.481+0200] {processor.py:840} INFO - DAG(s) 'branching_with_variables' retrieved from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:41:45.493+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:41:45.493+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:41:45.505+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:41:45.504+0200] {dag.py:3820} INFO - Setting next_dagrun for branching_with_variables to None, run_after=None
+[2024-04-15T12:41:45.537+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/branching_w_variables.py took 0.456 seconds
+[2024-04-15T12:42:15.759+0200] {processor.py:161} INFO - Started process (PID=9201) to work on /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:42:15.762+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/branching_w_variables.py for tasks to queue
+[2024-04-15T12:42:15.764+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:42:15.763+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:42:16.152+0200] {processor.py:840} INFO - DAG(s) 'branching_with_variables' retrieved from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:42:16.165+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:42:16.165+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:42:16.177+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:42:16.177+0200] {dag.py:3820} INFO - Setting next_dagrun for branching_with_variables to None, run_after=None
+[2024-04-15T12:42:16.209+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/branching_w_variables.py took 0.457 seconds
+[2024-04-15T12:42:46.386+0200] {processor.py:161} INFO - Started process (PID=9436) to work on /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:42:46.399+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/branching_w_variables.py for tasks to queue
+[2024-04-15T12:42:46.401+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:42:46.400+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:42:46.860+0200] {processor.py:840} INFO - DAG(s) 'branching_with_variables' retrieved from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:42:46.873+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:42:46.872+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:42:46.885+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:42:46.884+0200] {dag.py:3820} INFO - Setting next_dagrun for branching_with_variables to None, run_after=None
+[2024-04-15T12:42:46.916+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/branching_w_variables.py took 0.537 seconds
+[2024-04-15T12:43:17.180+0200] {processor.py:161} INFO - Started process (PID=9738) to work on /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:43:17.182+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/branching_w_variables.py for tasks to queue
+[2024-04-15T12:43:17.183+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:43:17.182+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:43:17.589+0200] {processor.py:840} INFO - DAG(s) 'branching_with_variables' retrieved from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:43:17.601+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:43:17.601+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:43:17.613+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:43:17.613+0200] {dag.py:3820} INFO - Setting next_dagrun for branching_with_variables to None, run_after=None
+[2024-04-15T12:43:17.635+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/branching_w_variables.py took 0.459 seconds
+[2024-04-15T12:43:47.745+0200] {processor.py:161} INFO - Started process (PID=9973) to work on /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:43:47.747+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/branching_w_variables.py for tasks to queue
+[2024-04-15T12:43:47.749+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:43:47.749+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:43:48.140+0200] {processor.py:840} INFO - DAG(s) 'branching_with_variables' retrieved from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:43:48.152+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:43:48.152+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:43:48.168+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:43:48.168+0200] {dag.py:3820} INFO - Setting next_dagrun for branching_with_variables to None, run_after=None
+[2024-04-15T12:43:48.202+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/branching_w_variables.py took 0.462 seconds
+[2024-04-15T12:44:18.414+0200] {processor.py:161} INFO - Started process (PID=10203) to work on /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:44:18.417+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/branching_w_variables.py for tasks to queue
+[2024-04-15T12:44:18.418+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:44:18.417+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:44:18.828+0200] {processor.py:840} INFO - DAG(s) 'branching_with_variables' retrieved from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:44:18.841+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:44:18.840+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:44:18.856+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:44:18.856+0200] {dag.py:3820} INFO - Setting next_dagrun for branching_with_variables to None, run_after=None
+[2024-04-15T12:44:18.883+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/branching_w_variables.py took 0.474 seconds
+[2024-04-15T12:44:49.047+0200] {processor.py:161} INFO - Started process (PID=10440) to work on /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:44:49.049+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/branching_w_variables.py for tasks to queue
+[2024-04-15T12:44:49.050+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:44:49.050+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:44:49.725+0200] {processor.py:840} INFO - DAG(s) 'branching_with_variables' retrieved from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:44:49.758+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:44:49.757+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:44:49.808+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:44:49.807+0200] {dag.py:3820} INFO - Setting next_dagrun for branching_with_variables to None, run_after=None
+[2024-04-15T12:44:49.882+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/branching_w_variables.py took 0.839 seconds
+[2024-04-15T12:45:20.128+0200] {processor.py:161} INFO - Started process (PID=10681) to work on /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:45:20.131+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/branching_w_variables.py for tasks to queue
+[2024-04-15T12:45:20.133+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:45:20.132+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:45:20.564+0200] {processor.py:840} INFO - DAG(s) 'branching_with_variables' retrieved from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:45:20.579+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:45:20.579+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:45:20.594+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:45:20.593+0200] {dag.py:3820} INFO - Setting next_dagrun for branching_with_variables to None, run_after=None
+[2024-04-15T12:45:20.615+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/branching_w_variables.py took 0.494 seconds
+[2024-04-15T12:45:50.836+0200] {processor.py:161} INFO - Started process (PID=10945) to work on /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:45:50.837+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/branching_w_variables.py for tasks to queue
+[2024-04-15T12:45:50.839+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:45:50.838+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:45:51.251+0200] {processor.py:840} INFO - DAG(s) 'branching_with_variables' retrieved from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:45:51.263+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:45:51.263+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:45:51.274+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:45:51.274+0200] {dag.py:3820} INFO - Setting next_dagrun for branching_with_variables to None, run_after=None
+[2024-04-15T12:45:51.299+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/branching_w_variables.py took 0.469 seconds
+[2024-04-15T12:46:21.498+0200] {processor.py:161} INFO - Started process (PID=11180) to work on /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:46:21.499+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/branching_w_variables.py for tasks to queue
+[2024-04-15T12:46:21.500+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:46:21.500+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:46:21.895+0200] {processor.py:840} INFO - DAG(s) 'branching_with_variables' retrieved from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:46:21.908+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:46:21.908+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:46:21.921+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:46:21.921+0200] {dag.py:3820} INFO - Setting next_dagrun for branching_with_variables to None, run_after=None
+[2024-04-15T12:46:21.945+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/branching_w_variables.py took 0.450 seconds
+[2024-04-15T12:46:52.175+0200] {processor.py:161} INFO - Started process (PID=11417) to work on /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:46:52.176+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/branching_w_variables.py for tasks to queue
+[2024-04-15T12:46:52.177+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:46:52.176+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:46:52.613+0200] {processor.py:840} INFO - DAG(s) 'branching_with_variables' retrieved from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:46:52.628+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:46:52.628+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:46:52.644+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:46:52.644+0200] {dag.py:3820} INFO - Setting next_dagrun for branching_with_variables to None, run_after=None
+[2024-04-15T12:46:52.665+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/branching_w_variables.py took 0.493 seconds
+[2024-04-15T12:47:22.761+0200] {processor.py:161} INFO - Started process (PID=11646) to work on /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:47:22.764+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/branching_w_variables.py for tasks to queue
+[2024-04-15T12:47:22.764+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:47:22.764+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:47:23.192+0200] {processor.py:840} INFO - DAG(s) 'branching_with_variables' retrieved from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:47:23.206+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:47:23.205+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:47:23.230+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:47:23.230+0200] {dag.py:3820} INFO - Setting next_dagrun for branching_with_variables to None, run_after=None
+[2024-04-15T12:47:23.249+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/branching_w_variables.py took 0.491 seconds
+[2024-04-15T12:47:53.392+0200] {processor.py:161} INFO - Started process (PID=11883) to work on /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:47:53.393+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/branching_w_variables.py for tasks to queue
+[2024-04-15T12:47:53.395+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:47:53.394+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:47:53.791+0200] {processor.py:840} INFO - DAG(s) 'branching_with_variables' retrieved from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:47:53.805+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:47:53.805+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:47:53.820+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:47:53.820+0200] {dag.py:3820} INFO - Setting next_dagrun for branching_with_variables to None, run_after=None
+[2024-04-15T12:47:53.873+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/branching_w_variables.py took 0.485 seconds
+[2024-04-15T12:48:24.081+0200] {processor.py:161} INFO - Started process (PID=12117) to work on /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:48:24.084+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/branching_w_variables.py for tasks to queue
+[2024-04-15T12:48:24.085+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:48:24.085+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:48:24.481+0200] {processor.py:840} INFO - DAG(s) 'branching_with_variables' retrieved from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:48:24.493+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:48:24.492+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:48:24.505+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:48:24.505+0200] {dag.py:3820} INFO - Setting next_dagrun for branching_with_variables to None, run_after=None
+[2024-04-15T12:48:24.526+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/branching_w_variables.py took 0.452 seconds
+[2024-04-15T12:48:54.648+0200] {processor.py:161} INFO - Started process (PID=12353) to work on /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:48:54.651+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/branching_w_variables.py for tasks to queue
+[2024-04-15T12:48:54.652+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:48:54.652+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:48:55.045+0200] {processor.py:840} INFO - DAG(s) 'branching_with_variables' retrieved from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:48:55.057+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:48:55.057+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:48:55.070+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:48:55.070+0200] {dag.py:3820} INFO - Setting next_dagrun for branching_with_variables to None, run_after=None
+[2024-04-15T12:48:55.098+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/branching_w_variables.py took 0.457 seconds
+[2024-04-15T12:49:25.251+0200] {processor.py:161} INFO - Started process (PID=12587) to work on /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:49:25.252+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/branching_w_variables.py for tasks to queue
+[2024-04-15T12:49:25.253+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:49:25.252+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:49:25.655+0200] {processor.py:840} INFO - DAG(s) 'branching_with_variables' retrieved from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:49:25.666+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:49:25.666+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:49:25.678+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:49:25.678+0200] {dag.py:3820} INFO - Setting next_dagrun for branching_with_variables to None, run_after=None
+[2024-04-15T12:49:25.699+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/branching_w_variables.py took 0.450 seconds
+[2024-04-15T12:49:55.843+0200] {processor.py:161} INFO - Started process (PID=12818) to work on /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:49:55.844+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/branching_w_variables.py for tasks to queue
+[2024-04-15T12:49:55.845+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:49:55.845+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:49:56.271+0200] {processor.py:840} INFO - DAG(s) 'branching_with_variables' retrieved from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:49:56.284+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:49:56.284+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:49:56.300+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:49:56.300+0200] {dag.py:3820} INFO - Setting next_dagrun for branching_with_variables to None, run_after=None
+[2024-04-15T12:49:56.331+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/branching_w_variables.py took 0.491 seconds
+[2024-04-15T12:50:26.460+0200] {processor.py:161} INFO - Started process (PID=13083) to work on /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:50:26.462+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/branching_w_variables.py for tasks to queue
+[2024-04-15T12:50:26.464+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:50:26.463+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:50:26.861+0200] {processor.py:840} INFO - DAG(s) 'branching_with_variables' retrieved from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:50:26.874+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:50:26.873+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:50:26.886+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:50:26.886+0200] {dag.py:3820} INFO - Setting next_dagrun for branching_with_variables to None, run_after=None
+[2024-04-15T12:50:26.906+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/branching_w_variables.py took 0.454 seconds
+[2024-04-15T12:50:57.076+0200] {processor.py:161} INFO - Started process (PID=13319) to work on /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:50:57.078+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/branching_w_variables.py for tasks to queue
+[2024-04-15T12:50:57.080+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:50:57.079+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:50:57.481+0200] {processor.py:840} INFO - DAG(s) 'branching_with_variables' retrieved from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:50:57.493+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:50:57.493+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:50:57.505+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:50:57.505+0200] {dag.py:3820} INFO - Setting next_dagrun for branching_with_variables to None, run_after=None
+[2024-04-15T12:50:57.524+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/branching_w_variables.py took 0.454 seconds
+[2024-04-15T12:51:27.949+0200] {processor.py:161} INFO - Started process (PID=13554) to work on /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:51:27.951+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/branching_w_variables.py for tasks to queue
+[2024-04-15T12:51:27.952+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:51:27.952+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:51:28.345+0200] {processor.py:840} INFO - DAG(s) 'branching_with_variables' retrieved from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:51:28.359+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:51:28.359+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:51:28.372+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:51:28.371+0200] {dag.py:3820} INFO - Setting next_dagrun for branching_with_variables to None, run_after=None
+[2024-04-15T12:51:28.402+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/branching_w_variables.py took 0.459 seconds
+[2024-04-15T12:51:58.793+0200] {processor.py:161} INFO - Started process (PID=13791) to work on /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:51:58.794+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/branching_w_variables.py for tasks to queue
+[2024-04-15T12:51:58.795+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:51:58.795+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:51:59.175+0200] {processor.py:840} INFO - DAG(s) 'branching_with_variables' retrieved from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:51:59.187+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:51:59.187+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:51:59.199+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:51:59.199+0200] {dag.py:3820} INFO - Setting next_dagrun for branching_with_variables to None, run_after=None
+[2024-04-15T12:51:59.221+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/branching_w_variables.py took 0.432 seconds
+[2024-04-15T12:52:29.511+0200] {processor.py:161} INFO - Started process (PID=14023) to work on /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:52:29.522+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/branching_w_variables.py for tasks to queue
+[2024-04-15T12:52:29.523+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:52:29.523+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:52:29.942+0200] {processor.py:840} INFO - DAG(s) 'branching_with_variables' retrieved from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:52:29.957+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:52:29.957+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:52:29.977+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:52:29.977+0200] {dag.py:3820} INFO - Setting next_dagrun for branching_with_variables to None, run_after=None
+[2024-04-15T12:52:30.007+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/branching_w_variables.py took 0.499 seconds
+[2024-04-15T12:53:01.648+0200] {processor.py:161} INFO - Started process (PID=14268) to work on /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:53:01.661+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/branching_w_variables.py for tasks to queue
+[2024-04-15T12:53:01.663+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:53:01.662+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:53:02.053+0200] {processor.py:840} INFO - DAG(s) 'branching_with_variables' retrieved from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:53:02.065+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:53:02.064+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:53:02.077+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:53:02.077+0200] {dag.py:3820} INFO - Setting next_dagrun for branching_with_variables to None, run_after=None
+[2024-04-15T12:53:02.099+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/branching_w_variables.py took 0.457 seconds
+[2024-04-15T12:53:32.545+0200] {processor.py:161} INFO - Started process (PID=14506) to work on /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:53:32.547+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/branching_w_variables.py for tasks to queue
+[2024-04-15T12:53:32.548+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:53:32.548+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:53:33.042+0200] {processor.py:840} INFO - DAG(s) 'branching_with_variables' retrieved from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:53:33.054+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:53:33.054+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:53:33.067+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:53:33.067+0200] {dag.py:3820} INFO - Setting next_dagrun for branching_with_variables to None, run_after=None
+[2024-04-15T12:53:33.098+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/branching_w_variables.py took 0.556 seconds
+[2024-04-15T12:54:03.372+0200] {processor.py:161} INFO - Started process (PID=14743) to work on /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:54:03.375+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/branching_w_variables.py for tasks to queue
+[2024-04-15T12:54:03.377+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:54:03.377+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:54:03.822+0200] {processor.py:840} INFO - DAG(s) 'branching_with_variables' retrieved from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:54:03.835+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:54:03.834+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:54:03.847+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:54:03.847+0200] {dag.py:3820} INFO - Setting next_dagrun for branching_with_variables to None, run_after=None
+[2024-04-15T12:54:03.869+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/branching_w_variables.py took 0.504 seconds
+[2024-04-15T12:54:36.519+0200] {processor.py:161} INFO - Started process (PID=14967) to work on /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:54:36.537+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/branching_w_variables.py for tasks to queue
+[2024-04-15T12:54:36.545+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:54:36.542+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:54:40.032+0200] {processor.py:840} INFO - DAG(s) 'branching_with_variables' retrieved from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:54:40.245+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:54:40.243+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:54:40.461+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:54:40.460+0200] {dag.py:3820} INFO - Setting next_dagrun for branching_with_variables to None, run_after=None
+[2024-04-15T12:54:40.600+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/branching_w_variables.py took 4.105 seconds
+[2024-04-15T12:55:16.540+0200] {processor.py:161} INFO - Started process (PID=15215) to work on /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:55:16.549+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/branching_w_variables.py for tasks to queue
+[2024-04-15T12:55:16.559+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:55:16.555+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:55:22.605+0200] {processor.py:840} INFO - DAG(s) 'branching_with_variables' retrieved from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:55:23.058+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:55:23.055+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:55:23.530+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:55:23.517+0200] {dag.py:3820} INFO - Setting next_dagrun for branching_with_variables to None, run_after=None
+[2024-04-15T12:55:24.107+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/branching_w_variables.py took 7.594 seconds
+[2024-04-15T12:55:54.428+0200] {processor.py:161} INFO - Started process (PID=15484) to work on /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:55:54.438+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/branching_w_variables.py for tasks to queue
+[2024-04-15T12:55:54.447+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:55:54.443+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:55:58.315+0200] {processor.py:840} INFO - DAG(s) 'branching_with_variables' retrieved from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:55:58.521+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:55:58.510+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:55:58.819+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:55:58.816+0200] {dag.py:3820} INFO - Setting next_dagrun for branching_with_variables to None, run_after=None
+[2024-04-15T12:55:59.074+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/branching_w_variables.py took 4.682 seconds
+[2024-04-15T12:56:29.283+0200] {processor.py:161} INFO - Started process (PID=15704) to work on /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:56:29.292+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/branching_w_variables.py for tasks to queue
+[2024-04-15T12:56:29.299+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:56:29.296+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:56:33.192+0200] {processor.py:840} INFO - DAG(s) 'branching_with_variables' retrieved from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:56:33.328+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:56:33.325+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:56:33.473+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:56:33.471+0200] {dag.py:3820} INFO - Setting next_dagrun for branching_with_variables to None, run_after=None
+[2024-04-15T12:56:33.668+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/branching_w_variables.py took 4.411 seconds
+[2024-04-15T12:57:04.244+0200] {processor.py:161} INFO - Started process (PID=15924) to work on /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:57:04.252+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/branching_w_variables.py for tasks to queue
+[2024-04-15T12:57:04.260+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:57:04.257+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:57:08.310+0200] {processor.py:840} INFO - DAG(s) 'branching_with_variables' retrieved from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:57:08.449+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:57:08.446+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:57:08.623+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:57:08.621+0200] {dag.py:3820} INFO - Setting next_dagrun for branching_with_variables to None, run_after=None
+[2024-04-15T12:57:08.815+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/branching_w_variables.py took 4.597 seconds
+[2024-04-15T12:57:39.758+0200] {processor.py:161} INFO - Started process (PID=16144) to work on /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:57:39.782+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/branching_w_variables.py for tasks to queue
+[2024-04-15T12:57:39.792+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:57:39.789+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:57:43.960+0200] {processor.py:840} INFO - DAG(s) 'branching_with_variables' retrieved from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:57:44.109+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:57:44.105+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:57:44.336+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:57:44.335+0200] {dag.py:3820} INFO - Setting next_dagrun for branching_with_variables to None, run_after=None
+[2024-04-15T12:57:44.573+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/branching_w_variables.py took 4.852 seconds
+[2024-04-15T12:58:16.106+0200] {processor.py:161} INFO - Started process (PID=16356) to work on /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:58:16.142+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/branching_w_variables.py for tasks to queue
+[2024-04-15T12:58:16.192+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:58:16.174+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:58:21.328+0200] {processor.py:840} INFO - DAG(s) 'branching_with_variables' retrieved from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:58:21.458+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:58:21.455+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:58:21.613+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:58:21.612+0200] {dag.py:3820} INFO - Setting next_dagrun for branching_with_variables to None, run_after=None
+[2024-04-15T12:58:21.785+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/branching_w_variables.py took 5.789 seconds
+[2024-04-15T12:58:52.415+0200] {processor.py:161} INFO - Started process (PID=16576) to work on /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:58:52.436+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/branching_w_variables.py for tasks to queue
+[2024-04-15T12:58:52.454+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:58:52.450+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:58:56.303+0200] {processor.py:840} INFO - DAG(s) 'branching_with_variables' retrieved from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:58:56.447+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:58:56.443+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:58:56.606+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:58:56.604+0200] {dag.py:3820} INFO - Setting next_dagrun for branching_with_variables to None, run_after=None
+[2024-04-15T12:58:56.775+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/branching_w_variables.py took 4.388 seconds
+[2024-04-15T12:59:27.365+0200] {processor.py:161} INFO - Started process (PID=16788) to work on /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:59:27.372+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/branching_w_variables.py for tasks to queue
+[2024-04-15T12:59:27.380+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:59:27.377+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:59:29.145+0200] {processor.py:840} INFO - DAG(s) 'branching_with_variables' retrieved from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:59:29.209+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:59:29.207+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:59:29.282+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:59:29.281+0200] {dag.py:3820} INFO - Setting next_dagrun for branching_with_variables to None, run_after=None
+[2024-04-15T12:59:29.362+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/branching_w_variables.py took 2.009 seconds
+[2024-04-15T12:59:59.771+0200] {processor.py:161} INFO - Started process (PID=16992) to work on /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T12:59:59.781+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/branching_w_variables.py for tasks to queue
+[2024-04-15T12:59:59.791+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:59:59.786+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T13:00:03.856+0200] {processor.py:840} INFO - DAG(s) 'branching_with_variables' retrieved from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T13:00:04.001+0200] {logging_mixin.py:188} INFO - [2024-04-15T13:00:03.997+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T13:00:04.159+0200] {logging_mixin.py:188} INFO - [2024-04-15T13:00:04.158+0200] {dag.py:3820} INFO - Setting next_dagrun for branching_with_variables to None, run_after=None
+[2024-04-15T13:00:04.308+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/branching_w_variables.py took 4.563 seconds
+[2024-04-15T13:00:35.179+0200] {processor.py:161} INFO - Started process (PID=17224) to work on /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T13:00:35.187+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/branching_w_variables.py for tasks to queue
+[2024-04-15T13:00:35.195+0200] {logging_mixin.py:188} INFO - [2024-04-15T13:00:35.192+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T13:00:39.486+0200] {processor.py:840} INFO - DAG(s) 'branching_with_variables' retrieved from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T13:00:39.631+0200] {logging_mixin.py:188} INFO - [2024-04-15T13:00:39.629+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T13:00:39.813+0200] {logging_mixin.py:188} INFO - [2024-04-15T13:00:39.812+0200] {dag.py:3820} INFO - Setting next_dagrun for branching_with_variables to None, run_after=None
+[2024-04-15T13:00:40.060+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/branching_w_variables.py took 4.908 seconds
+[2024-04-15T13:01:11.252+0200] {processor.py:161} INFO - Started process (PID=17438) to work on /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T13:01:11.258+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/branching_w_variables.py for tasks to queue
+[2024-04-15T13:01:11.265+0200] {logging_mixin.py:188} INFO - [2024-04-15T13:01:11.262+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T13:01:15.490+0200] {processor.py:840} INFO - DAG(s) 'branching_with_variables' retrieved from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T13:01:15.619+0200] {logging_mixin.py:188} INFO - [2024-04-15T13:01:15.617+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T13:01:15.752+0200] {logging_mixin.py:188} INFO - [2024-04-15T13:01:15.751+0200] {dag.py:3820} INFO - Setting next_dagrun for branching_with_variables to None, run_after=None
+[2024-04-15T13:01:15.907+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/branching_w_variables.py took 4.682 seconds
+[2024-04-15T13:01:46.546+0200] {processor.py:161} INFO - Started process (PID=17639) to work on /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T13:01:46.556+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/branching_w_variables.py for tasks to queue
+[2024-04-15T13:01:46.572+0200] {logging_mixin.py:188} INFO - [2024-04-15T13:01:46.567+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T13:01:50.248+0200] {processor.py:840} INFO - DAG(s) 'branching_with_variables' retrieved from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T13:01:50.441+0200] {logging_mixin.py:188} INFO - [2024-04-15T13:01:50.439+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T13:01:50.643+0200] {logging_mixin.py:188} INFO - [2024-04-15T13:01:50.641+0200] {dag.py:3820} INFO - Setting next_dagrun for branching_with_variables to None, run_after=None
+[2024-04-15T13:01:50.830+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/branching_w_variables.py took 4.321 seconds
+[2024-04-15T13:02:21.879+0200] {processor.py:161} INFO - Started process (PID=17843) to work on /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T13:02:21.886+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/branching_w_variables.py for tasks to queue
+[2024-04-15T13:02:21.895+0200] {logging_mixin.py:188} INFO - [2024-04-15T13:02:21.892+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T13:02:25.837+0200] {processor.py:840} INFO - DAG(s) 'branching_with_variables' retrieved from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T13:02:26.010+0200] {logging_mixin.py:188} INFO - [2024-04-15T13:02:26.007+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T13:02:26.172+0200] {logging_mixin.py:188} INFO - [2024-04-15T13:02:26.170+0200] {dag.py:3820} INFO - Setting next_dagrun for branching_with_variables to None, run_after=None
+[2024-04-15T13:02:26.336+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/branching_w_variables.py took 4.485 seconds
+[2024-04-15T13:22:28.922+0200] {processor.py:161} INFO - Started process (PID=18200) to work on /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T13:22:28.927+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/branching_w_variables.py for tasks to queue
+[2024-04-15T13:22:28.928+0200] {logging_mixin.py:188} INFO - [2024-04-15T13:22:28.928+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T13:22:29.473+0200] {processor.py:840} INFO - DAG(s) 'branching_with_variables' retrieved from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T13:22:29.488+0200] {logging_mixin.py:188} INFO - [2024-04-15T13:22:29.487+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T13:22:29.508+0200] {logging_mixin.py:188} INFO - [2024-04-15T13:22:29.507+0200] {dag.py:3820} INFO - Setting next_dagrun for branching_with_variables to None, run_after=None
+[2024-04-15T13:22:29.528+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/branching_w_variables.py took 0.609 seconds
+[2024-04-15T13:23:00.084+0200] {processor.py:161} INFO - Started process (PID=18358) to work on /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T13:23:00.086+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/branching_w_variables.py for tasks to queue
+[2024-04-15T13:23:00.087+0200] {logging_mixin.py:188} INFO - [2024-04-15T13:23:00.086+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T13:23:00.491+0200] {processor.py:840} INFO - DAG(s) 'branching_with_variables' retrieved from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T13:23:00.502+0200] {logging_mixin.py:188} INFO - [2024-04-15T13:23:00.502+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T13:23:00.514+0200] {logging_mixin.py:188} INFO - [2024-04-15T13:23:00.514+0200] {dag.py:3820} INFO - Setting next_dagrun for branching_with_variables to None, run_after=None
+[2024-04-15T13:23:00.534+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/branching_w_variables.py took 0.453 seconds
+[2024-04-15T13:23:30.882+0200] {processor.py:161} INFO - Started process (PID=18512) to work on /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T13:23:30.894+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/branching_w_variables.py for tasks to queue
+[2024-04-15T13:23:30.895+0200] {logging_mixin.py:188} INFO - [2024-04-15T13:23:30.895+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T13:23:31.358+0200] {processor.py:840} INFO - DAG(s) 'branching_with_variables' retrieved from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T13:23:31.372+0200] {logging_mixin.py:188} INFO - [2024-04-15T13:23:31.372+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T13:23:31.386+0200] {logging_mixin.py:188} INFO - [2024-04-15T13:23:31.386+0200] {dag.py:3820} INFO - Setting next_dagrun for branching_with_variables to None, run_after=None
+[2024-04-15T13:23:31.407+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/branching_w_variables.py took 0.533 seconds
+[2024-04-15T13:24:01.846+0200] {processor.py:161} INFO - Started process (PID=18665) to work on /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T13:24:01.858+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/branching_w_variables.py for tasks to queue
+[2024-04-15T13:24:01.860+0200] {logging_mixin.py:188} INFO - [2024-04-15T13:24:01.860+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T13:24:02.266+0200] {processor.py:840} INFO - DAG(s) 'branching_with_variables' retrieved from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T13:24:02.279+0200] {logging_mixin.py:188} INFO - [2024-04-15T13:24:02.278+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T13:24:02.292+0200] {logging_mixin.py:188} INFO - [2024-04-15T13:24:02.292+0200] {dag.py:3820} INFO - Setting next_dagrun for branching_with_variables to None, run_after=None
+[2024-04-15T13:24:02.313+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/branching_w_variables.py took 0.474 seconds
+[2024-04-15T13:24:32.700+0200] {processor.py:161} INFO - Started process (PID=18819) to work on /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T13:24:32.701+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/branching_w_variables.py for tasks to queue
+[2024-04-15T13:24:32.703+0200] {logging_mixin.py:188} INFO - [2024-04-15T13:24:32.702+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T13:24:33.113+0200] {processor.py:840} INFO - DAG(s) 'branching_with_variables' retrieved from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T13:24:33.127+0200] {logging_mixin.py:188} INFO - [2024-04-15T13:24:33.127+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T13:24:33.141+0200] {logging_mixin.py:188} INFO - [2024-04-15T13:24:33.141+0200] {dag.py:3820} INFO - Setting next_dagrun for branching_with_variables to None, run_after=None
+[2024-04-15T13:24:33.162+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/branching_w_variables.py took 0.468 seconds
+[2024-04-15T13:25:03.559+0200] {processor.py:161} INFO - Started process (PID=18975) to work on /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T13:25:03.560+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/branching_w_variables.py for tasks to queue
+[2024-04-15T13:25:03.562+0200] {logging_mixin.py:188} INFO - [2024-04-15T13:25:03.561+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T13:25:04.194+0200] {processor.py:840} INFO - DAG(s) 'branching_with_variables' retrieved from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T13:25:04.212+0200] {logging_mixin.py:188} INFO - [2024-04-15T13:25:04.212+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T13:25:04.239+0200] {logging_mixin.py:188} INFO - [2024-04-15T13:25:04.239+0200] {dag.py:3820} INFO - Setting next_dagrun for branching_with_variables to None, run_after=None
+[2024-04-15T13:25:04.283+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/branching_w_variables.py took 0.728 seconds
+[2024-04-15T13:25:34.520+0200] {processor.py:161} INFO - Started process (PID=19130) to work on /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T13:25:34.523+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/branching_w_variables.py for tasks to queue
+[2024-04-15T13:25:34.525+0200] {logging_mixin.py:188} INFO - [2024-04-15T13:25:34.524+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T13:25:35.786+0200] {processor.py:840} INFO - DAG(s) 'branching_with_variables' retrieved from /home/mahmoud/airflow/dags/branching_w_variables.py
+[2024-04-15T13:25:35.818+0200] {logging_mixin.py:188} INFO - [2024-04-15T13:25:35.817+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T13:25:35.845+0200] {logging_mixin.py:188} INFO - [2024-04-15T13:25:35.845+0200] {dag.py:3820} INFO - Setting next_dagrun for branching_with_variables to None, run_after=None
+[2024-04-15T13:25:35.888+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/branching_w_variables.py took 1.376 seconds

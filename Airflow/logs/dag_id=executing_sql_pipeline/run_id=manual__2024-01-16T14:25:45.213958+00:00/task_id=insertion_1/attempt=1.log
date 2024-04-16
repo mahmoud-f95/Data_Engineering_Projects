@@ -1,0 +1,42 @@
+[2024-01-16T16:25:50.028+0200] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: executing_sql_pipeline.insertion_1 manual__2024-01-16T14:25:45.213958+00:00 [queued]>
+[2024-01-16T16:25:50.034+0200] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: executing_sql_pipeline.insertion_1 manual__2024-01-16T14:25:45.213958+00:00 [queued]>
+[2024-01-16T16:25:50.034+0200] {taskinstance.py:2171} INFO - Starting attempt 1 of 1
+[2024-01-16T16:25:50.065+0200] {taskinstance.py:2192} INFO - Executing <Task(SqliteOperator): insertion_1> on 2024-01-16 14:25:45.213958+00:00
+[2024-01-16T16:25:50.069+0200] {standard_task_runner.py:60} INFO - Started process 49080 to run task
+[2024-01-16T16:25:50.073+0200] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'executing_sql_pipeline', 'insertion_1', 'manual__2024-01-16T14:25:45.213958+00:00', '--job-id', '124', '--raw', '--subdir', 'DAGS_FOLDER/sqlite_pipeline.py', '--cfg-path', '/tmp/tmp1uci5124']
+[2024-01-16T16:25:50.075+0200] {standard_task_runner.py:88} INFO - Job 124: Subtask insertion_1
+[2024-01-16T16:25:50.122+0200] {task_command.py:423} INFO - Running <TaskInstance: executing_sql_pipeline.insertion_1 manual__2024-01-16T14:25:45.213958+00:00 [running]> on host DESKTOP-9NHC01K.
+[2024-01-16T16:25:50.187+0200] {taskinstance.py:2481} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='executing_sql_pipeline' AIRFLOW_CTX_TASK_ID='insertion_1' AIRFLOW_CTX_EXECUTION_DATE='2024-01-16T14:25:45.213958+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-01-16T14:25:45.213958+00:00'
+[2024-01-16T16:25:50.188+0200] {sql.py:276} INFO - Executing: 
+        INSERT INTO (name, age, is_active) VALUES 
+                ('Julie', 30, false),
+                ('Peter', 55, true),
+                ('Emily', 37, false),
+                ('Katrina', 54, false),
+                ('Joseph', 27, true);
+        
+[2024-01-16T16:25:50.191+0200] {base.py:83} INFO - Using connection ID 'my_sqlite_cnn' for task execution.
+[2024-01-16T16:25:50.205+0200] {base.py:83} INFO - Using connection ID 'my_sqlite_cnn' for task execution.
+[2024-01-16T16:25:50.205+0200] {sql.py:450} INFO - Running statement: 
+        INSERT INTO (name, age, is_active) VALUES 
+                ('Julie', 30, false),
+                ('Peter', 55, true),
+                ('Emily', 37, false),
+                ('Katrina', 54, false),
+                ('Joseph', 27, true);
+        , parameters: None
+[2024-01-16T16:25:50.206+0200] {taskinstance.py:2699} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/mahmoud/airflow_env/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/mahmoud/airflow_env/lib/python3.10/site-packages/airflow/providers/common/sql/operators/sql.py", line 282, in execute
+    output = hook.run(
+  File "/home/mahmoud/airflow_env/lib/python3.10/site-packages/airflow/providers/common/sql/hooks/sql.py", line 398, in run
+    self._run_command(cur, sql_statement, parameters)
+  File "/home/mahmoud/airflow_env/lib/python3.10/site-packages/airflow/providers/common/sql/hooks/sql.py", line 455, in _run_command
+    cur.execute(sql_statement)
+sqlite3.OperationalError: near "(": syntax error
+[2024-01-16T16:25:50.208+0200] {taskinstance.py:1138} INFO - Marking task as FAILED. dag_id=executing_sql_pipeline, task_id=insertion_1, execution_date=20240116T142545, start_date=20240116T142550, end_date=20240116T142550
+[2024-01-16T16:25:50.225+0200] {standard_task_runner.py:107} ERROR - Failed to execute job 124 for task insertion_1 (near "(": syntax error; 49080)
+[2024-01-16T16:25:50.245+0200] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2024-01-16T16:25:50.277+0200] {taskinstance.py:3281} INFO - 0 downstream tasks scheduled from follow-on schedule check

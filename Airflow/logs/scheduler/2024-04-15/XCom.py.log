@@ -1,0 +1,469 @@
+[2024-04-15T12:30:33.699+0200] {processor.py:161} INFO - Started process (PID=2279) to work on /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:30:33.700+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/XCom.py for tasks to queue
+[2024-04-15T12:30:33.701+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:30:33.700+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:30:33.710+0200] {processor.py:840} INFO - DAG(s) 'xcom_with_python_operator' retrieved from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:30:33.798+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:30:33.798+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:30:33.814+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:30:33.814+0200] {dag.py:3820} INFO - Setting next_dagrun for xcom_with_python_operator to None, run_after=None
+[2024-04-15T12:30:33.843+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/XCom.py took 0.148 seconds
+[2024-04-15T12:31:04.046+0200] {processor.py:161} INFO - Started process (PID=2681) to work on /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:31:04.047+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/XCom.py for tasks to queue
+[2024-04-15T12:31:04.048+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:31:04.048+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:31:04.063+0200] {processor.py:840} INFO - DAG(s) 'xcom_with_python_operator' retrieved from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:31:04.079+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:31:04.079+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:31:04.095+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:31:04.095+0200] {dag.py:3820} INFO - Setting next_dagrun for xcom_with_python_operator to None, run_after=None
+[2024-04-15T12:31:04.136+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/XCom.py took 0.095 seconds
+[2024-04-15T12:31:34.256+0200] {processor.py:161} INFO - Started process (PID=3009) to work on /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:31:34.267+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/XCom.py for tasks to queue
+[2024-04-15T12:31:34.269+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:31:34.268+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:31:34.280+0200] {processor.py:840} INFO - DAG(s) 'xcom_with_python_operator' retrieved from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:31:34.296+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:31:34.296+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:31:34.311+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:31:34.311+0200] {dag.py:3820} INFO - Setting next_dagrun for xcom_with_python_operator to None, run_after=None
+[2024-04-15T12:31:34.341+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/XCom.py took 0.088 seconds
+[2024-04-15T12:32:05.984+0200] {processor.py:161} INFO - Started process (PID=3250) to work on /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:32:05.985+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/XCom.py for tasks to queue
+[2024-04-15T12:32:05.986+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:32:05.986+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:32:05.996+0200] {processor.py:840} INFO - DAG(s) 'xcom_with_python_operator' retrieved from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:32:06.017+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:32:06.016+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:32:06.039+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:32:06.038+0200] {dag.py:3820} INFO - Setting next_dagrun for xcom_with_python_operator to None, run_after=None
+[2024-04-15T12:32:06.073+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/XCom.py took 0.092 seconds
+[2024-04-15T12:32:36.803+0200] {processor.py:161} INFO - Started process (PID=3507) to work on /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:32:36.815+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/XCom.py for tasks to queue
+[2024-04-15T12:32:36.816+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:32:36.816+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:32:36.828+0200] {processor.py:840} INFO - DAG(s) 'xcom_with_python_operator' retrieved from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:32:36.846+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:32:36.846+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:32:36.863+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:32:36.863+0200] {dag.py:3820} INFO - Setting next_dagrun for xcom_with_python_operator to None, run_after=None
+[2024-04-15T12:32:36.885+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/XCom.py took 0.086 seconds
+[2024-04-15T12:33:07.404+0200] {processor.py:161} INFO - Started process (PID=3794) to work on /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:33:07.405+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/XCom.py for tasks to queue
+[2024-04-15T12:33:07.406+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:33:07.405+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:33:07.416+0200] {processor.py:840} INFO - DAG(s) 'xcom_with_python_operator' retrieved from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:33:07.434+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:33:07.434+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:33:07.452+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:33:07.452+0200] {dag.py:3820} INFO - Setting next_dagrun for xcom_with_python_operator to None, run_after=None
+[2024-04-15T12:33:07.472+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/XCom.py took 0.071 seconds
+[2024-04-15T12:33:38.004+0200] {processor.py:161} INFO - Started process (PID=4096) to work on /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:33:38.016+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/XCom.py for tasks to queue
+[2024-04-15T12:33:38.017+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:33:38.017+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:33:38.030+0200] {processor.py:840} INFO - DAG(s) 'xcom_with_python_operator' retrieved from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:33:38.050+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:33:38.050+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:33:38.069+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:33:38.069+0200] {dag.py:3820} INFO - Setting next_dagrun for xcom_with_python_operator to None, run_after=None
+[2024-04-15T12:33:38.104+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/XCom.py took 0.104 seconds
+[2024-04-15T12:34:09.715+0200] {processor.py:161} INFO - Started process (PID=4400) to work on /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:34:09.716+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/XCom.py for tasks to queue
+[2024-04-15T12:34:09.717+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:34:09.717+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:34:09.728+0200] {processor.py:840} INFO - DAG(s) 'xcom_with_python_operator' retrieved from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:34:09.746+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:34:09.746+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:34:09.770+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:34:09.769+0200] {dag.py:3820} INFO - Setting next_dagrun for xcom_with_python_operator to None, run_after=None
+[2024-04-15T12:34:09.797+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/XCom.py took 0.085 seconds
+[2024-04-15T12:34:41.090+0200] {processor.py:161} INFO - Started process (PID=4831) to work on /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:34:41.093+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/XCom.py for tasks to queue
+[2024-04-15T12:34:41.094+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:34:41.094+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:34:41.108+0200] {processor.py:840} INFO - DAG(s) 'xcom_with_python_operator' retrieved from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:34:41.126+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:34:41.126+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:34:41.142+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:34:41.142+0200] {dag.py:3820} INFO - Setting next_dagrun for xcom_with_python_operator to None, run_after=None
+[2024-04-15T12:34:41.179+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/XCom.py took 0.096 seconds
+[2024-04-15T12:35:11.655+0200] {processor.py:161} INFO - Started process (PID=5136) to work on /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:35:11.658+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/XCom.py for tasks to queue
+[2024-04-15T12:35:11.659+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:35:11.659+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:35:11.673+0200] {processor.py:840} INFO - DAG(s) 'xcom_with_python_operator' retrieved from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:35:11.692+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:35:11.692+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:35:11.712+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:35:11.712+0200] {dag.py:3820} INFO - Setting next_dagrun for xcom_with_python_operator to None, run_after=None
+[2024-04-15T12:35:11.754+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/XCom.py took 0.104 seconds
+[2024-04-15T12:35:42.232+0200] {processor.py:161} INFO - Started process (PID=5398) to work on /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:35:42.235+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/XCom.py for tasks to queue
+[2024-04-15T12:35:42.236+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:35:42.236+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:35:42.249+0200] {processor.py:840} INFO - DAG(s) 'xcom_with_python_operator' retrieved from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:35:42.267+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:35:42.266+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:35:42.285+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:35:42.285+0200] {dag.py:3820} INFO - Setting next_dagrun for xcom_with_python_operator to None, run_after=None
+[2024-04-15T12:35:42.322+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/XCom.py took 0.096 seconds
+[2024-04-15T12:36:12.810+0200] {processor.py:161} INFO - Started process (PID=5635) to work on /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:36:12.813+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/XCom.py for tasks to queue
+[2024-04-15T12:36:12.814+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:36:12.814+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:36:12.826+0200] {processor.py:840} INFO - DAG(s) 'xcom_with_python_operator' retrieved from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:36:12.843+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:36:12.843+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:36:12.860+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:36:12.860+0200] {dag.py:3820} INFO - Setting next_dagrun for xcom_with_python_operator to None, run_after=None
+[2024-04-15T12:36:12.882+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/XCom.py took 0.077 seconds
+[2024-04-15T12:36:43.388+0200] {processor.py:161} INFO - Started process (PID=5911) to work on /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:36:43.389+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/XCom.py for tasks to queue
+[2024-04-15T12:36:43.390+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:36:43.390+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:36:43.404+0200] {processor.py:840} INFO - DAG(s) 'xcom_with_python_operator' retrieved from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:36:43.422+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:36:43.422+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:36:43.439+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:36:43.439+0200] {dag.py:3820} INFO - Setting next_dagrun for xcom_with_python_operator to None, run_after=None
+[2024-04-15T12:36:43.472+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/XCom.py took 0.090 seconds
+[2024-04-15T12:37:13.987+0200] {processor.py:161} INFO - Started process (PID=6208) to work on /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:37:13.990+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/XCom.py for tasks to queue
+[2024-04-15T12:37:13.991+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:37:13.991+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:37:14.005+0200] {processor.py:840} INFO - DAG(s) 'xcom_with_python_operator' retrieved from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:37:14.022+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:37:14.022+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:37:14.038+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:37:14.038+0200] {dag.py:3820} INFO - Setting next_dagrun for xcom_with_python_operator to None, run_after=None
+[2024-04-15T12:37:14.078+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/XCom.py took 0.097 seconds
+[2024-04-15T12:37:44.650+0200] {processor.py:161} INFO - Started process (PID=6483) to work on /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:37:44.651+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/XCom.py for tasks to queue
+[2024-04-15T12:37:44.652+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:37:44.652+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:37:44.661+0200] {processor.py:840} INFO - DAG(s) 'xcom_with_python_operator' retrieved from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:37:44.677+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:37:44.677+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:37:44.693+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:37:44.693+0200] {dag.py:3820} INFO - Setting next_dagrun for xcom_with_python_operator to None, run_after=None
+[2024-04-15T12:37:44.735+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/XCom.py took 0.087 seconds
+[2024-04-15T12:38:15.264+0200] {processor.py:161} INFO - Started process (PID=6796) to work on /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:38:15.267+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/XCom.py for tasks to queue
+[2024-04-15T12:38:15.268+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:38:15.268+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:38:15.283+0200] {processor.py:840} INFO - DAG(s) 'xcom_with_python_operator' retrieved from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:38:15.301+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:38:15.301+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:38:15.320+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:38:15.320+0200] {dag.py:3820} INFO - Setting next_dagrun for xcom_with_python_operator to None, run_after=None
+[2024-04-15T12:38:15.352+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/XCom.py took 0.094 seconds
+[2024-04-15T12:38:45.808+0200] {processor.py:161} INFO - Started process (PID=7068) to work on /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:38:45.819+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/XCom.py for tasks to queue
+[2024-04-15T12:38:45.820+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:38:45.820+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:38:45.828+0200] {processor.py:840} INFO - DAG(s) 'xcom_with_python_operator' retrieved from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:38:45.843+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:38:45.843+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:38:45.859+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:38:45.859+0200] {dag.py:3820} INFO - Setting next_dagrun for xcom_with_python_operator to None, run_after=None
+[2024-04-15T12:38:45.880+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/XCom.py took 0.075 seconds
+[2024-04-15T12:39:16.435+0200] {processor.py:161} INFO - Started process (PID=7402) to work on /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:39:16.438+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/XCom.py for tasks to queue
+[2024-04-15T12:39:16.439+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:39:16.439+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:39:16.451+0200] {processor.py:840} INFO - DAG(s) 'xcom_with_python_operator' retrieved from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:39:16.470+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:39:16.470+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:39:16.486+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:39:16.486+0200] {dag.py:3820} INFO - Setting next_dagrun for xcom_with_python_operator to None, run_after=None
+[2024-04-15T12:39:16.522+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/XCom.py took 0.094 seconds
+[2024-04-15T12:39:47.072+0200] {processor.py:161} INFO - Started process (PID=7733) to work on /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:39:47.073+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/XCom.py for tasks to queue
+[2024-04-15T12:39:47.074+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:39:47.074+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:39:47.085+0200] {processor.py:840} INFO - DAG(s) 'xcom_with_python_operator' retrieved from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:39:47.101+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:39:47.101+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:39:47.119+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:39:47.118+0200] {dag.py:3820} INFO - Setting next_dagrun for xcom_with_python_operator to None, run_after=None
+[2024-04-15T12:39:47.157+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/XCom.py took 0.088 seconds
+[2024-04-15T12:40:17.653+0200] {processor.py:161} INFO - Started process (PID=8085) to work on /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:40:17.655+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/XCom.py for tasks to queue
+[2024-04-15T12:40:17.656+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:40:17.656+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:40:17.666+0200] {processor.py:840} INFO - DAG(s) 'xcom_with_python_operator' retrieved from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:40:17.683+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:40:17.683+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:40:17.701+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:40:17.700+0200] {dag.py:3820} INFO - Setting next_dagrun for xcom_with_python_operator to None, run_after=None
+[2024-04-15T12:40:17.727+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/XCom.py took 0.078 seconds
+[2024-04-15T12:40:48.197+0200] {processor.py:161} INFO - Started process (PID=8482) to work on /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:40:48.209+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/XCom.py for tasks to queue
+[2024-04-15T12:40:48.210+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:40:48.210+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:40:48.221+0200] {processor.py:840} INFO - DAG(s) 'xcom_with_python_operator' retrieved from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:40:48.239+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:40:48.239+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:40:48.255+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:40:48.255+0200] {dag.py:3820} INFO - Setting next_dagrun for xcom_with_python_operator to None, run_after=None
+[2024-04-15T12:40:48.297+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/XCom.py took 0.102 seconds
+[2024-04-15T12:41:18.801+0200] {processor.py:161} INFO - Started process (PID=8784) to work on /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:41:18.813+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/XCom.py for tasks to queue
+[2024-04-15T12:41:18.815+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:41:18.814+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:41:18.829+0200] {processor.py:840} INFO - DAG(s) 'xcom_with_python_operator' retrieved from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:41:18.847+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:41:18.847+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:41:18.864+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:41:18.864+0200] {dag.py:3820} INFO - Setting next_dagrun for xcom_with_python_operator to None, run_after=None
+[2024-04-15T12:41:18.899+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/XCom.py took 0.104 seconds
+[2024-04-15T12:41:49.385+0200] {processor.py:161} INFO - Started process (PID=9013) to work on /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:41:49.389+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/XCom.py for tasks to queue
+[2024-04-15T12:41:49.391+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:41:49.390+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:41:49.404+0200] {processor.py:840} INFO - DAG(s) 'xcom_with_python_operator' retrieved from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:41:49.420+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:41:49.420+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:41:49.436+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:41:49.436+0200] {dag.py:3820} INFO - Setting next_dagrun for xcom_with_python_operator to None, run_after=None
+[2024-04-15T12:41:49.459+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/XCom.py took 0.081 seconds
+[2024-04-15T12:42:19.996+0200] {processor.py:161} INFO - Started process (PID=9248) to work on /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:42:19.998+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/XCom.py for tasks to queue
+[2024-04-15T12:42:20.000+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:42:19.999+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:42:20.013+0200] {processor.py:840} INFO - DAG(s) 'xcom_with_python_operator' retrieved from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:42:20.032+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:42:20.032+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:42:20.048+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:42:20.048+0200] {dag.py:3820} INFO - Setting next_dagrun for xcom_with_python_operator to None, run_after=None
+[2024-04-15T12:42:20.085+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/XCom.py took 0.096 seconds
+[2024-04-15T12:42:50.593+0200] {processor.py:161} INFO - Started process (PID=9486) to work on /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:42:50.596+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/XCom.py for tasks to queue
+[2024-04-15T12:42:50.598+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:42:50.597+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:42:50.612+0200] {processor.py:840} INFO - DAG(s) 'xcom_with_python_operator' retrieved from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:42:50.630+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:42:50.630+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:42:50.646+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:42:50.646+0200] {dag.py:3820} INFO - Setting next_dagrun for xcom_with_python_operator to None, run_after=None
+[2024-04-15T12:42:50.697+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/XCom.py took 0.110 seconds
+[2024-04-15T12:43:21.193+0200] {processor.py:161} INFO - Started process (PID=9785) to work on /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:43:21.205+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/XCom.py for tasks to queue
+[2024-04-15T12:43:21.206+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:43:21.206+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:43:21.218+0200] {processor.py:840} INFO - DAG(s) 'xcom_with_python_operator' retrieved from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:43:21.235+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:43:21.235+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:43:21.252+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:43:21.252+0200] {dag.py:3820} INFO - Setting next_dagrun for xcom_with_python_operator to None, run_after=None
+[2024-04-15T12:43:21.290+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/XCom.py took 0.102 seconds
+[2024-04-15T12:43:51.767+0200] {processor.py:161} INFO - Started process (PID=10018) to work on /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:43:51.769+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/XCom.py for tasks to queue
+[2024-04-15T12:43:51.769+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:43:51.769+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:43:51.777+0200] {processor.py:840} INFO - DAG(s) 'xcom_with_python_operator' retrieved from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:43:51.792+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:43:51.792+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:43:51.809+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:43:51.809+0200] {dag.py:3820} INFO - Setting next_dagrun for xcom_with_python_operator to None, run_after=None
+[2024-04-15T12:43:51.831+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/XCom.py took 0.067 seconds
+[2024-04-15T12:44:22.377+0200] {processor.py:161} INFO - Started process (PID=10250) to work on /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:44:22.380+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/XCom.py for tasks to queue
+[2024-04-15T12:44:22.382+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:44:22.381+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:44:22.395+0200] {processor.py:840} INFO - DAG(s) 'xcom_with_python_operator' retrieved from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:44:22.412+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:44:22.412+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:44:22.430+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:44:22.430+0200] {dag.py:3820} INFO - Setting next_dagrun for xcom_with_python_operator to None, run_after=None
+[2024-04-15T12:44:22.467+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/XCom.py took 0.096 seconds
+[2024-04-15T12:44:53.033+0200] {processor.py:161} INFO - Started process (PID=10487) to work on /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:44:53.035+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/XCom.py for tasks to queue
+[2024-04-15T12:44:53.035+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:44:53.035+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:44:53.044+0200] {processor.py:840} INFO - DAG(s) 'xcom_with_python_operator' retrieved from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:44:53.060+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:44:53.060+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:44:53.078+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:44:53.077+0200] {dag.py:3820} INFO - Setting next_dagrun for xcom_with_python_operator to None, run_after=None
+[2024-04-15T12:44:53.096+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/XCom.py took 0.066 seconds
+[2024-04-15T12:45:23.654+0200] {processor.py:161} INFO - Started process (PID=10726) to work on /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:45:23.655+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/XCom.py for tasks to queue
+[2024-04-15T12:45:23.656+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:45:23.656+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:45:23.668+0200] {processor.py:840} INFO - DAG(s) 'xcom_with_python_operator' retrieved from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:45:23.684+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:45:23.684+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:45:23.701+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:45:23.701+0200] {dag.py:3820} INFO - Setting next_dagrun for xcom_with_python_operator to None, run_after=None
+[2024-04-15T12:45:23.723+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/XCom.py took 0.073 seconds
+[2024-04-15T12:45:54.269+0200] {processor.py:161} INFO - Started process (PID=10989) to work on /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:45:54.272+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/XCom.py for tasks to queue
+[2024-04-15T12:45:54.274+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:45:54.273+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:45:54.286+0200] {processor.py:840} INFO - DAG(s) 'xcom_with_python_operator' retrieved from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:45:54.303+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:45:54.303+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:45:54.322+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:45:54.322+0200] {dag.py:3820} INFO - Setting next_dagrun for xcom_with_python_operator to None, run_after=None
+[2024-04-15T12:45:54.359+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/XCom.py took 0.098 seconds
+[2024-04-15T12:46:24.562+0200] {processor.py:161} INFO - Started process (PID=11217) to work on /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:46:24.564+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/XCom.py for tasks to queue
+[2024-04-15T12:46:24.566+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:46:24.565+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:46:24.583+0200] {processor.py:840} INFO - DAG(s) 'xcom_with_python_operator' retrieved from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:46:24.603+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:46:24.603+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:46:24.620+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:46:24.620+0200] {dag.py:3820} INFO - Setting next_dagrun for xcom_with_python_operator to None, run_after=None
+[2024-04-15T12:46:24.651+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/XCom.py took 0.097 seconds
+[2024-04-15T12:46:56.538+0200] {processor.py:161} INFO - Started process (PID=11465) to work on /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:46:56.539+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/XCom.py for tasks to queue
+[2024-04-15T12:46:56.540+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:46:56.540+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:46:56.551+0200] {processor.py:840} INFO - DAG(s) 'xcom_with_python_operator' retrieved from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:46:56.568+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:46:56.568+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:46:56.587+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:46:56.587+0200] {dag.py:3820} INFO - Setting next_dagrun for xcom_with_python_operator to None, run_after=None
+[2024-04-15T12:46:56.630+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/XCom.py took 0.095 seconds
+[2024-04-15T12:47:27.384+0200] {processor.py:161} INFO - Started process (PID=11701) to work on /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:47:27.385+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/XCom.py for tasks to queue
+[2024-04-15T12:47:27.386+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:47:27.386+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:47:27.399+0200] {processor.py:840} INFO - DAG(s) 'xcom_with_python_operator' retrieved from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:47:27.415+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:47:27.415+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:47:27.431+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:47:27.431+0200] {dag.py:3820} INFO - Setting next_dagrun for xcom_with_python_operator to None, run_after=None
+[2024-04-15T12:47:27.466+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/XCom.py took 0.087 seconds
+[2024-04-15T12:47:58.209+0200] {processor.py:161} INFO - Started process (PID=11938) to work on /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:47:58.213+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/XCom.py for tasks to queue
+[2024-04-15T12:47:58.214+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:47:58.214+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:47:58.228+0200] {processor.py:840} INFO - DAG(s) 'xcom_with_python_operator' retrieved from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:47:58.247+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:47:58.246+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:47:58.263+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:47:58.263+0200] {dag.py:3820} INFO - Setting next_dagrun for xcom_with_python_operator to None, run_after=None
+[2024-04-15T12:47:58.306+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/XCom.py took 0.103 seconds
+[2024-04-15T12:48:29.601+0200] {processor.py:161} INFO - Started process (PID=12176) to work on /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:48:29.613+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/XCom.py for tasks to queue
+[2024-04-15T12:48:29.614+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:48:29.614+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:48:29.624+0200] {processor.py:840} INFO - DAG(s) 'xcom_with_python_operator' retrieved from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:48:29.639+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:48:29.639+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:48:29.654+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:48:29.654+0200] {dag.py:3820} INFO - Setting next_dagrun for xcom_with_python_operator to None, run_after=None
+[2024-04-15T12:48:29.671+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/XCom.py took 0.075 seconds
+[2024-04-15T12:49:00.240+0200] {processor.py:161} INFO - Started process (PID=12405) to work on /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:49:00.242+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/XCom.py for tasks to queue
+[2024-04-15T12:49:00.243+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:49:00.243+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:49:00.257+0200] {processor.py:840} INFO - DAG(s) 'xcom_with_python_operator' retrieved from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:49:00.272+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:49:00.272+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:49:00.287+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:49:00.287+0200] {dag.py:3820} INFO - Setting next_dagrun for xcom_with_python_operator to None, run_after=None
+[2024-04-15T12:49:00.305+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/XCom.py took 0.070 seconds
+[2024-04-15T12:49:30.847+0200] {processor.py:161} INFO - Started process (PID=12640) to work on /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:49:30.860+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/XCom.py for tasks to queue
+[2024-04-15T12:49:30.861+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:49:30.861+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:49:30.875+0200] {processor.py:840} INFO - DAG(s) 'xcom_with_python_operator' retrieved from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:49:30.894+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:49:30.894+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:49:30.912+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:49:30.911+0200] {dag.py:3820} INFO - Setting next_dagrun for xcom_with_python_operator to None, run_after=None
+[2024-04-15T12:49:30.946+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/XCom.py took 0.105 seconds
+[2024-04-15T12:50:03.056+0200] {processor.py:161} INFO - Started process (PID=12890) to work on /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:50:03.067+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/XCom.py for tasks to queue
+[2024-04-15T12:50:03.068+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:50:03.068+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:50:03.078+0200] {processor.py:840} INFO - DAG(s) 'xcom_with_python_operator' retrieved from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:50:03.094+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:50:03.094+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:50:03.111+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:50:03.111+0200] {dag.py:3820} INFO - Setting next_dagrun for xcom_with_python_operator to None, run_after=None
+[2024-04-15T12:50:03.138+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/XCom.py took 0.085 seconds
+[2024-04-15T12:50:33.942+0200] {processor.py:161} INFO - Started process (PID=13155) to work on /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:50:33.943+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/XCom.py for tasks to queue
+[2024-04-15T12:50:33.945+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:50:33.944+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:50:33.959+0200] {processor.py:840} INFO - DAG(s) 'xcom_with_python_operator' retrieved from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:50:33.978+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:50:33.978+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:50:33.996+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:50:33.996+0200] {dag.py:3820} INFO - Setting next_dagrun for xcom_with_python_operator to None, run_after=None
+[2024-04-15T12:50:34.034+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/XCom.py took 0.098 seconds
+[2024-04-15T12:51:04.831+0200] {processor.py:161} INFO - Started process (PID=13392) to work on /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:51:04.833+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/XCom.py for tasks to queue
+[2024-04-15T12:51:04.835+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:51:04.834+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:51:04.850+0200] {processor.py:840} INFO - DAG(s) 'xcom_with_python_operator' retrieved from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:51:04.871+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:51:04.871+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:51:04.888+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:51:04.888+0200] {dag.py:3820} INFO - Setting next_dagrun for xcom_with_python_operator to None, run_after=None
+[2024-04-15T12:51:04.923+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/XCom.py took 0.098 seconds
+[2024-04-15T12:51:35.675+0200] {processor.py:161} INFO - Started process (PID=13624) to work on /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:51:35.675+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/XCom.py for tasks to queue
+[2024-04-15T12:51:35.676+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:51:35.676+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:51:35.684+0200] {processor.py:840} INFO - DAG(s) 'xcom_with_python_operator' retrieved from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:51:35.699+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:51:35.699+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:51:35.715+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:51:35.715+0200] {dag.py:3820} INFO - Setting next_dagrun for xcom_with_python_operator to None, run_after=None
+[2024-04-15T12:51:35.738+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/XCom.py took 0.066 seconds
+[2024-04-15T12:52:06.558+0200] {processor.py:161} INFO - Started process (PID=13858) to work on /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:52:06.575+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/XCom.py for tasks to queue
+[2024-04-15T12:52:06.578+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:52:06.577+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:52:06.596+0200] {processor.py:840} INFO - DAG(s) 'xcom_with_python_operator' retrieved from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:52:06.617+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:52:06.617+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:52:06.635+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:52:06.634+0200] {dag.py:3820} INFO - Setting next_dagrun for xcom_with_python_operator to None, run_after=None
+[2024-04-15T12:52:06.665+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/XCom.py took 0.113 seconds
+[2024-04-15T12:52:37.401+0200] {processor.py:161} INFO - Started process (PID=14094) to work on /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:52:37.402+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/XCom.py for tasks to queue
+[2024-04-15T12:52:37.404+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:52:37.403+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:52:37.416+0200] {processor.py:840} INFO - DAG(s) 'xcom_with_python_operator' retrieved from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:52:37.433+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:52:37.433+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:52:37.452+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:52:37.451+0200] {dag.py:3820} INFO - Setting next_dagrun for xcom_with_python_operator to None, run_after=None
+[2024-04-15T12:52:37.488+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/XCom.py took 0.093 seconds
+[2024-04-15T12:53:08.294+0200] {processor.py:161} INFO - Started process (PID=14331) to work on /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:53:08.297+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/XCom.py for tasks to queue
+[2024-04-15T12:53:08.298+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:53:08.298+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:53:08.313+0200] {processor.py:840} INFO - DAG(s) 'xcom_with_python_operator' retrieved from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:53:08.331+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:53:08.331+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:53:08.348+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:53:08.348+0200] {dag.py:3820} INFO - Setting next_dagrun for xcom_with_python_operator to None, run_after=None
+[2024-04-15T12:53:08.383+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/XCom.py took 0.096 seconds
+[2024-04-15T12:53:39.268+0200] {processor.py:161} INFO - Started process (PID=14569) to work on /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:53:39.271+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/XCom.py for tasks to queue
+[2024-04-15T12:53:39.272+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:53:39.272+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:53:39.285+0200] {processor.py:840} INFO - DAG(s) 'xcom_with_python_operator' retrieved from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:53:39.303+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:53:39.303+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:53:39.320+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:53:39.320+0200] {dag.py:3820} INFO - Setting next_dagrun for xcom_with_python_operator to None, run_after=None
+[2024-04-15T12:53:39.358+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/XCom.py took 0.096 seconds
+[2024-04-15T12:54:10.304+0200] {processor.py:161} INFO - Started process (PID=14807) to work on /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:54:10.308+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/XCom.py for tasks to queue
+[2024-04-15T12:54:10.310+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:54:10.309+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:54:10.339+0200] {processor.py:840} INFO - DAG(s) 'xcom_with_python_operator' retrieved from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:54:10.394+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:54:10.394+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:54:10.452+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:54:10.452+0200] {dag.py:3820} INFO - Setting next_dagrun for xcom_with_python_operator to None, run_after=None
+[2024-04-15T12:54:10.524+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/XCom.py took 0.229 seconds
+[2024-04-15T12:54:52.059+0200] {processor.py:161} INFO - Started process (PID=15072) to work on /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:54:52.095+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/XCom.py for tasks to queue
+[2024-04-15T12:54:52.140+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:54:52.125+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:54:52.437+0200] {processor.py:840} INFO - DAG(s) 'xcom_with_python_operator' retrieved from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:54:52.912+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:54:52.910+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:54:53.390+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:54:53.388+0200] {dag.py:3820} INFO - Setting next_dagrun for xcom_with_python_operator to None, run_after=None
+[2024-04-15T12:54:53.999+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/XCom.py took 2.045 seconds
+[2024-04-15T12:55:34.363+0200] {processor.py:161} INFO - Started process (PID=15358) to work on /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:55:34.372+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/XCom.py for tasks to queue
+[2024-04-15T12:55:34.380+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:55:34.376+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:55:34.478+0200] {processor.py:840} INFO - DAG(s) 'xcom_with_python_operator' retrieved from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:55:34.646+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:55:34.645+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:55:34.858+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:55:34.857+0200] {dag.py:3820} INFO - Setting next_dagrun for xcom_with_python_operator to None, run_after=None
+[2024-04-15T12:55:35.042+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/XCom.py took 0.703 seconds
+[2024-04-15T12:56:12.959+0200] {processor.py:161} INFO - Started process (PID=15607) to work on /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:56:12.983+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/XCom.py for tasks to queue
+[2024-04-15T12:56:13.001+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:56:12.997+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:56:13.167+0200] {processor.py:840} INFO - DAG(s) 'xcom_with_python_operator' retrieved from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:56:13.363+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:56:13.361+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:56:13.572+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:56:13.570+0200] {dag.py:3820} INFO - Setting next_dagrun for xcom_with_python_operator to None, run_after=None
+[2024-04-15T12:56:13.800+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/XCom.py took 0.882 seconds
+[2024-04-15T12:56:47.020+0200] {processor.py:161} INFO - Started process (PID=15824) to work on /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:56:47.039+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/XCom.py for tasks to queue
+[2024-04-15T12:56:47.051+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:56:47.046+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:56:47.206+0200] {processor.py:840} INFO - DAG(s) 'xcom_with_python_operator' retrieved from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:56:47.510+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:56:47.506+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:56:47.933+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:56:47.932+0200] {dag.py:3820} INFO - Setting next_dagrun for xcom_with_python_operator to None, run_after=None
+[2024-04-15T12:56:48.230+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/XCom.py took 1.246 seconds
+[2024-04-15T12:57:22.317+0200] {processor.py:161} INFO - Started process (PID=16042) to work on /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:57:22.351+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/XCom.py for tasks to queue
+[2024-04-15T12:57:22.373+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:57:22.369+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:57:22.574+0200] {processor.py:840} INFO - DAG(s) 'xcom_with_python_operator' retrieved from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:57:22.958+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:57:22.956+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:57:23.298+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:57:23.295+0200] {dag.py:3820} INFO - Setting next_dagrun for xcom_with_python_operator to None, run_after=None
+[2024-04-15T12:57:23.632+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/XCom.py took 1.363 seconds
+[2024-04-15T12:57:58.315+0200] {processor.py:161} INFO - Started process (PID=16262) to work on /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:57:58.334+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/XCom.py for tasks to queue
+[2024-04-15T12:57:58.345+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:57:58.340+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:57:58.461+0200] {processor.py:840} INFO - DAG(s) 'xcom_with_python_operator' retrieved from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:57:58.620+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:57:58.618+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:57:58.824+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:57:58.823+0200] {dag.py:3820} INFO - Setting next_dagrun for xcom_with_python_operator to None, run_after=None
+[2024-04-15T12:57:58.980+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/XCom.py took 0.706 seconds
+[2024-04-15T12:58:33.910+0200] {processor.py:161} INFO - Started process (PID=16470) to work on /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:58:33.919+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/XCom.py for tasks to queue
+[2024-04-15T12:58:33.930+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:58:33.926+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:58:34.030+0200] {processor.py:840} INFO - DAG(s) 'xcom_with_python_operator' retrieved from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:58:34.196+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:58:34.195+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:58:34.360+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:58:34.359+0200] {dag.py:3820} INFO - Setting next_dagrun for xcom_with_python_operator to None, run_after=None
+[2024-04-15T12:58:34.549+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/XCom.py took 0.670 seconds
+[2024-04-15T12:59:08.512+0200] {processor.py:161} INFO - Started process (PID=16683) to work on /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:59:08.519+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/XCom.py for tasks to queue
+[2024-04-15T12:59:08.526+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:59:08.523+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:59:08.624+0200] {processor.py:840} INFO - DAG(s) 'xcom_with_python_operator' retrieved from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:59:08.821+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:59:08.820+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:59:09.044+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:59:09.042+0200] {dag.py:3820} INFO - Setting next_dagrun for xcom_with_python_operator to None, run_after=None
+[2024-04-15T12:59:09.264+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/XCom.py took 0.782 seconds
+[2024-04-15T12:59:41.105+0200] {processor.py:161} INFO - Started process (PID=16883) to work on /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:59:41.111+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/XCom.py for tasks to queue
+[2024-04-15T12:59:41.115+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:59:41.113+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:59:41.160+0200] {processor.py:840} INFO - DAG(s) 'xcom_with_python_operator' retrieved from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T12:59:41.247+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:59:41.247+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T12:59:41.354+0200] {logging_mixin.py:188} INFO - [2024-04-15T12:59:41.353+0200] {dag.py:3820} INFO - Setting next_dagrun for xcom_with_python_operator to None, run_after=None
+[2024-04-15T12:59:41.475+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/XCom.py took 0.383 seconds
+[2024-04-15T13:00:21.185+0200] {processor.py:161} INFO - Started process (PID=17118) to work on /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T13:00:21.194+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/XCom.py for tasks to queue
+[2024-04-15T13:00:21.202+0200] {logging_mixin.py:188} INFO - [2024-04-15T13:00:21.199+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T13:00:21.292+0200] {processor.py:840} INFO - DAG(s) 'xcom_with_python_operator' retrieved from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T13:00:21.449+0200] {logging_mixin.py:188} INFO - [2024-04-15T13:00:21.447+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T13:00:21.650+0200] {logging_mixin.py:188} INFO - [2024-04-15T13:00:21.649+0200] {dag.py:3820} INFO - Setting next_dagrun for xcom_with_python_operator to None, run_after=None
+[2024-04-15T13:00:21.856+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/XCom.py took 0.700 seconds
+[2024-04-15T13:00:55.533+0200] {processor.py:161} INFO - Started process (PID=17350) to work on /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T13:00:55.544+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/XCom.py for tasks to queue
+[2024-04-15T13:00:55.552+0200] {logging_mixin.py:188} INFO - [2024-04-15T13:00:55.549+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T13:00:55.656+0200] {processor.py:840} INFO - DAG(s) 'xcom_with_python_operator' retrieved from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T13:00:55.855+0200] {logging_mixin.py:188} INFO - [2024-04-15T13:00:55.853+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T13:00:56.044+0200] {logging_mixin.py:188} INFO - [2024-04-15T13:00:56.043+0200] {dag.py:3820} INFO - Setting next_dagrun for xcom_with_python_operator to None, run_after=None
+[2024-04-15T13:00:56.197+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/XCom.py took 0.696 seconds
+[2024-04-15T13:01:35.847+0200] {processor.py:161} INFO - Started process (PID=17582) to work on /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T13:01:35.855+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/XCom.py for tasks to queue
+[2024-04-15T13:01:35.865+0200] {logging_mixin.py:188} INFO - [2024-04-15T13:01:35.861+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T13:01:35.987+0200] {processor.py:840} INFO - DAG(s) 'xcom_with_python_operator' retrieved from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T13:01:36.173+0200] {logging_mixin.py:188} INFO - [2024-04-15T13:01:36.171+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T13:01:36.362+0200] {logging_mixin.py:188} INFO - [2024-04-15T13:01:36.361+0200] {dag.py:3820} INFO - Setting next_dagrun for xcom_with_python_operator to None, run_after=None
+[2024-04-15T13:01:36.535+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/XCom.py took 0.742 seconds
+[2024-04-15T13:02:11.083+0200] {processor.py:161} INFO - Started process (PID=17786) to work on /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T13:02:11.093+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/XCom.py for tasks to queue
+[2024-04-15T13:02:11.102+0200] {logging_mixin.py:188} INFO - [2024-04-15T13:02:11.099+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T13:02:11.216+0200] {processor.py:840} INFO - DAG(s) 'xcom_with_python_operator' retrieved from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T13:02:11.414+0200] {logging_mixin.py:188} INFO - [2024-04-15T13:02:11.413+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T13:02:11.635+0200] {logging_mixin.py:188} INFO - [2024-04-15T13:02:11.632+0200] {dag.py:3820} INFO - Setting next_dagrun for xcom_with_python_operator to None, run_after=None
+[2024-04-15T13:02:11.853+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/XCom.py took 0.799 seconds
+[2024-04-15T13:22:19.104+0200] {processor.py:161} INFO - Started process (PID=18050) to work on /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T13:22:19.107+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/XCom.py for tasks to queue
+[2024-04-15T13:22:19.109+0200] {logging_mixin.py:188} INFO - [2024-04-15T13:22:19.108+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T13:22:19.136+0200] {processor.py:840} INFO - DAG(s) 'xcom_with_python_operator' retrieved from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T13:22:19.196+0200] {logging_mixin.py:188} INFO - [2024-04-15T13:22:19.196+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T13:22:19.237+0200] {logging_mixin.py:188} INFO - [2024-04-15T13:22:19.237+0200] {dag.py:3820} INFO - Setting next_dagrun for xcom_with_python_operator to None, run_after=None
+[2024-04-15T13:22:19.286+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/XCom.py took 0.188 seconds
+[2024-04-15T13:22:49.905+0200] {processor.py:161} INFO - Started process (PID=18314) to work on /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T13:22:49.907+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/XCom.py for tasks to queue
+[2024-04-15T13:22:49.908+0200] {logging_mixin.py:188} INFO - [2024-04-15T13:22:49.908+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T13:22:49.918+0200] {processor.py:840} INFO - DAG(s) 'xcom_with_python_operator' retrieved from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T13:22:49.935+0200] {logging_mixin.py:188} INFO - [2024-04-15T13:22:49.935+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T13:22:49.953+0200] {logging_mixin.py:188} INFO - [2024-04-15T13:22:49.953+0200] {dag.py:3820} INFO - Setting next_dagrun for xcom_with_python_operator to None, run_after=None
+[2024-04-15T13:22:49.993+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/XCom.py took 0.091 seconds
+[2024-04-15T13:23:20.593+0200] {processor.py:161} INFO - Started process (PID=18467) to work on /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T13:23:20.595+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/XCom.py for tasks to queue
+[2024-04-15T13:23:20.596+0200] {logging_mixin.py:188} INFO - [2024-04-15T13:23:20.596+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T13:23:20.607+0200] {processor.py:840} INFO - DAG(s) 'xcom_with_python_operator' retrieved from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T13:23:20.623+0200] {logging_mixin.py:188} INFO - [2024-04-15T13:23:20.623+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T13:23:20.640+0200] {logging_mixin.py:188} INFO - [2024-04-15T13:23:20.640+0200] {dag.py:3820} INFO - Setting next_dagrun for xcom_with_python_operator to None, run_after=None
+[2024-04-15T13:23:20.668+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/XCom.py took 0.078 seconds
+[2024-04-15T13:23:51.079+0200] {processor.py:161} INFO - Started process (PID=18620) to work on /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T13:23:51.079+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/XCom.py for tasks to queue
+[2024-04-15T13:23:51.080+0200] {logging_mixin.py:188} INFO - [2024-04-15T13:23:51.080+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T13:23:51.091+0200] {processor.py:840} INFO - DAG(s) 'xcom_with_python_operator' retrieved from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T13:23:51.108+0200] {logging_mixin.py:188} INFO - [2024-04-15T13:23:51.108+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T13:23:51.126+0200] {logging_mixin.py:188} INFO - [2024-04-15T13:23:51.126+0200] {dag.py:3820} INFO - Setting next_dagrun for xcom_with_python_operator to None, run_after=None
+[2024-04-15T13:23:51.147+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/XCom.py took 0.072 seconds
+[2024-04-15T13:24:21.661+0200] {processor.py:161} INFO - Started process (PID=18772) to work on /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T13:24:21.674+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/XCom.py for tasks to queue
+[2024-04-15T13:24:21.676+0200] {logging_mixin.py:188} INFO - [2024-04-15T13:24:21.675+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T13:24:21.691+0200] {processor.py:840} INFO - DAG(s) 'xcom_with_python_operator' retrieved from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T13:24:21.709+0200] {logging_mixin.py:188} INFO - [2024-04-15T13:24:21.709+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T13:24:21.726+0200] {logging_mixin.py:188} INFO - [2024-04-15T13:24:21.726+0200] {dag.py:3820} INFO - Setting next_dagrun for xcom_with_python_operator to None, run_after=None
+[2024-04-15T13:24:21.760+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/XCom.py took 0.105 seconds
+[2024-04-15T13:24:52.425+0200] {processor.py:161} INFO - Started process (PID=18924) to work on /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T13:24:52.427+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/XCom.py for tasks to queue
+[2024-04-15T13:24:52.428+0200] {logging_mixin.py:188} INFO - [2024-04-15T13:24:52.428+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T13:24:52.441+0200] {processor.py:840} INFO - DAG(s) 'xcom_with_python_operator' retrieved from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T13:24:52.458+0200] {logging_mixin.py:188} INFO - [2024-04-15T13:24:52.458+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T13:24:52.478+0200] {logging_mixin.py:188} INFO - [2024-04-15T13:24:52.477+0200] {dag.py:3820} INFO - Setting next_dagrun for xcom_with_python_operator to None, run_after=None
+[2024-04-15T13:24:52.497+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/XCom.py took 0.078 seconds
+[2024-04-15T13:25:22.638+0200] {processor.py:161} INFO - Started process (PID=19079) to work on /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T13:25:22.639+0200] {processor.py:830} INFO - Processing file /home/mahmoud/airflow/dags/XCom.py for tasks to queue
+[2024-04-15T13:25:22.640+0200] {logging_mixin.py:188} INFO - [2024-04-15T13:25:22.640+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T13:25:22.649+0200] {processor.py:840} INFO - DAG(s) 'xcom_with_python_operator' retrieved from /home/mahmoud/airflow/dags/XCom.py
+[2024-04-15T13:25:22.668+0200] {logging_mixin.py:188} INFO - [2024-04-15T13:25:22.668+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-15T13:25:22.687+0200] {logging_mixin.py:188} INFO - [2024-04-15T13:25:22.687+0200] {dag.py:3820} INFO - Setting next_dagrun for xcom_with_python_operator to None, run_after=None
+[2024-04-15T13:25:22.734+0200] {processor.py:183} INFO - Processing /home/mahmoud/airflow/dags/XCom.py took 0.099 seconds
